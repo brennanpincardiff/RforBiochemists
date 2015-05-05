@@ -74,3 +74,11 @@ title("Figure 1A",
 # add the fitted non-linear line 
 lines(10^x,y, lty=1, lwd =2)
 
+# add the LD50 in the legend which allows nice positioning. 
+rp = vector('expression',1)
+rp[1] = substitute(expression(LD50(microM) == MYVALUE), 
+                   list(MYVALUE = format((10^m[3])/1000,dig=3)))[2]
+legend('topleft', legend = rp, bty = 'n')
+
+
+
