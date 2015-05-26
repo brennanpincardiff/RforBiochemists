@@ -1,0 +1,168 @@
+---
+title: "R for Biochemists"
+subtitle: "Introduction"
+author: "Dr Paul Brennan"
+date: "26 May 2015"
+output: ioslides_presentation
+---
+
+## Welcome to R for Biochemists
+- Aim: show how to use R to analyse biochemical data.
+- Step 1: some basic functions
+- Example: a protein assay
+- [R for Biochemists Blog](http://rforbiochemists.blogspot.co.uk/)
+
+## First step: getting some data into R
+```{r}
+# Use the assignment function "<-"
+# Protein Concentrations
+prot <- c(0.000, 0.016, 0.031, 0.063, 0.125, 0.250, 0.500, 1.000, 
+          0.000, 0.016, 0.031, 0.063, 0.125, 0.250, 0.500, 1.000) 
+
+# Absorbance from my protein assay
+abs <- c(0.329, 0.352, 0.349, 0.379, 0.417, 0.491, 0.668, 0.956, 
+         0.327, 0.341, 0.355, 0.383, 0.417, 0.446, 0.655, 0.905)
+
+```
+
+## Plot the data
+```{r, echo=TRUE}
+plot(abs~prot)
+```
+
+## Add a line
+```{r, echo=TRUE, eval=FALSE,  results='hide'}
+plot(abs~prot)
+#Calculate the line using the linear model function
+line <- lm(abs~prot)
+#Draw the line
+abline(line)
+```
+
+## Add a line
+```{r, echo=FALSE, eval=TRUE,  results='asis'}
+plot(abs~prot)
+#Calculate the line using the linear model function
+line <- lm(abs~prot)
+#Draw the line
+abline(line)
+```
+
+## Essential concepts
+- <b>Functions</b> - these do things
+- Example: plot()
+- <b>Objects</b> - these are things
+- Example: prot is a vector of numbers
+- We links these together to write a script
+
+## Improving our plots
+- functions have <b>Arguments</b>
+- example = xlab
+```{r, echo=TRUE, eval=FALSE,  results='hide'}
+plot(abs~prot, 
+     xlab = "[Protein] (microg/ml)",
+     ylab = "Absorbance (570nm)",
+     main = "Protein Assay 20th April 2015")
+abline(line)
+```
+## Improving our plots
+```{r, echo=FALSE, eval=TRUE,  results='asis'}
+plot(abs~prot, 
+     xlab = "[Protein] (microg/ml)",
+     ylab = "Absorbance (570nm)",
+     main = "Protein Assay 20th April 2015")
+abline(line)
+```
+
+## Adding R-squared to graph
+- R does good statistics
+- Extract correlation coefficient out of the line object
+```{r, echo=TRUE, eval=FALSE,  results='hide'}
+# Extract the correlation coefficient out of the line object
+r2 <- round(summary(line)$r.squared, 3)
+# Create the label
+mylabel = bquote(italic(R)^2 == .(format(r2, digits = 3)))
+# Put the label on the graph with the text() function
+text(x = 0.2, y = 0.9, labels = mylabel)
+
+```
+## Adding R-squared to graph
+```{r, echo=FALSE, eval=TRUE,  results='asis'}
+plot(abs~prot, 
+     xlab = "[Protein] (microg/ml)",
+     ylab = "Absorbance (570nm)",
+     main = "Protein Assay 20th April 2015")
+abline(line)
+r2 <- round(summary(line)$r.squared, 3)
+mylabel = bquote(italic(R)^2 == .(format(r2, digits = 3)))
+text(x = 0.2, y = 0.9, labels = mylabel)
+```
+
+## Calculate some unknowns - 1
+```{r, echo=TRUE, eval=FALSE,  results='hide'}
+#Equation of a line y = mx + c
+#In our case abs = slope * prot + intercept
+# ukn.prot = (abs - intercept)/slope
+# Extract the correlation coefficient out of the line object
+int <- summary(line)$coefficients[1]
+slope <- summary(line)$coefficients[2]
+# Create the label of the line
+mylabel = bquote(y == .(format(slope, digits = 3))*x + .(format(int, digits = 3)))
+# Put the label on the graph with the text() function
+text(x = 0.2, y = 0.8, labels = mylabel)
+```
+
+## Calculate some unknowns - 2
+```{r, echo=TRUE, eval=FALSE,  results='hide'}
+#now calculate some unknown protein concs from absorbances
+#put the unknowns into a vector
+abs.unknowns <- c(0.554, 0.568, 0.705)
+#rearrange the equation of the line to 
+# ukn.prot = (abs - intercept)/slope
+prot.unknowns <- (abs.unknowns - int)/slope
+```
+
+## Put the unknowns on graph
+```{r, echo=FALSE, eval=TRUE,  results='asis'}
+#Improve the graph:
+plot(abs~prot, 
+     xlab = "[Protein] (microg/ml)",
+     ylab = "Absorbance (570nm)",
+     main = "Protein Assay 20th April 2015")
+abline(line)
+
+r2 <- round(summary(line)$r.squared, 3)
+mylabel = bquote(italic(R)^2 == .(format(r2, digits = 3)))
+text(x = 0.2, y = 0.9, labels = mylabel)
+
+
+#Equation of a line y = mx + c
+#In our case abs = slope * prot + intercept
+# ukn.prot = (abs - intercept)/slope
+int <- summary(line)$coefficients[1]
+slope <- summary(line)$coefficients[2]
+mylabel = bquote(y == .(format(slope, digits = 3))*x + .(format(int, digits = 3)))
+text(x = 0.2, y = 0.8, labels = mylabel)
+
+#now calculate some unknown protein concs from absorbances
+#put the unknowns into a vector
+abs.unknowns <- c(0.554, 0.568, 0.705)
+#rearrange the equation of the line to ukn.prot = (abs - intercept)/slope
+prot.unknowns <- (abs.unknowns - int)/slope
+
+#put the answers on the graph
+text(x = 0.8, y = (0.6), "Abs")
+text(x = 0.92, y = (0.6), "Prot")
+for (i in 1:length(abs.unknowns)){
+  text(x = 0.8, y = (0.6 - i/20), abs.unknowns[i])
+  text(x = 0.92, y = (0.6 - i/20), round(prot.unknowns[i], 3))
+}
+```
+
+## Summary
+- We have put data into R - assignment function "<-"
+- Done a nice plot - plot()
+- Created a line object - lm()
+- Extracted data out of this object - summary(line)$r.squared
+- Calculated unknowns
+
