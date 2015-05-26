@@ -1,7 +1,7 @@
 ---
 title: "R for Biochemists"
 subtitle: "Introduction"
-author: "Dr Paul Brennan"
+author: "Dr Paul Brennan, Cardiff University"
 date: "26 May 2015"
 output: ioslides_presentation
 ---
@@ -12,7 +12,7 @@ output: ioslides_presentation
 - Example: a protein assay
 - [R for Biochemists Blog](http://rforbiochemists.blogspot.co.uk/)
 
-## First step: getting some data into R
+## First step: get some data into R
 ```{r}
 # Use the assignment function "<-"
 # Protein Concentrations
@@ -48,7 +48,7 @@ line <- lm(abs~prot)
 abline(line)
 ```
 
-## Essential concepts
+## Essential R concepts
 - <b>Functions</b> - these do things
 - Example: plot()
 - <b>Objects</b> - these are things
