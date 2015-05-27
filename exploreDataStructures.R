@@ -1,4 +1,4 @@
-# Exploring Data Dtructures
+# Exploring Data Structures
 
 ## objects are made up of various types. 
 ## I want to discuss objects that contain data
@@ -76,7 +76,7 @@ data <- read.csv("http://science2therapy.com/data/wellsDataSimp.csv")
 ## the R-Studio environment puts it in "data" and gives us some info
 
 ## Have a quick look at it
-View(data)
+View(data)  # works in R-Studio
 str(data)
 
 ## we have names of columns and we have the class of the data within the column
