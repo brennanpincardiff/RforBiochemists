@@ -1,0 +1,174 @@
+---
+title: "Data Structures"
+author: "Dr Paul Brennan, Cardiff University" 
+date: "27 May 2015"
+output: ioslides_presentation
+---
+
+## Welcome to R for Biochemists
+- Aim: show how to use R to analyse biochemical data.
+- Step 2: exploring data structures
+- Example: a protein assay
+- [R for Biochemists Blog](http://rforbiochemists.blogspot.co.uk/)
+- http://medicine.cf.ac.uk/person/paul-brennan/
+
+## Data goes into objects
+```{r}
+# Use the assignment function "<-"
+# Protein Concentrations
+prot <- c(0.000, 0.016, 0.031, 0.063, 0.125, 0.250, 0.500, 1.000, 
+          0.000, 0.016, 0.031, 0.063, 0.125, 0.250, 0.500, 1.000) 
+
+# Absorbance from my protein assay
+abs <- c(0.329, 0.352, 0.349, 0.379, 0.417, 0.491, 0.668, 0.956, 
+         0.327, 0.341, 0.355, 0.383, 0.417, 0.446, 0.655, 0.905)
+
+```
+
+## These objects are vectors
+### They appear in the R-Studio environment as Values
+```{r, echo=TRUE, eval=TRUE,  results='asis'}
+
+str(prot)
+
+str(abs)
+```
+
+## These objects are vectors
+* A vector is the simplist type of object
+* All the data elements must be the same type
+* Can be numeric, character, logical, factors
+```{r, echo=TRUE, eval=TRUE,  results='markup'}
+class(prot)
+
+```
+
+## Other classes of variables
+```{r, echo=TRUE, eval=TRUE,  results='asis'}
+protein <- "albumin"
+class(protein)
+
+truth <- c(TRUE, FALSE, TRUE, TRUE)
+class(truth)
+```
+
+
+## To output vectors
+### write the name of the vector
+```{r, echo=TRUE, eval=TRUE,  results='markup'}
+prot
+```
+
+## To identify elements inside the vector
+```{r, echo=TRUE, eval=TRUE,  results='asis'}
+prot[2]  # second element of the vector
+
+### or parts of objects
+prot[1:8]  # elements 1 to 8 of the vector
+```
+
+## Functions can be applied to whole objects 
+```{r, echo=TRUE, eval=TRUE,  results='asis'}
+#plot() function uses the elements in order
+plot(abs~prot)
+```
+
+# More Complicated Structures
+## Lists are another type of object
+* The lm() function makes an object called "line" 
+* "line" is a list. 
+* Lists can contain mixture of data classes. 
+```{r, echo=TRUE, eval=TRUE,  results='markup'}
+line <- lm(abs~prot)
+### not the assignment function "<-"
+### the R-Studio environment says a "List of 12"
+```
+
+## Extracting information from lists
+### There are various ways 
+```{r, echo=TRUE, eval=TRUE,  results='markup'}
+ 
+## type the name of the object
+line
+```
+
+## Extracting information from lists
+```{r, echo=TRUE, eval=TRUE,  results='markup'}
+summary(line)   ## use the summary() function
+```
+
+## Extracting information from lists
+```{r, echo=TRUE, eval=TRUE,  results='asis'}
+## use the $  - VERY USEFUL
+summary(line)$r.squared
+```
+
+
+## We used $ to extract the r2 for the graph
+### We created the object r2 using the function summary()
+```{r, echo=TRUE, eval=TRUE,  results='asis'}
+r2 <- summary(line)$r.squared
+### and the function round() - gives us three decimal points
+r2 <- round(summary(line)$r.squared, 3)
+r2
+class(r2)
+### from the list we have extracted a number. 
+```
+
+
+## Matrices are two dimensional structures 
+###  Data classes are all the same
+
+## Data frames are two dimensional structures
+###  Contains different classes of data
+
+
+## When we import data, it often becomes a data frame.
+* here is an example:
+```{r, echo=TRUE, eval=TRUE,  results='asis'}
+data <- read.csv("http://science2therapy.com/data/wellsDataSimp.csv")
+```
+### the R-Studio environment puts it in "data" and gives us some info
+
+## Have a look at it
+```{r, echo=TRUE, eval=TRUE,  results='markup'}
+data
+```
+
+## Look at the structure 
+* Names of columns 
+* Class of the data within the column
+
+```{r, echo=TRUE, eval=TRUE,  results='markup'}
+str(data)
+```
+### note: Factors, num, int
+
+## Extracting information from data frames
+* use $ and the column name
+```{r, echo=TRUE, eval=TRUE,  results='markup'}
+data$Virus
+```
+
+## Simple plot from this data frame
+```{r, echo=TRUE, eval=TRUE,  results='asis'}
+plot(data[5:7])  # these are the column numbers
+```
+
+## Another plot from this data frame
+```{r, echo=TRUE, eval=TRUE,  results='asis'}
+plot(data$P.Erk, data$S.phase.cnt)
+```
+
+## Summary
+- Vectors - simple object, data same class
+- Lists - one dimensional object, data different class
+- Extract data out of List - summary(line)$r.squared
+- Data frames - two dimensional object, data different class
+- Extract data out of data
+```{r, echo=TRUE, eval=FALSE,  results='asis'}
+plot(data$P.Erk, data$S.phase.cnt)
+```
+
+## Next tutorial
+### Manipulating objects including data frames 
