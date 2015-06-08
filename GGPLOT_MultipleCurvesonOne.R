@@ -3,17 +3,15 @@
 # I have used ggplot and faceting.
 
 # Some manipulation of the data is required, essentially to melt it from 'wide' to 'long' (reshape2)
-# and to filter the data (using dplyr).
 
 # I personally don't like the standard ggplot look, so
 # I also load package ggthemes and think Stephen Few's theme is the nicest (hence, theme_few())
 
-# You may need to do this once: install.packages("ggplot2", "reshape2", "ggthemes", "dplyr")
+# You may need to do this once: install.packages("ggplot2", "reshape2", "ggthemes")
 
 library(reshape2)
 library(ggplot2)
 library(ggthemes)
-library(dplyr)
 
 # lets read the data in:
 enzdata <- matrix(c(0, 17.36667, 31.97143, 52.68889, 61.95385, 74.2, 77.97143, 84.28, 99.91429, 93.66667, 
