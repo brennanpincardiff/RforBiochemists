@@ -1,8 +1,9 @@
 library(ggplot2)
 library(ggthemes)
 
-# data from Dr C Bennett
-# 
+# data from Dr C Bennett, University of Bath
+# Link to published data: http://www.jbc.org/content/285/44/33701.full
+# and her thesis: http://opus.bath.ac.uk/27220/
 
 # This is the data
 Enz <- c("WT","WT","WT","WT","WT",
@@ -67,10 +68,10 @@ enz.plot  + geom_smooth(method = "nls",
                         formula = y ~ Vmax * x / (Km + x), 
                         start = list(Vmax = 50, Km = 0.2),
                         se = F, size = 0.5, 
-                        data = filter(enzdata, Enz == "WT")) +
+                        data = subset(enzdata, Enz=="WT")) +
             geom_smooth(method = "nls", 
                         formula = y ~ Vmax * x / (Km + x), 
                         start = list(Vmax = 50, Km = 0.2),
                         se = F, size = 0.5, 
-                        data = filter(enzdata, Enz == "H297F")) +
+                        data = subset(enzdata, Enz=="H297F")) +
             theme_few()
