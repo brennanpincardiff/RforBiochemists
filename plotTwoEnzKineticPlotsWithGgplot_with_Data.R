@@ -68,10 +68,10 @@ enz.plot  + geom_smooth(method = "nls",
                         formula = y ~ Vmax * x / (Km + x), 
                         start = list(Vmax = 50, Km = 0.2),
                         se = F, size = 0.5, 
-                        data = filter(enzdata, Enz == "WT")) +
+                        data = subset(enzdata, Enz=="WT")) +
             geom_smooth(method = "nls", 
                         formula = y ~ Vmax * x / (Km + x), 
                         start = list(Vmax = 50, Km = 0.2),
                         se = F, size = 0.5, 
-                        data = filter(enzdata, Enz == "H297F")) +
+                        data = subset(enzdata, Enz=="H297F")) +
             theme_few()
