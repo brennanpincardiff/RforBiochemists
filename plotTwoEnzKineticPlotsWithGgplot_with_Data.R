@@ -1,8 +1,9 @@
 library(ggplot2)
 library(ggthemes)
 
-# data from Dr C Bennett
-# 
+# data from Dr C Bennett, University of Bath
+# Link to published data: http://www.jbc.org/content/285/44/33701.full
+# and her thesis: http://opus.bath.ac.uk/27220/
 
 # This is the data
 Enz <- c("WT","WT","WT","WT","WT",
