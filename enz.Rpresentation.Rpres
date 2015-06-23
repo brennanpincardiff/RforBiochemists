@@ -1,0 +1,392 @@
+The chemical logic of glycolysis
+========================================================
+author: Sergio Martínez Cuesta, EMBL-EBI
+date: 24th June 2015
+rtl: false
+width: 1440
+height: 900
+#autosize: true
+
+
+Aim
+========================================================
+
+"Just as methods for comparing **protein and DNA sequences and structures** have improved our basic understanding of evolution, a method allowing quantitative comparison of **enzyme reactions** should provide a firm foundation from which to explore the evolution of enzyme function and to facilitate the design of new enzymes." (Rahman et al., 2014)
+
+**Learn by example:** Visualise chemical similarities between enzymes reactions in glycolysis
+
+Use R to explore data, run PCA, clustering analysis and plot heatmaps
+
+
+Glycolysis
+========================================================
+
+![alt text](Keller2014_f1_2x.png)
+
+
+Overview
+========================================================
+
+- Data input
+- Explore data
+- Principal component analysis
+- Clustering analysis
+- Heatmaps
+
+
+Set working directory!
+========================================================
+
+```{r, eval=FALSE, prompt=TRUE}
+getwd()
+setwd("~/Desktop/glycolysis")
+```
+
+
+Data input
+========================================================
+
+```{r, eval=FALSE, prompt=TRUE}
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+```
+
+**bc.csv** contains the frequency counts of chemical bond changes of the 10 reactions in glycolysis
+
+**header=TRUE** and **row.names=1** allow the first row and column to be the column and row names, **sep="\t"** indicates that bc.csv is tab-separated and **check.names=FALSE** disables the check of variable names
+
+
+Explore data
+========================================================
+```{r, eval=FALSE, prompt=TRUE}
+data
+```
+
+Type of object and dimensions:
+
+```{r, eval=FALSE, prompt=TRUE}
+class(data)
+```
+
+```{r, eval=FALSE, prompt=TRUE}
+dim(data)
+```
+
+Types of bond changes and glycolysis enzyme IDs:
+
+```{r, eval=FALSE, prompt=TRUE}
+colnames(data)
+```
+
+```{r, eval=FALSE, prompt=TRUE}
+rownames(data)
+```
+
+
+Barplot
+========================================================
+Which glycolytic enzyme catalyses more bond changes?
+
+```{r, eval=FALSE, prompt=TRUE}
+freqs_bc<-sort(rowSums(data), decreasing=TRUE)
+barplot(freqs_bc, col="white", ylab="Frequency of bond changes", xlab="Enzyme name")
+```
+
+Which bond changes are more common in glycolysis?
+
+```{r, eval=FALSE, prompt=TRUE}
+freqs_enz<-sort(colSums(data), decreasing=TRUE)
+barplot(freqs_enz, col="white", ylab="Frequency of bond changes", xlab="Type of bond change")
+```
+
+What is the average number of bond changes by glycolytic reaction?
+
+```{r, eval=FALSE, prompt=TRUE}
+mean(rowSums(data))
+```
+
+
+Barplot
+========================================================
+title:false
+
+```{r, echo=FALSE, fig.width=10, fig.height=10}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+freqs_bc<-sort(rowSums(data), decreasing=TRUE)
+barplot(freqs_bc, col="white", ylab="Frequency of bond changes", xlab="Enzyme name")
+```
+
+***
+
+```{r, echo=FALSE, fig.width=10, fig.height=10}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+freqs_enz<-sort(colSums(data), decreasing=TRUE)
+barplot(freqs_enz, col="white", ylab="Frequency of bond changes", xlab="Type of bond change")
+```
+
+
+How can we represent chemical distance between reactions?
+========================================================
+
+```{r, eval=FALSE, prompt=TRUE}
+print(data)
+```
+
+```{r, echo=FALSE, results='asis'}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+knitr::kable(data)
+```
+
+
+Principal Component Analysis (PCA)
+========================================================
+Method to discover structure in large multidimensional datasets.
+
+```{r, eval=FALSE, prompt=TRUE}
+print(head(mtcars)[,1:6])
+```
+
+```{r, echo=FALSE, results='asis'}
+knitr::kable(head(mtcars)[,1:6])
+```
+
+
+***
+
+Reduce dimensionality
+
+To find a small number of linear combinations of the variables (bond changes) in order to capture most of the variation in the dataset as a whole.
+
+![alt text](pca.gif)
+
+
+How can we represent chemical distance between reactions?
+========================================================
+
+```{r, eval=FALSE, prompt=TRUE}
+print(data)
+```
+
+```{r, echo=FALSE, results='asis'}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+knitr::kable(data)
+```
+
+
+Principal Component Analysis (PCA)
+========================================================
+
+```{r, eval=FALSE, prompt=TRUE}
+fit <- princomp(data)
+```
+
+Check variance explained by top components:
+
+```{r, eval=FALSE, prompt=TRUE}
+summary(fit)
+```
+
+Plot first two components:
+
+```{r, eval=FALSE, prompt=TRUE}
+biplot(fit, main="PCA")
+```
+
+How do bond changes relate to PCA components?
+
+```{r, eval=FALSE, prompt=TRUE}
+loadings(fit)
+```
+
+How do enzymes relate to PCA components?
+
+```{r, eval=FALSE, prompt=TRUE}
+fit$scores
+```
+
+
+Principal Component Analysis (PCA)
+========================================================
+title:false
+
+```{r, echo=FALSE, fig.width=12, fig.height=12}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+fit <- princomp(data)
+biplot(fit, main="PCA")
+```
+
+
+Hierarchical clustering
+========================================================
+
+Group objects with related variables in a tree
+
+E.g. enzyme reactions with similar patterns of bond changes or cars with similar technical features
+
+![alt text](hclust_cut.png)
+
+
+Chemical distance between glycolysis reactions
+========================================================
+
+For example, HK, PFK-1, PGK and PGM catalyse exactly the same bond changes - they are chemically identical. As a result, they are separated by a distance of 0 bond changes.
+
+```{r, eval=FALSE, prompt=TRUE}
+d <- dist(data, method = "manhattan")
+print(d)
+```
+
+```{r, echo=FALSE}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+d <- dist(data, method = "manhattan")
+print(d)
+```
+
+
+Hierarchical clustering
+========================================================
+
+We need the distance matrix in order to perform hierarchical clustering.
+
+```{r, eval=FALSE, prompt=TRUE}
+fit <- hclust(d, method="ward")
+```
+
+Plot hierarchical tree:
+
+```{r, eval=FALSE, prompt=TRUE}
+plot(fit)
+```
+
+Define clusters:
+
+```{r, eval=FALSE, prompt=TRUE}
+groups <- cutree(fit, k=4)
+```
+
+Plot clusters:
+
+```{r, eval=FALSE, prompt=TRUE}
+rect.hclust(fit, k=4, border="red") 
+```
+
+
+Hierarchical clustering
+========================================================
+title:false
+
+```{r, echo=FALSE, fig.width=10, fig.height=7}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+d <- dist(data, method = "manhattan")
+fit <- hclust(d, method="ward")
+plot(fit, main="Hierarchical clustering")
+groups <- cutree(fit, k=4)
+rect.hclust(fit, k=4, border="red")
+```
+
+***
+
+![alt text](Keller2014_f1_2x.png)
+
+
+Heatmaps
+========================================================
+
+Visualise hierarchical clustering
+
+![alt text](heatmap.png)
+
+
+Heatmaps
+========================================================
+Display frequencies in the input matrix using colours
+
+Reactions vs. bond changes:
+
+```{r, eval=FALSE, prompt=TRUE}
+heatmap(as.matrix(data))
+```
+
+Just reactions:
+
+```{r, eval=FALSE, prompt=TRUE}
+heatmap(as.matrix(d))
+```
+
+
+Heatmaps
+========================================================
+title:false
+
+```{r, echo=FALSE, fig.width=10, fig.height=10}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+heatmap(as.matrix(data))
+```
+
+***
+
+```{r, echo=FALSE, fig.width=10, fig.height=10}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+d <- dist(data, method = "manhattan")
+heatmap(as.matrix(d))
+```
+
+
+Pretty heatmaps
+========================================================
+
+Install and load pheatmap package:
+
+```{r, eval=FALSE, prompt=TRUE}
+install.packages("pheatmap")
+library(pheatmap)
+```
+
+Run pheatmap:
+
+```{r, eval=FALSE, prompt=TRUE}
+pheatmap(data, fontsize=13, cellwidth = 15, cellheight = 15, color = colorRampPalette(c("white", "red"))(4), clustering_distance_rows=d, legend_breaks=c(0,1,2,3))
+```
+
+**fontsize**, **cellwidth** and **cellheight** defines the size of the font and cell, **color** selects four colours from white to red, **clustering_distance_rows** uses the distance matrix calculated previously and **legend_breaks** defines the numbers in the legend.
+
+
+Pretty heatmaps
+========================================================
+title:false
+
+```{r, echo=FALSE, fig.width=10, fig.height=10}
+setwd("~/Desktop/glycolysis")
+data<-read.csv("data/bc.csv", header=TRUE, row.names=1, sep="\t", check.names=FALSE)
+d <- dist(data, method = "manhattan")
+library(pheatmap)
+pheatmap(data, fontsize=34, cellwidth = 40, cellheight = 40, color = colorRampPalette(c("white", "red"))(4), clustering_distance_rows=d, legend_breaks=c(0,1,2,3))
+```
+
+
+References
+========================================================
+
+1- Quick-R: http://www.statmethods.net/
+
+2- Crawley, M. J. (2007). The R Book. Chichester, UK: John Wiley & Sons, Ltd. doi:10.1002/9780470515075
+
+3- Husson, F., Lê, S., and Pagès, J. (2011) Exploratory multivariate analysis by example using R, [online] http://books.google.com/books?hl=en&lr=&id=EDnNBQAAQBAJ&oi=fnd&pg=PP1&dq=Exploratory+Multivariate+Analysis+by+Example+Using+R&ots=I4bnnmgPJw&sig=ENW39pnO00fOOSO_F01cQ_Iv-UA (Accessed February 6, 2015).
+
+4- Rahman, S. A., Martínez Cuesta, S., Furnham, N., Holliday, G. L., & Thornton, J. M. (2014). EC-BLAST: a tool to automatically search and compare enzyme reactions. Nature methods, 11(2), 171–174. doi:10.1038/nmeth.2803. url: http://www.ebi.ac.uk/thornton-srv/software/rbl/
+
+5- Keller, M. A., Turchyn, A. V., & Ralser, M. (2014). Non-enzymatic glycolysis and pentose phosphate pathway-like reactions in a plausible Archean ocean. Molecular systems biology, 10, 725. Retrieved from http://www.ncbi.nlm.nih.gov/pubmed/24771084
+
+
+
+Thanks!
+========================================================
+scuesta@ebi.ac.uk
