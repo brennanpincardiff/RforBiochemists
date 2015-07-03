@@ -1,9 +1,6 @@
 library(ggplot2)
 
-getwd()
-setwd("/Users/paulbrennan/Dropbox/R for Biochemists/proteomics/liverpoolProteomicsData")
-
-data<-read.csv("data/mcp.M114.044479.csv", header=TRUE)
+data <- read.csv("http://science2therapy.com/data/mcp.M114.044479.csv", header=TRUE)
 
 ##Identify the genes that have a p-value < 0.05
 data$threshold = as.factor(data$P.Value < 0.05)
