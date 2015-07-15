@@ -31,15 +31,15 @@ prot.ukns <- (abs.ukns - int)/slope
 
 # create the object with the graph in it. 
 p <- ggplot(data=data,          # specify the data frame with data
-        aes(x=prot, y=abs)) +   # specify the x and y for the graph
-        geom_point() +          # make a scatter plot
-        stat_smooth(method = "lm") +  # add a linear model line
-        xlab("[Protein] (microg/ml)") +   # label x-axis
-        ylab("Absorbance (570nm)") +    # label y-axis
-        ggtitle("Protein Assay 20th April 2015") +  # add a title
-        theme_bw() +      # a simple theme
-        expand_limits(y=c(0.25,1)) +    # customise the y-axis
-        annotate(geom="text", x=0.85, y= 0.6, label="Abs         Prot",  color="red")
+            aes(x=prot, y=abs)) +   # specify the x and y for the graph
+  geom_point() +          # make a scatter plot
+  stat_smooth(method = "lm") +  # add a linear model line
+  xlab("[Protein] (microg/ml)") +   # label x-axis
+  ylab("Absorbance (570nm)") +    # label y-axis
+  ggtitle("Protein Assay 20th April 2015") +  # add a title
+  theme_bw() +      # a simple theme
+  expand_limits(y=c(0.25,1)) +    # customise the y-axis
+  annotate(geom="text", x=0.85, y= 0.6, label="Abs         Prot",  color="red")
 
 #put the answers on the graph
 for (i in 1:length(abs.ukns)){
