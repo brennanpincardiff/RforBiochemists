@@ -39,7 +39,7 @@ p <- p + theme(legend.position=c(0,1), # moves it to the top left
                legend.title=element_text(size = 12)) # and the labels
 
 # have a look at the bar chart
-p
+p + ggtitle("The Rise and Rise of Athena SWAN")
 
 # save the graph....
 p + ggsave("AthenaSWANawards09_14.pdf")
