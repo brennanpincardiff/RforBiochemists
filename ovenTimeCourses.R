@@ -46,13 +46,11 @@ for(i in 1:3){
   
   # melt it into a format for ggplot using melt() function
   data.subset.melt <- melt(data.subset, 
-                           id.vars = "e.time.hour.num", 
-                           value.name = "temp", 
-                           variable.name = "place")
-  
+                           id.vars = "e.time.hour.num")
+  colnames(data.subset.melt) <- c("elapsed.time", "place", "temp")
   
   # make the graph object
-  p <- ggplot(data.subset.melt, aes(x=e.time.hour.num, 
+  p <- ggplot(data.subset.melt, aes(x=elapsed.time, 
                                     y= temp, 
                                     colour = factor(place, labels = c("Top", "Bottom")))) + 
     # colour = factor and the labels allows us to customize the legend
