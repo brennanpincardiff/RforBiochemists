@@ -10,7 +10,7 @@ library(ggplot2)    # high quality graphing
 
 locs <- c("Nottingham England", "Reading England", "London England", "Bristol England", "Cardiff Wales", "Birmingham England")
 locI <- c("N", "R", "L", "Br", "C", "Bi")
-locCol <- c("orange", "green", "green", "orange", "blue", "orange")
+locCol <- c("darkgoldenrod1", "yellowgreen", "yellowgreen", "darkgoldenrod1", "blue", "tomato")
 lonlat <- geocode(locs)
 
 # draw a simple map of the United Kingdom
