@@ -24,9 +24,6 @@ points(lonlat$lon,
        pch=19,
        cex = 1)
 
-
-First map - made with base graphics
-
 # we can also do this in ggplot better...
 # make a data.frame 
 data2 <- as.data.frame(locs)

@@ -51,7 +51,7 @@ pairs(data[,1:7]) # shows the rate of change over 10 years
 ## I recommend the ggplot2 library 
 p <- ggplot(data,                      # a data.frame with the data
             aes(x=year, y=mentIll)) +  # columns of the data.frame
-  geom_point(colour = "red", size = 3) # type of plot 
+     geom_point(colour = "red", size = 3) # type of plot 
 
 # this creates an object called p
 p # show the object
@@ -102,7 +102,7 @@ p <- ggplot(data,
             aes(x=diabetes, y=obese, label = year)) +
   geom_point(colour = "red", size = 5) +
   geom_text(size = 5, hjust=1, vjust=-0.5) +
-  ylab("Obesity (% of Welsh Pop") +
+  ylab("Obesity (% of Welsh Pop)") +
   xlab("Diabetes (% of Welsh Pop)") +
   theme_bw()
 
@@ -135,7 +135,7 @@ x <- ggplot(data = melted.data.sub,
 x    # look at the plot
   
   # break into facets
-  x <- x + facet_wrap(~ Illness, scales = "free", ncol=2) +
+x <- x + facet_wrap(~ Illness, scales = "free", ncol=2) +
   ylab("Percent of Welsh Pop")
 
 x  # show the plot
@@ -153,8 +153,7 @@ g1 <- ggplot(data,                      # a data.frame with the data
   xlab("") +
   theme_bw()
 g1 <- g1 + theme(axis.title.y = element_text(size = 18 )) +
-  theme(axis.title.x = element_text(size = 16 )) +
-  theme(axis.text = element_text(size = 20))
+  theme(axis.text = element_text(size = 14))
 
 # make another graph in the object g2
 g2 <- ggplot(data,
@@ -164,8 +163,7 @@ g2 <- ggplot(data,
   xlab("") +
   theme_bw()
 g2 <- g2 + theme(axis.title.y = element_text(size = 18 )) +
-  theme(axis.title.x = element_text(size = 16 )) +
-  theme(axis.text = element_text(size = 20))
+  theme(axis.text = element_text(size = 14))
 
 # using a function from the gridExtra package...
 # put the three graphs on the same graphical output. 
