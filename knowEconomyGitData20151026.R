@@ -2,8 +2,6 @@ library(dplyr)
 library(ggplot2)
 library(RCurl)
 
-setwd("/Users/paulbrennan/Dropbox/R for Biochemists/UNData201510")
-
 # who has the most researchers in the world?
 # download the data
 x <- getURL("https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/data/numberOfResearchersFTEUNdata_Export_20151019_214919785.csv")
@@ -20,8 +18,6 @@ data$Reference.Area <- gsub("United Kingdom of Great Britain and Northern Irelan
 data$Reference.Area <- gsub("United States of America", "United States", data$Reference.Area)
 data$Reference.Area <- gsub("Republic of Korea", "Korea, Rep.", data$Reference.Area)
 data$Reference.Area<- gsub("Venezuela (Bolivarian Republic of)", "Venezuela", data$Reference.Area)
-
-
 
 # sort the data
 data.sort <- data[order(-data$Observation.Value),]
@@ -60,6 +56,7 @@ data.Join.sort$toPlot <- data.Join.sort$res.per.thou
 # this %+% command is useful. 
 # It allows us to force a different data.frame into an existing ggplot graph object 
 p1 <- p %+% data.Join.sort[1:20,]
+
 # After doing that we need to change the title and the ylab. 
 p1 + ylab("Researchers (FTE) per 1,000 population ") +
      ggtitle(paste("Who has the highest density of Researchers? ", year))  
@@ -67,6 +64,7 @@ p1 + ylab("Researchers (FTE) per 1,000 population ") +
 # Explore the proportion of GDP spent on R&D?
 x <- getURL("https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/data/grossDomesticExpR&D_GERD_percent_GDP_UNdata_Export_20151019_215514491.csv")
 data.GDP <- read.csv(text = x)
+
 # extract the 2011 data
 data.GDP <- subset(data.GDP, data.GDP$Time.Period == year)
 
