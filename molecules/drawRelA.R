@@ -73,4 +73,4 @@ text(pos.text.x, pos.text.y, features$description[2:5], cex=1, col=features$col[
 
 # add the accession number to the bottom smaller text and the source of the data
 text(max(features$end)/2, 5 , paste("Uniprot Accession Number:", names$accession), cex=0.8)
-text(max(features$end)/2, 3 , "Souce of data: http://www.uniprot.org/uniprot/Q04206", cex=0.8)
+text(max(features$end)/2, 3 , "Source of data: http://www.uniprot.org/uniprot/Q04206", cex=0.8)
