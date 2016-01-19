@@ -39,10 +39,10 @@ p <- ggplot(data=data,          # specify the data frame with data
   theme_bw() +      # a simple theme
   expand_limits(y=c(20,100))   # customise the y-axis
 
-# Add the line to graph using methods.args (New: Jan 2016)
+# Add the line to graph
 p <- p +  geom_smooth(method = "nls", 
-              method.args = list(formula = y ~ bot+(top-bot)/(1+( x / LD50)^slope), 
-              start=list(bot=20, top=95, LD50=3, slope=-12)),
+              formula = y ~ bot+(top-bot)/(1+( x / LD50)^slope), 
+              start=list(bot=20, top=95, LD50=3, slope=-12),
               se = F, size = 0.5)
 
 # Add the text with the LD50 to the graph. 
