@@ -13,7 +13,7 @@ View(data)      # this works in R-Studio
 # subset of the data with just the numbers.
 new.data <- data[2:16]
 # these are log2 values 
-# The data has been normalized and summarized
+# The data has been normalized
 
 
 ## FIRST visualisation of the data: a simple box plot
@@ -60,13 +60,16 @@ summary(pca)  # one component accounts for 99% of the variance
 plot(pca, type = "l")
 
 names <- factor(gsub("\\.\\d", "", names)) # change names into factor
-plot(pca$loadings, col = names)
-text(pca$loadings, cex = 0.5, label = colnames(new.data), pos =3)
+plot(pca$loadings, col = names, pch = 19)
+text(pca$loadings, cex = 0.7, label = colnames(new.data), pos =3)
+# some of the treatment cluster well together (e.g. Drug D) others not so much
+
 
 # can be interesting to look at a subset of the data...
 pca <- princomp(data.m[,1:12])
-plot(pca$loadings, col = names)
-text(pca$loadings, cex = 0.5, label = colnames(new.data)[1:12], pos =3)
+plot(pca$loadings, col = names, pch = 19, 
+     main = "Just three drug treatments")
+text(pca$loadings, cex = 0.7, label = colnames(new.data)[1:12], pos =3)
 
 # basically happy with our data generally. 
 # next step in next script is to look at differentially expressed transcripts.
