@@ -66,7 +66,7 @@ text(pca$loadings, cex = 0.5, label = colnames(new.data), pos =3)
 # can be interesting to look at a subset of the data...
 pca <- princomp(data.m[,1:12])
 plot(pca$loadings, col = names)
-text(pca$loadings, cex = 0.5, label = colnames(new.data), pos =3)
+text(pca$loadings, cex = 0.5, label = colnames(new.data)[1:12], pos =3)
 
 # basically happy with our data generally. 
 # next step in next script is to look at differentially expressed transcripts.
