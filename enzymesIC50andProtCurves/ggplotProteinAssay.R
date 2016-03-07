@@ -1,21 +1,44 @@
-# START of SCRIPT
-library(ggplot2)
+# First script for VizBi2016
+# written to illustrate the Fundamentals of R
 
+# first 'Fundamental' is ** functions **
+# functions do things!
+# you know it's a function because it contains brackets
+
+# c() is a function - sometimes called combine
+
+# second 'Fundamental' is ** objects **
+# objects contain data
+# we make them with functions
+
+# example:
+# using the c() function to create the object prot
 # Protein Concentrations
 prot <- c(0.000, 0.016, 0.031, 0.063, 0.125, 0.250, 0.500, 1.000, 
           0.000, 0.016, 0.031, 0.063, 0.125, 0.250, 0.500, 1.000) 
+
+# a function has arguments - always inside the brackets
 
 # Absorbance from my protein assay
 abs <- c(0.329, 0.352, 0.349, 0.379, 0.417, 0.491, 0.668, 0.956, 
          0.327, 0.341, 0.355, 0.383, 0.417, 0.446, 0.655, 0.905)
 
-# Convert into data.frame to plot with ggplot
-data <- as.data.frame(prot)
-data$abs <- abs
+# these objects are called 'vectors' - key term
 
-#Calculate the line using the linear model function
+## now we are going ot play with some of these objects to 
+
+#Calculate the line using the linear model function lm()
 line <- lm(abs~prot)
 
+# creates another kind of object - a list
+# multiple parts with different type of data in each part
+
+# too look at the object type line
+line
+summary(line)
+
+# access particular parts of the object line
+# using the $ dollar sign
 #Equation of a line y = mx + c
 #In our case abs = slope * prot + intercept
 # ukn.prot = (abs - intercept)/slope
@@ -28,6 +51,31 @@ abs.ukns <- c(0.554, 0.568, 0.705)
 
 #rearrange the equation of the line to ukn.prot = (abs - intercept)/slope
 prot.ukns <- (abs.ukns - int)/slope
+
+# CONCEPT ALERT - functions work on a vector of numbers
+
+
+
+## graphing
+
+# quick graph using base R
+plot(prot, abs)
+abline(line)
+
+## BUT there is a better way!!
+
+# third 'Fundamental' is packages
+# these are collections of functions that have been written by others
+# these can be installed 
+install.packages("ggplot2")
+# and then activated
+library(ggplot2)
+
+# Convert from one type of object to another
+# another kind of object is a data.frame
+# a bit like a 
+data <- as.data.frame(prot)
+data$abs <- abs
 
 # create the object with the graph in it. 
 p <- ggplot(data=data,          # specify the data frame with data

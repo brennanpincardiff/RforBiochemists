@@ -57,9 +57,11 @@ x <- ggplot(data = melted_data, aes(x = Sub, y = v)) +
 x <- x + facet_wrap( ~ Exp, ncol = 3)
 
 # Finally, let's apply the Michaelis Menten fitting to our faceted data, adding the best fit line in each case:
-x <- x + geom_smooth(method = "nls", formula = y ~ Vmax * x / (Km + x), start = list(Vmax = 50, Km = 2),
+x <- x + geom_smooth(method = "nls",                 
+                     method.args = list(formula = y ~ Vmax * x / (Km + x), 
+                                        start = list(Vmax = 50, Km = 2)),
                      se = F, colour = 'black', size = 0.5)
-					 
+
 # Finally, just call 'x' to show the plots:
 x
 
