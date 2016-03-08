@@ -65,13 +65,13 @@ enz.plot + geom_point(size=5)
 
 # finally, we can add the enzyme kinetic lines using the geom_smooth() function
 enz.plot  + geom_smooth(method = "nls", 
-                        formula = y ~ Vmax * x / (Km + x), 
-                        start = list(Vmax = 50, Km = 0.2),
+                        method.args = list(formula = y ~ Vmax * x / (Km + x), 
+                                           start = list(Vmax = 50, Km = 0.2)),
                         se = F, size = 0.5, 
                         data = subset(enzdata, Enz=="WT")) +
             geom_smooth(method = "nls", 
-                        formula = y ~ Vmax * x / (Km + x), 
-                        start = list(Vmax = 50, Km = 0.2),
+                        method.args = list(formula = y ~ Vmax * x / (Km + x), 
+                                           start = list(Vmax = 50, Km = 0.2)),
                         se = F, size = 0.5, 
                         data = subset(enzdata, Enz=="H297F")) +
             theme_few()

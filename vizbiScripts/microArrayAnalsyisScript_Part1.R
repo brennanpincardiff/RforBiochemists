@@ -24,6 +24,7 @@ boxplot(new.data,
 
 ## SECOND visualisation: calculate and visualise distances
 # turn into a matrix 
+data_2m <- as.matrix(data)
 data.m <- as.matrix(new.data)
 # transpose the data because a distance matrix works in rows
 data.m.t <- t(data.m)
@@ -43,12 +44,22 @@ image(1:dim, 1:dim, distances.m, axes = FALSE, xlab = "", ylab = "")
 axis(3, 1:dim, names, cex.axis = 0.8, las=3)
 axis(2, 1:dim, names, cex.axis = 0.8, las=1)
 # add the values of the differences
-text(expand.grid(1:18, 1:18), sprintf("%0.1f", distances.m), cex=1)
+text(expand.grid(1:dim, 1:dim), sprintf("%0.1f", distances.m), cex=1)
+
+# this distance matrix can also be visualised using the heatmap functions.
+pheatmap(distances.m)
+heatmap3(distances.m)
+
 
 ## THIRD visualisation: use the distance matrix to do some clustering
 plot(hclust(distances))
 # three clusters - based on the distance matrix and shows the same thing really.
 
+# heatmaps ccan also be used to visualise the distance matrix. 
+# samples can be clustered or you can stop this.
+heatmap(distances.m)
+heatmap3(distances.m)
+pheatmap(distances.m)
 
 ## FOURTH visualisation: principal component analysis
 # Do a Principal Component Analysis  
