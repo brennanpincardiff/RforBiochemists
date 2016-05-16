@@ -4,7 +4,8 @@ biocLite("EBImage")
 library("EBImage")
 library(ggplot2)
 
-img = readImage("http://science2therapy.com/data/cllCell.jpg")
+# the image is on Github
+img <- readImage("https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/data/images/cllCell.jpg")
 # the object created is a Large Image (24 Mb in this case!)
 
 display(img)
@@ -88,6 +89,3 @@ q <- ggplot(data=m, aes(x=seq(1, length(col3)))) +
   ggtitle("Histogram of fluoresence of CLL cell") +  # add a title
   theme_bw()     # a simple theme
 q   # show the plot
-
-
-
