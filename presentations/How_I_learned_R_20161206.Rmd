@@ -3,8 +3,8 @@ title: "How I learned R"
 author: "Paul Brennan, [Cardiff University](http://www.cardiff.ac.uk/) School of Medicine"
 date: "6 December 2016"
 output:
-  beamer_presentation: default
   ioslides_presentation: default
+  beamer_presentation: default
   slidy_presentation: default
 ---
 
