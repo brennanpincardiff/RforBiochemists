@@ -77,6 +77,7 @@ ggplot(data = data,
   scale_y_log10()
 
 # let's make this look a bit nicer with lines, titles and a theme...
+# make the object p
 p <- ggplot(data = data,
             aes(x = age, y = m.qx)) +
      geom_line(colour = "red") +
@@ -87,11 +88,11 @@ p <- ggplot(data = data,
      scale_y_log10() +
      theme_bw()     
 
-p
+p    # show the object
 
 # label on y axis is not the most useful, I think. 
 # good learning point here on customising the y-axis label.
-# added as arguements in the scale_y_log10()
+# added as arguments in the scale_y_log10()
 
 p <- ggplot(data = data,
        aes(x = age, y = m.qx)) +
@@ -99,19 +100,17 @@ p <- ggplot(data = data,
   geom_point(colour = "red", size = 0.75) +
   ylab("Chance of dying") +
   xlab("Current Age") +
-  ggtitle("Chance of Dying before next Birthday") + 
+  ggtitle("Chance of Men Dying before next Birthday") + 
   scale_y_log10(
-    breaks = c(0.0001, 0.001, 0.01, 0.1, 0.5),      # says where to put the labels
-    labels = c("1/10,000", "1/1000", "1/100", "1/10", "1/2")) +   # the labels. 
+    breaks = c(0.0001, 0.001, 0.01, 0.1, 0.5),      # where to put labels
+    labels = c("1/10,000", "1/1000", "1/100", "1/10", "1/2")) +   # the labels
   theme_bw() 
 
-p
+p     # show the object
 
-# want add source too!!!
+# add source of the data
 source <- paste("Source: Office of National Statistics\n filename: nltuk1315reg.xls\n accessed:", Sys.Date())
-# at bottom outside of the graph... or as a subtitle
-
-p + annotate("text",  x = 70, y = 0.0001, label=source, size=3 )
+p + annotate("text",  x = 70, y = 0.0001, label=source, size=3)
 
 # more info available from the Office of National Statistics here:
 # https://www.ons.gov.uk/peoplepopulationandcommunity/birthsdeathsandmarriages/lifeexpectancies
