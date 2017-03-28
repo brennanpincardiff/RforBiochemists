@@ -72,15 +72,17 @@ ggplot(data=enzdata,
   xlab("Substrate (mM)") +  
   ylab("Velocity (uM/min/mg.enzyme)") +    
   ggtitle("Glucose Dehydrogenase \n wild type and mutant") +  
+
   geom_smooth(method = "nls", 
-              formula = y ~ Vmax * x / (Km + x), 
-              start = list(Vmax = 50, Km = 0.2),
-              se = F, size = 0.5, 
-              data = subset(enzdata, Enz=="WT")) +
+              method.args = list(formula = y ~ Vmax * x / (Km + x), 
+                start = list(Vmax = 50, Km = 0.2)),
+             se = F, size = 0.5,
+             data = subset(enzdata, Enz=="WT"))  +
+
   geom_smooth(method = "nls", 
-              formula = y ~ Vmax * x / (Km + x), 
-              start = list(Vmax = 50, Km = 0.2),
-              se = F, size = 0.5, 
+                method.args = list(formula = y ~ Vmax * x / (Km + x), 
+                                   start = list(Vmax = 50, Km = 0.2)),
+                se = F, size = 0.5, 
               data = subset(enzdata, Enz=="H297F")) +
   theme_few() +
   annotate("text", x = 1.15, y = 25, label = "F ratio: ") +
