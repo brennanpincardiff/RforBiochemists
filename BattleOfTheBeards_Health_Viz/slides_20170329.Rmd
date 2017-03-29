@@ -113,6 +113,7 @@ ggplot(data,
 ## Thanks
 - Twitter: @brennanpcardiff
 - <http://rforbiochemists.blogspot.co.uk/>
+- <https://github.com/brennanpincardiff>
 
 
 ## BMI
