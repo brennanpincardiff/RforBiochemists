@@ -1,0 +1,121 @@
+---
+title: "My Most Important Health Habit"
+author: "Paul Brennan, Cardiff University, BrennanP@cardiff.ac.uk"
+date: "28 March 2017"
+output: ioslides_presentation
+---
+
+## Exploring Health Habits
+
+Aim: to developing an interactive visualisation about the best healthy habit for me... 
+
+
+## Good Healthy Habits
+- Don't smoke
+- Be physically active
+- Enjoy a good diet - fruit & veg; refrain from red meat 
+- Try to control your weight
+- Don't drink too much
+
+## Show me the money.... well the numbers...
+- epidimology: study of large populations. 
+- I'm going to focus on a study of physical activity.
+-"Physical activity and all-cause mortality..." Ekelund et al, 2015
+- Cohort study in 334,161 European men and women. 
+
+## Hazard ratios...
+- <https://en.wikipedia.org/wiki/Hazard_ratio>
+- Hazard ratio > 1, this habit will reduce life expectancy. 
+- Smoking 20 a day = hazard ratio of 2.2. 
+- Being physically active = hazard ratio of 0.66
+
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
+# smoking 20 a day - Hazard ratio 2.2, change +8
+smoke20hazratio <- 2.2
+# hazard ratio = h
+# each incrased year of age associated with hazard ratio r 
+# increased risk associated with the risk factor is equivalent to being
+# a change in t years of your effective age if
+# r^t = h
+
+# t = log(h)/log(r)
+
+changeEffAge <- function(hazRatio){log(hazRatio)/log(1.1)}
+```
+
+## Convert Hazard ratios to life years... 
+- So Professor David Spiegelhalter has info that allows us to interpret this...  
+- <https://understandinguncertainty.org/what-your-effective-age>
+- converted hazard ratio to change in life expectancy in years. 
+- Smoking 20 a day - hazard ratio of 2.2 - reduces life expectancy by `r round(changeEffAge(smoke20hazratio), 1)` years. 
+- Being physically active can increase life expectancy by `r -round(changeEffAge(0.76), 1)` years.
+- Easier to relate to than hazard ratios
+
+## But depends on OTHER factors... 
+- statisticians call significant interactions.
+- example, there is an interaction between physical activity and body mass index. 
+- Depending on your weight, the benefit from physical activity is different. 
+
+## Core concept:
+- Certain habits may be worth more 'added life' than others 
+- depending on your lifestyle...
+- gender...
+- current habits...
+
+## I like a bit of data...
+So I have started with a graph...
+
+```{r, echo = FALSE, warning=FALSE, message=FALSE}
+library(RCurl)
+library(ggplot2)
+# here is a link for all the normalised data from the paper (>50000 probes) 
+x <- getURL("https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/data/exercise_hzRatio2.csv")
+
+# turn the data into a useful data.frame
+data <- read.csv(text = x, header = TRUE)
+
+bmi_no2 <- factor(data$bmi_no, levels = c("18.5-24.9", "25-30", ">30"))
+data$bmi_no <- bmi_no2
+
+# activity categories
+actCats <- c("Moderately inactive", "Moderately active", "Active")
+
+ggplot(data,
+       aes(x = ActivityLevel,
+           y = AddedYearsPos,
+           fill = bmi_no)) +
+  geom_bar(stat="identity", position="dodge")  +
+  ylab("Added Years Possible") +
+  xlab("Activity level (change relative to Inactive)") +
+  facet_wrap(~gender) +
+  scale_x_discrete(limits = actCats) + 
+  theme_bw()
+
+```
+
+## So I have turned the graph into a Shiny App
+- can have a look in R Studio
+- have a server.R file  (downloads data; does calculations...)
+- ui.R file   (shows the data, allows responses...)
+
+## demo this and get feedback...
+<https://brennanpcardiff.shinyapps.io/health_habits_app_v03/>
+
+
+
+## Sources & Inspiration
+- Elkund et al (2015) Am J Clin Nutr. 101:613-21
+- Wareham et al (2002) Public Health Nutrition 6: 407–413
+- Prof David Spiegelhalter
+- His book: The Norm Chronicles
+- His Blog: <https://understandinguncertainty.org/what-your-effective-age>
+
+## Thanks
+- Twitter: @brennanpcardiff
+- <http://rforbiochemists.blogspot.co.uk/>
+
+
+## BMI
+- BMI was calculated as body weight (in kg) divided by height squared (in m).
+- Individuals were categorized into 
+- normal-weight (BMI: 18.5–24.9), overweight (BMI: 25–30), and obese (BMI >30)
