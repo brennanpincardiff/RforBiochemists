@@ -33,6 +33,12 @@ g <- ggplot(data,
   scale_x_discrete(limits = actCats) + 
   theme_bw()
 
+# calculate BMI function
+calculateBMI <- function(weight, height) {
+  return((weight / (height/100 * height/100)))
+}
+
+
 shinyServer(
   function(input, output) {
     
@@ -43,18 +49,23 @@ shinyServer(
         paste("Cutting down on cigaretttes should probably be the focus!")
       }else {paste("Well done on avoiding too many cigarettes")}
     })
+
     
+    # report calculated bmi
     output$text2 <- renderText({ 
-      if ((input$bmi > 25) & (input$bmi < 35)){
-        paste("Exercise could help and maybe help control your weight")
-      }else if(input$bmi >34){
-        paste("Weight control could improve your future!")
-      }else {paste("Well done on keeping control of your weight")}
-    })    
-    output$text3 <- renderText({ 
-      paste("You have selected", input$jobAct)
+      paste("Your bmi is: ", round(calculateBMI(input$weight, input$height), 1))
     }) 
 
+    # comment on bmi 
+   output$text3 <- renderText({ 
+     if ((calculateBMI(input$weight, input$height) > 25) & (calculateBMI(input$weight, input$height) < 30)){
+        paste("Exercise could help and maybe help control your weight")
+     }else if(calculateBMI(input$weight, input$height) >29){
+        paste("Weight control could improve your future!")
+     }else {paste("Well done on keeping control of your weight")}
+   })
+
+    
 # calculate activity level    
     output$text4 <- renderText({ 
       paste("Your activity level is ", readActLev(input$jobAct, input$exercise))
@@ -96,10 +107,10 @@ shinyServer(
     
     # generating a second customised graph       
     output$bmifocusplot <- renderPlot({
-      if (input$bmi < 25){
+      if (calculateBMI(input$weight, input$height) < 25){
         print(g + scale_fill_manual(values = c("red","grey90", "grey90")))
       }
-      else if (input$bmi > 25 & input$bmi <31){
+      else if (calculateBMI(input$weight, input$height) > 25 & calculateBMI(input$weight, input$height) <30){
         print(g + scale_fill_manual(values = c("grey90","red", "grey90")))
       }
       else {print(g + scale_fill_manual(values = c("grey90","grey90", "red")))}

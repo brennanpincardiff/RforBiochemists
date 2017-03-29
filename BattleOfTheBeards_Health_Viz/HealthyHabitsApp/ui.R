@@ -18,10 +18,9 @@ shinyUI(fluidPage(
                   label = "Cigerattes per day",
                   min = 0, max = 40, value = 0),
       
-      # slider input for Body Mass Index
-      sliderInput("bmi", 
-                  label = "Body Mass Index",
-                  min = 18, max = 40, value = 22),
+      # calculator for Body Mass Index
+      numericInput('weight', 'Weight (kg)', 75, min = 10, max = 200, step = 1),
+      numericInput('height', 'Height (cm)', 170, min = 25, max = 250, step = 1),
       
       # Select box for Job Activity 
       selectInput("jobAct", 
@@ -47,6 +46,7 @@ shinyUI(fluidPage(
       h3(textOutput("text1")),
 # bmi:
       h3(textOutput("text2")),
+      h3(textOutput("text3")),
 # physical activity:
       h3(textOutput("text5")),
 
