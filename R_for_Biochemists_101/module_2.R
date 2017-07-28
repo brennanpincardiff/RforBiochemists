@@ -89,16 +89,23 @@ p <- p +  theme_bw()      # a simple theme
 p <- p +  expand_limits(y=c(0,1))    # customise the y-axis
 p # show the plot
 
-# Add some text
-p <- p +  annotate(geom="text", x=0.85, y= 0.6, label="Abs           Prot",  color="red")
+# Add the headings
+p <- p +  annotate(geom="text",    # this says add text
+                   x=0.85,         # the x position of the text on the graph
+                   y= 0.6,         # the y position of the text on the graph
+                   label="Abs           Prot",     # the text you want to add
+                   color="red")    # the colour of the text
 
 
-
-# add text...
-#put the answers on the graph using a loop
+# add values of each sample 
+#put the answers on the graph using a for loop
 for (i in 1:length(absUkns)){
-  p <- p + annotate(geom="text", x = 0.8, y = (0.6 - i/20), label=absUkns[i])
-  p <- p + annotate(geom="text", x = 0.92, y = (0.6 - i/20), label=round(protUkns[i], 3))
+  p <- p + annotate(geom="text", 
+                    x = 0.8, y = (0.6 - i/20), 
+                    label=absUkns[i])
+  p <- p + annotate(geom="text", 
+                    x = 0.92, y = (0.6 - i/20), 
+                    label=round(protUkns[i], 3))
 }
 
 p # show us the graph...

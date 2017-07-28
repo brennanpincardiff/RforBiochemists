@@ -1,3 +1,11 @@
+##
+# download script 1 from the internet and open in R-Studio
+link <- "https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/R_for_Biochemists_101/module_1.R"
+download.file(url=link, destfile="module_1.R", mode="wb")
+file.edit("module_1.R")
+
+
+
 # download scripts from the internet and open in R-Studio
 base_url <- "https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/R_for_Biochemists_101/"
 
@@ -18,3 +26,6 @@ open_file_from_github(base_url, file_name)
 # download script for module 3
 file_name <- "module_3.R"
 open_file_from_github(base_url, file_name)
+
+
+
