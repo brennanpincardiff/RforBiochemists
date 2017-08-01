@@ -1,3 +1,5 @@
+### Module 3, Code Demo 1 illustates this code
+
 #### Create the data in a dataframe 
 # This is the data
 Enz <- c("WT","WT","WT","WT","WT",
@@ -83,8 +85,7 @@ enz_plot + facet_wrap(~Enz) + theme_bw()    # this function gives two plots
 
 
 ### That's enough for this code demo...
-### Next code demo will involve adding lines to our plot
-# and extracting Km and Vmax from the nls() function
+### Module 3, Code Demo 2 will involve adding lines to our plot
 
 ## next we can add the enzyme kinetic lines using the geom_smooth() function
 enz_plot_lines <- enz_plot + 
@@ -113,7 +114,7 @@ enz_plot_lines
 # we can facet_wrap() this again...
 enz_plot_lines + facet_wrap(~Enz)
 
-
+### Module 3, Code Demo 3 will show how to extract Km and Vmax with the nls() function
 #### Get Km and Vmax
 # graphical output is an essential step and very useful. 
 # However, it's difficult to extract the numbers out of the plot. 
