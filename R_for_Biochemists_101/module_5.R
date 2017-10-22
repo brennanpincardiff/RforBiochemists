@@ -1,18 +1,18 @@
-## ----simple_data_creation1----------------------
+# Getting data into R
+### Making simple vectors in R
 # here are some the lengths of some proteins
 protein_aa_length <- c(157, 434, 312, 500, 745, 756, 419, 317, 551, 433)
 
 # we can make a bar chart with this vectors
 barplot(protein_aa_length)
 
-## ----simple_data_creation2----------------------
+# make a vector of characters
 molecule_names <- c("TNF", "TNFR1", "TRADD", "TRAF2", "IKKa", "IKKb", "NEMO", "IkBalpha", "Rel A", "p50")
 
 # we can add names to our a bar chart...
 barplot(protein_aa_length,
         names.arg = molecule_names)
 
-## ----ggplot_barplot-----------------------------
 # create a dataframe
 data <- as.data.frame(molecule_names)
 data$protein_aa_length <- protein_aa_length
@@ -30,33 +30,31 @@ molecules <- as.factor(c("proteins", "DNA", "RNA"))
 # note that the objects look different in the Global Environment
 # check them out
 
-## ----sequences----------------------------------
+## ----sequences
 our_sequence <- rep(1:10, 2)  # the second argument is times. 
 our_sequence
 another_seq <- seq(from = 0, to = 4, by=0.5)
 another_seq
 
-## ----choose_file_example -------------------------------------
+# next we'll be handling files so these might be useful...
+# choose a file
 data <- read.csv(file.choose())
 ## 
 # two commands in case you've got this far without using the
 getwd() # get working directory
 setwd() # set working directory
 
+# now there are a few exercises for you to do...
 
-## ----read_csv-----------------------------------
+# Break video
+
+# Demonstrate read.csv() and make another bar
+## ----read_csv, include=TRUE, echo=TRUE-----------------------------------
 data <- read.csv("https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/data/numberOfResearchersFTEUNdata_Export_20151019_214919785.csv")
 
-## ----view_data, include=TRUE ---------------------------------
-## View(data) # works in R-Studio
-
-## ----check_str----------------------------------
+View(data) # works in R-Studio
 str(data) # shows the type of object - in this case a dataframe
-
-## ----check_head---------------------------------
 head(data) 
-
-## ----check_tail---------------------------------
 tail(data) 
 
 ## ----cleanup_scientist_data----------------------------------------------
@@ -81,12 +79,9 @@ ggplot(data[1:20,],     # just top 20 values
   theme_bw() +
   theme(axis.text.x = element_text(angle=45, hjust=1))  # turns the text
 
-## ----read_tsv-----------------------------------
-
-# download and read in the data
+# Demonstrate read.table() and make a heatmap
 data <- read.table("https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/R_for_Biochemists_101/data/nfkb_genes_herishanu.tsv")
 
-## ----data_check ---------------------------------
 # basic commands for looking at the data
 head(data)      # view first six rows
 str(data)       # shows it's a dataframe
@@ -98,7 +93,9 @@ colnames(data)  # column names
 data.m <- as.matrix(data)
 
 heatmap(data.m)
-# to learn more about this data set go here:
+
+
+# Break video
 
 ## ------------------------------------------------------------------------
 ## required packages
@@ -123,21 +120,9 @@ ggplot(data = region_map,
   geom_path() +   # draws the lines for administrative regions
   coord_map()     # plots the map like we are used to seeing it. 
 
-## ----ans_exercise_2 -----------------------------------------------------
-library(sp)
-library(rmapshaper)
-link <- "http://biogeo.ucdavis.edu/data/gadm2.8/rds/ARG_adm1.rds"
-download.file(url=link, destfile="file.rda", mode="wb")
-region_map <- readRDS("file.rda")
-region_map <- ms_simplify(region_map, keep = 0.01)
-library(broom)
-region_map <- tidy(region_map, region="NAME_1")
-library(ggplot2)
-ggplot(data = region_map,
-       aes(x = long, y = lat, group = group)) + 
-  geom_path() +
-  coord_map()
+# video break
 
+# downloading a file and reading it in...
 
 ## ----cardiff_data_download-----------------------------------------------
 # original data: http://pubs.acs.org/doi/suppl/10.1021/pr5002803/suppl_file/pr5002803_si_005.xlsx
@@ -162,6 +147,8 @@ hc <- hclust(dist(t(data_s)))
 
 # plot the cluster dendrogram 
 plot(hc, xlab = "Patient Samples")
+
+
 
 ## ----download_spss_file ------------------------
 library(foreign)
