@@ -8,7 +8,7 @@ abs <- c(0.329, 0.352, 0.349, 0.379, 0.417, 0.491, 0.668, 0.956,
 
 plot(prot_conc, abs)
  
-install.packages("ggplot2") # to run remove the comment mark: 
+install.packages("ggplot2") 
 # don't want to run everytime. 
 library(ggplot2)
 
@@ -30,7 +30,7 @@ p <- ggplot(data=data,          # specify the data frame with data
             aes(x=prot_conc, y=abs)) # specify x and y for the graph
 p  # show the plot
 
-## Step 2: add a type of graph**
+## Step 2: add a type of graph
 p <- p + geom_point()
 
 p # show the plot again
@@ -53,8 +53,6 @@ p <- p + stat_smooth(method = "lm") +
 p
 
 # save you're output wtih Export or
-
-# remove the comment line to save the plot
 p + ggsave("ProteinStandardCurve.pdf")
 
 

@@ -1,4 +1,4 @@
-# module 4 script containing answers
+# module 4 answers
 
 ## ----download_data_exercise_1-------------------
 # this is the link to the data
