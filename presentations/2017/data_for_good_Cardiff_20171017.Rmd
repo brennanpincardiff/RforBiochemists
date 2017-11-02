@@ -1,0 +1,187 @@
+---
+title: "R for Biochemists - Open Source Teaching & Learning"
+author: "Paul Brennan, Cardiff University, BrennanP@cardiff.ac.uk"
+date: "17 Oct 2017"
+output: ioslides_presentation
+---
+
+## Becoming a better data analyst
+1. Crisis in reproducibility
+2. An opportunity and insipration
+3. Willingness to learn and share
+4. Support of an open source community 
+
+## Crisis and opportunity
+- Reproducibility in cancer research is not as good as we would like
+- Looked at our internal data analysis methods
+- Dependent on expensive click and go software packages
+
+[https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970]
+
+## An opportunity and inspiration
+- Proteomics data
+- Submitted for publication
+- Analysis not robust enough
+- Set out to learn more....
+- data viz I couldn't do in Excel
+
+![](/Users/paulbrennan/Desktop/vizThis.png )
+
+## Inspiration 
+- [A few lines of code = new data viz!](https://flowingdata.com/2010/01/21/how-to-make-a-heatmap-a-quick-and-easy-solution/)
+```{r, echo = FALSE, include = FALSE, warning= FALSE}
+library(RCurl)
+library(readxl)
+library(ggplot2)
+library(bitops)
+
+nba <- read.csv("http://datasets.flowingdata.com/ppg2008.csv")
+nba <- nba[order(nba$PTS),]
+row.names(nba) <- nba$Name
+nba <- nba[,2:20]
+nba_matrix <- data.matrix(nba)
+```
+
+```{r, echo = TRUE, warning= FALSE, fig.height=4}
+nba_heatmap <- heatmap(nba_matrix, 
+                       Rowv=NA, Colv=NA, 
+                       col = cm.colors(256), scale="column")
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Opportunity 
+- Our data for a publication
+- Alsagaby SA, et al J Proteome Res. 2014 13:5051-62 [doi: 10.1021/pr5002803](http://pubs.acs.org/doi/abs/10.1021/pr5002803)
+
+
+## Opportunity
+My first cluster dendrogram
+```{r, echo = FALSE, warning= FALSE}
+# import the data
+data2 <- read.csv("http://science2therapy.com/data/iTRAQPatientforCluster.csv", header=TRUE)
+attach(data2)  # attaching a data.frame means we can use the headings directly. 
+```
+
+```{r, echo = TRUE, warning= FALSE, fig.height=3.5}
+# make the cluster dendrogram object using the hclust() and dist() functions
+hc <- hclust(dist(rbind(P1, P2, P3, P4, P5, P6, P7, P8, P9, P10, P11, P12)))  
+
+# plot the cluster dendrogram 
+plot(hc, xlab = "Patient Samples")
+```
+
+```{r, echo = FALSE, warning= FALSE}
+detach(data2) # good practice to detach data after we're finished.
+```
+
+## Willingness to learn and share
+- My professional society - [the Biochemical Society](https://www.biochemistry.org/). 
+- Suggested a training day in R
+- Then, I was organising it and delivering it
+- Created a blog: R for Biochemists
+- Delivered a training day - June 2015 
+- Further training in Cardiff, Germany and [Namibia](http://www.cardiff.ac.uk/phoenix-project)
+
+## Open Source Learning & Teaching
+ - [R for Biochemists Blog](http://rforbiochemists.blogspot.co.uk)
+```{r, echo = FALSE, warning= FALSE, fig.height=4}
+
+# this is the link to the data
+link <- "https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/data/pageViews.xlsx"
+
+# the download.file() function downloads and saves the file with the name given
+download.file(url=link,destfile="file.xlsx", mode="wb")
+
+# then we can open the file and extract the data using the read_excel() function. 
+data<- read_excel("file.xlsx")
+ggplot(data = data, 
+       aes(x = data$Month, y = data$Pageviews)) +
+      geom_point() +
+      geom_line() +
+  ylab("Monthly Page Views") +
+  xlab("") +
+  theme_bw()
+     
+```
+
+## Open Source Learning & Teaching
+ - [R User Group](http://www.meetup.com/Cardiff-R-User-Group/)
+ - Making packages - talk on 2nd of November
+ - twitter: @brennanpcardiff #rstats
+ 
+## Package development
+ - A package is a collection of R functions
+ - Created and shared with the community
+ - Packages are being developed regularly
+ - Hosted on github, CRAN, Bioconductor
+ 
+## drawProteins Package
+ - Bringing together webscraping and data visualisation
+ - Our bodies are made up of cells
+ - These cells depend on molecules called proteins
+ - Built a package to generate visualistions of these proteins
+
+## drawProteins Package - learning continues
+ - Testing functions
+ - Package coverage
+ - Documentation
+ 
+## drawProteins Package - demo
+Keratin - an important skin and hair protein
+```{r keratin_drawProtein_demo, echo = FALSE, warning= FALSE, fig.height=4}
+library(magrittr)
+library(drawProteins)
+library(httr)
+library(ggplot2)
+
+# accession numbers of hair keratin
+"Q14533 P19012 P02538" %>%
+  drawProteins::get_features() ->
+  protein_json
+
+# included data in package of one protein
+protein_json %>%
+  drawProteins::feature_to_dataframe() ->
+  prot_data
+
+prot_data %>%
+  geom_chains() %>%
+  geom_domains() %>%
+  geom_region %>%
+  geom_motif %>%
+  geom_phospho(size = 8) -> p
+
+p <- p + theme_bw(base_size = 20) +  # white background and change text size
+  theme(panel.grid.minor=element_blank(),
+        panel.grid.major=element_blank()) +
+  theme(axis.ticks = element_blank(),
+        axis.text.y = element_blank()) +
+  theme(panel.border = element_blank())
+
+p <- p + labs(x = "Amino acid number",         # label x-axis
+              y = "",  # label y-axis
+              title = "Three keratin proteins",
+              subtitle = "circles = phosphorylation sites\nsource:Uniprot")
+
+# move legend to top
+p <- p + theme(legend.position="top") + labs(fill="")
+p
+```
+
+## Summary - becoming a better data analyst
+- TIME and PATIENCE
+- Inspiration
+- Reasons to stay committed
+- Open Source Learning & Teaching
+
+## Acknowledgements
+ - Thanks for the invitation
+ - [Cardiff University](http://www.cardiff.ac.uk/) pays my salary
+ - [Biochemical Society](https://www.biochemistry.org/default.aspx) for support & advertising for the R for Biochemists Training day 
+ - Biochemcial Society - online training
+ - CaRdiff R-Users Group - [Stef Locke](https://itsalocke.com/) and [Dave Parr](https://github.com/DaveRGP)
+ - This presentation made in [Rmarkdown using R-Studio](http://rmarkdown.rstudio.com/)
