@@ -22,7 +22,8 @@ Workflow:
 
 drawProteins - demo - step 1
 ========================================================
-```{r code_demo_1}
+
+```r
 library(magrittr)
 library(drawProteins)
 library(httr)
@@ -34,9 +35,14 @@ library(ggplot2)
   protein_json
 ```
 
+```
+[1] "Download has worked"
+```
+
 drawProteins - demo - step 2
 ========================================================
-```{r code_demo_2}
+
+```r
 # turn JSON object into a dataframe
 protein_json %>%
   drawProteins::feature_to_dataframe() ->
@@ -45,7 +51,8 @@ protein_json %>%
 
 drawProteins - demo - step 3
 ========================================================
-```{r code_demo_3}
+
+```r
 # series of functions to visualise
 prot_data %>%
   geom_chains() %>%
@@ -64,17 +71,7 @@ p <- p + theme_bw(base_size = 20) +  # white background and change text size
 
 drawProteins - output
 ========================================================
-```{r code_demo_4, echo = FALSE, out.height="600px",out.width="1000px"}
-p <- p + labs(x = "Amino acid number",         # label x-axis
-              y = "",  # label y-axis
-              title = "Three keratin proteins",
-              subtitle = "circles = phosphorylation sites\nsource:Uniprot")
-
-# move legend to top
-p <- p + theme(legend.position="top") + labs(fill="")
-
-p
-```
+<img src="brennan_packages_20171102-figure/code_demo_4-1.png" title="plot of chunk code_demo_4" alt="plot of chunk code_demo_4" width="1000px" height="600px" />
 
 drawProteins - works - let's make a package
 ========================================================
@@ -133,7 +130,8 @@ Notes
 
 Global variables... geom_chains...
 ========================================================
-```{r function_demo_geom_chains, eval=FALSE}
+
+```r
 # show the function
 geom_chains <- function(prot_data = prot_data,
                         outline = "black",
@@ -152,7 +150,8 @@ Passing some arguments in e.g. prot_data BUT not all of them...
 
 Global variables... geom_domains
 ========================================================
-```{r function_demo_geom_domains, eval = FALSE}
+
+```r
 geom_domains <- function(p,
                          label_domains = TRUE,
                          label_size = 4){
