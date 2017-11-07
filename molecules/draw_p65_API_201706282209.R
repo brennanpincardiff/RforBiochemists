@@ -7,6 +7,7 @@
 
 # needs the package httr
 # install.packages("httr")
+library(purrr)
 library(httr)
 
 # my package with functions for extracting and graphing
@@ -52,8 +53,8 @@ status_code(prot_feat)  # returns a 200.
 
 # so to process this into a data.frame
 prot_feat %>%
-  content() %>%
-  flatten() %>%
+  httr::content() %>%
+  purrr::flatten() %>%
   drawProteins::extract_feat_acc() -> 
   features
 
