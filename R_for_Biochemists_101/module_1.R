@@ -52,7 +52,7 @@ p <- p + stat_smooth(method = "lm") +
 
 p
 
-# save you're output wtih Export or
+# save your output wtih Export or
 p + ggsave("ProteinStandardCurve.pdf")
 
 
