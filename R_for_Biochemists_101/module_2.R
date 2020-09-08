@@ -61,7 +61,7 @@ library(ggplot2)
 p <- ggplot(data=data,          # specify the data frame with data
             aes(x=prot_conc, y=abs)) +   # specify the x and y for the graph
   geom_point() +          # make a scatter plot
-  stat_smooth(method = "lm") +  # add a linear model line
+  stat_smooth(method = "lm", formula = y ~ x) +  # add a linear model line
   xlab("[Protein] (microg/ml)") +   # label x-axis
   ylab("Absorbance (570nm)") +    # label y-axis
   ggtitle("Protein Assay")  # add a title
