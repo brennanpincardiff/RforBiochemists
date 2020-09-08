@@ -36,7 +36,7 @@ p <- p + geom_point()
 p # show the plot again
 
 # shows the graph but doesn't modify it
-p + stat_smooth(method = "lm")
+p + stat_smooth(method = "lm", formula = y ~ x)
 
 p # show the plot - no line...
 
@@ -45,7 +45,7 @@ p +  xlab("[Protein] (microg/ml)") +   # label x-axis
   ylab("Absorbance (570nm)") +      # label y-axis
   ggtitle("Protein Assay")          # add a title
 
-p <- p + stat_smooth(method = "lm") +
+p <- p + stat_smooth(method = "lm", formula = y ~ x) +
          xlab("[Protein] (microg/ml)") +   # label x-axis
          ylab("Absorbance (570nm)") +      # label y-axis
          ggtitle("Protein Assay")          # add a title
