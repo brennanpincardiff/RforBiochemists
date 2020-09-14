@@ -1,4 +1,5 @@
 # Getting data into R
+## ----simple_data_creation1----------------------
 ### Making simple vectors in R
 # here are some the lengths of some proteins
 protein_aa_length <- c(157, 434, 312, 500, 745, 756, 419, 317, 551, 433)
@@ -6,6 +7,7 @@ protein_aa_length <- c(157, 434, 312, 500, 745, 756, 419, 317, 551, 433)
 # we can make a bar chart with this vectors
 barplot(protein_aa_length)
 
+## ----simple_data_creation2----------------------
 # make a vector of characters
 molecule_names <- c("TNF", "TNFR1", "TRADD", "TRAF2", "IKKa", "IKKb", "NEMO", "IkBalpha", "Rel A", "p50")
 
@@ -13,6 +15,7 @@ molecule_names <- c("TNF", "TNFR1", "TRADD", "TRAF2", "IKKa", "IKKb", "NEMO", "I
 barplot(protein_aa_length,
         names.arg = molecule_names)
 
+## ----ggplot_barplot-----------------------------
 # create a dataframe
 data <- as.data.frame(molecule_names)
 data$protein_aa_length <- protein_aa_length
@@ -37,7 +40,7 @@ another_seq <- seq(from = 0, to = 4, by=0.5)
 another_seq
 
 # next we'll be handling files so these might be useful...
-# choose a file
+## ----choose_file_example -------------------------------------
 data <- read.csv(file.choose())
 ## 
 # two commands in case you've got this far without using the
@@ -102,18 +105,20 @@ heatmap(data.m)
 ## install.packages("sp", "rmapshaper", "broom")
 ## step 1: download the map data
 ## download the file...
+library(sp) 
+library(rmapshaper)  # we use the ms_simplify() function
+library(broom)   # use tidy() function to plot data with ggplot2
+library(ggplot2)
+library(mapproj)
+
 link <- "http://biogeo.ucdavis.edu/data/gadm2.8/rds/GBR_adm2.rds"
 download.file(url=link, destfile="file.rda", mode="wb")
 region_map <- readRDS("file.rda")
 
 ## step 2: simplify the level of detail...
-library(sp) 
-library(rmapshaper)  # we use the ms_simplify() function
 region_map <- ms_simplify(region_map, keep = 0.01)
 plot(region_map)
 
-library(broom)   # use tidy() function to plot data with ggplot2
-library(ggplot2)
 region_map <- tidy(region_map, region="NAME_2")
 ggplot(data = region_map,
        aes(x = long, y = lat, group = group)) + 
@@ -159,8 +164,8 @@ data <- read.spss("http://cw.routledge.com/textbooks/9780415372985/sav/internati
 
 ## ----download_EBImage --------------------------
 ## # EBImage - a Bioconductor package for analysing images
-source("http://bioconductor.org/biocLite.R")
-biocLite("EBImage")
+install.packages("BiocManager")
+BiocManager::install("EBImage")
 
 ## ----import_image_file---------------------------------------------------
 library("EBImage")
