@@ -1,5 +1,5 @@
 # Import the data
-data <- read.csv("http://science2therapy.com/data/wellsDataSimp.csv")
+data <- read.csv("https://raw.githubusercontent.com/brennanpincardiff/RforBiochemists/master/data/wellsDataSimp.csv")
 
 # Have a quick look at it
 View(data)
