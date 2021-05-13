@@ -172,42 +172,21 @@ enz_plot_lines +
 
 
 ### Exercise 1 
-Sub <- c(0, 1, 2, 4, 8, 12, 16, 20, 30, 40)
-
-exp_1_vel <- c(0, 15.7, 29.42286, 45.64, 62.60615, 75.78118, 69.88, 75.256, 89.59429, 86.84) 
-
-exp_2_vel <- c(0, 2.190476, 5.254545, 8.95, 15.628571, 20.8, 25.355556, 26.55, 32.44, 33.333333)
-
-
-data2 <- as.data.frame(Sub)
-data2$vel <- exp_1_vel
-data2$exp <- c("WT")   # note this will fill the whole column
-
-ggplot(data=data2,         
-       aes(x=Sub,            
-           y=vel)) +  
-  geom_point()
+# Put in the data and make the dataframe
+exp <- c("WT","WT","WT","WT","WT", "WT","WT","WT","WT","WT", "mut","mut","mut", "mut","mut", "mut","mut","mut","mut", "mut")
+Sub <- c(0, 1, 2, 4, 8, 12, 16, 20, 30, 40, 0, 1, 2, 4, 8, 12, 16, 20, 30, 40)
+vel <- c(0, 15.7, 29.4, 45.6, 62.6, 75.8, 69.9, 75.3, 89.6, 86.8, 0, 2.2, 5.3, 9.0, 15.6, 20.8, 25.4, 26.6, 32.4, 33.3)
 
 
-data3 <- as.data.frame(Sub)
-data3$vel <- exp_2_vel
-data3$exp <- c("Mut")  
+data2 <- as.data.frame(exp)
+data2$Sub <- Sub
+data2$vel <- vel
 
-ggplot(data=data3,         
-       aes(x=Sub,            
-           y=vel)) +  
-  geom_point()
-
-data_both <- rbind(data2, data3)
-
-ggplot(data=data_both,         
-       aes(x=Sub,            
-           y=vel,            
-           colour = exp)) +  
-  geom_point()
+ggplot(data=data2, aes(x=Sub, y=vel, colour = exp)) + geom_point()
 
 
-enz_plot_2 <- ggplot(data=data_both,         
+
+enz_plot_2 <- ggplot(data=data2,         
                      aes(x=Sub,            
                          y=vel,            
                          colour = exp)) +  
@@ -215,12 +194,12 @@ enz_plot_2 <- ggplot(data=data_both,
 
 
 ### Exercise 2 Answer
-enz_plot_2  + geom_smooth(data = subset(data_both, exp=="WT"),
+enz_plot_2  + geom_smooth(data = subset(data2, exp=="WT"),
                           method = "nls", 
                           method.args = list(formula = y ~ Vmax * x / (Km + x), 
                                              start = list(Vmax = 75, Km = 10)),
                           se = F, size = 0.5)  + 
-  geom_smooth(data = subset(data_both, exp=="Mut"),
+  geom_smooth(data = subset(data2, exp=="mut"),
               method = "nls", 
               method.args = list(formula = y ~ Vmax * x / (Km + x), 
                                  start = list(Vmax = 50, Km = 10)),
