@@ -2,7 +2,7 @@
 
 ## ----download_data_exercise_1-------------------
 # this is the link to the data
-link <- "http://www.mcponline.org/content/suppl/2015/02/02/M114.044479.DC1/mcp.M114.044479-2.xls"
+link <- "https://github.com/brennanpincardiff/RforBiochemists/raw/master/R_for_Biochemists_101/data/mcp.M114.044479-2.xls"
 
 # the download.file() function downloads and saves the file with the name given
 download.file(url=link,destfile="file.xls", mode="wb")
