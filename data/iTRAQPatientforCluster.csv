@@ -1,0 +1,752 @@
+"","Protein.Name","Accession.Number","P1","P2","P3","P4","P5","P6","P7","P8","P9","P10","P11","P12"
+"1","Heterogeneous nuclear ribonucleoprotein A3 OS=Homo sapiens GN=HNRNPA3 PE=1 SV=2","sp|P51991|ROA3_HUMAN",1.4,0.47,2.2,1.78,NA,1.86,1.3,0.69,1.38,NA,NA,1.45
+"2","Activated RNA polymerase II transcriptional coactivator p15 OS=Homo sapiens GN=SUB1 PE=1 SV=3","sp|P53999|TCP4_HUMAN",1.65,1.22,2.09,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3","Heterogeneous nuclear ribonucleoprotein R OS=Homo sapiens GN=HNRNPR PE=1 SV=1","sp|O43390|HNRPR_HUMAN",1.33,0.99,2.04,0.85,NA,0.95,1.37,0.91,1.22,NA,NA,0.71
+"4","Ig mu chain C region OS=Homo sapiens GN=IGHM PE=1 SV=3","sp|P01871|IGHM_HUMAN",0.76,0.94,1.9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"5","Peroxiredoxin-2 OS=Homo sapiens GN=PRDX2 PE=1 SV=5","sp|P32119|PRDX2_HUMAN",0.83,0.83,1.85,1.35,0.79,0.87,1.68,1.19,0.6,0.97,0.75,NA
+"6","Integrin alpha-IIb OS=Homo sapiens GN=ITGA2B PE=1 SV=3","sp|P08514|ITA2B_HUMAN",1.03,1.13,1.75,1.06,1.02,1.09,1.97,1.17,1.22,NA,NA,NA
+"7","Heterogeneous nuclear ribonucleoprotein A0 OS=Homo sapiens GN=HNRNPA0 PE=1 SV=1","sp|Q13151|ROA0_HUMAN",1.5,0.66,1.73,1.39,NA,1.32,NA,NA,NA,NA,NA,0.79
+"8","HLA class I histocompatibility antigen, B-82 alpha chain OS=Homo sapiens GN=HLA-B PE=2 SV=1","sp|Q29718|1B82_HUMAN",1.37,1.63,1.72,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","Plectin-1 OS=Homo sapiens GN=PLEC1 PE=1 SV=3","sp|Q15149|PLEC1_HUMAN",1.47,NA,1.69,NA,NA,NA,0.82,1.13,0.91,NA,NA,NA
+"10","Splicing factor, arginine/serine-rich 2 OS=Homo sapiens GN=SFRS2 PE=1 SV=4","sp|Q01130|SFRS2_HUMAN",1.11,0.98,1.62,NA,NA,NA,1.22,1.26,1.76,NA,NA,NA
+"11","Myosin-9 OS=Homo sapiens GN=MYH9 PE=1 SV=4","sp|P35579|MYH9_HUMAN",1.66,1.55,1.61,1.38,1.09,1.47,1.42,1.54,1.92,1.45,1.21,NA
+"12","Heterogeneous nuclear ribonucleoproteins A2/B1 OS=Homo sapiens GN=HNRNPA2B1 PE=1 SV=2","sp|P22626|ROA2_HUMAN",1.46,0.54,1.61,1.6,1.03,1.35,1.25,0.65,1.57,1.21,1.21,1.26
+"13","HLA class I histocompatibility antigen, A-36 alpha chain OS=Homo sapiens GN=HLA-A PE=1 SV=1","sp|P30455|1A36_HUMAN",1.48,1.99,1.59,NA,NA,NA,NA,NA,NA,1.66,1.44,NA
+"14","TATA-binding protein-associated factor 2N OS=Homo sapiens GN=TAF15 PE=1 SV=1","sp|Q92804|RBP56_HUMAN",1.45,0.8,1.54,NA,NA,NA,1.19,0.85,1.03,NA,NA,NA
+"15","Myosin light polypeptide 6 OS=Homo sapiens GN=MYL6 PE=1 SV=2","sp|P60660|MYL6_HUMAN",1.64,1.45,1.52,1.44,0.92,1.31,NA,NA,NA,1.37,1.08,NA
+"16","Splicing factor 3B subunit 2 OS=Homo sapiens GN=SF3B2 PE=1 SV=1","sp|Q13435|SF3B2_HUMAN",1.08,1.03,1.51,NA,NA,NA,1.1,1.01,1.14,NA,NA,NA
+"17","Trypsin-2 OS=Homo sapiens GN=PRSS2 PE=1 SV=1","sp|P07478|TRY2_HUMAN",0.93,0.91,1.49,NA,NA,NA,1.53,1.47,1.31,NA,NA,NA
+"18","Splicing factor 3A subunit 1 OS=Homo sapiens GN=SF3A1 PE=1 SV=1","sp|Q15459|SF3A1_HUMAN",1.26,1.26,1.48,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"19","Heterogeneous nuclear ribonucleoprotein G OS=Homo sapiens GN=RBMX PE=1 SV=3","sp|P38159|HNRPG_HUMAN",1.32,0.44,1.46,1.4,1,1.11,1.2,0.47,1.18,1.61,1.42,1.06
+"20","Splicing factor 3B subunit 3 OS=Homo sapiens GN=SF3B3 PE=1 SV=4","sp|Q15393|SF3B3_HUMAN",1.42,0.85,1.45,0.95,NA,1.01,0.88,1.01,0.89,NA,NA,0.86
+"21","Heterogeneous nuclear ribonucleoprotein M OS=Homo sapiens GN=HNRNPM PE=1 SV=3","sp|P52272|HNRPM_HUMAN",1.13,0.91,1.45,0.88,1.35,0.96,1.41,0.87,1.12,1.16,1.28,1.26
+"22","Heterogeneous nuclear ribonucleoprotein H OS=Homo sapiens GN=HNRNPH1 PE=1 SV=4","sp|P31943|HNRH1_HUMAN",1.09,0.85,1.45,1.6,1.15,1.4,0.97,0.94,1.15,0.96,1.07,0.99
+"23","Bifunctional purine biosynthesis protein PURH OS=Homo sapiens GN=ATIC PE=1 SV=3","sp|P31939|PUR9_HUMAN",0.96,1.19,1.45,0.92,0.83,0.97,1.21,0.81,0.97,NA,NA,NA
+"24","Heterogeneous nuclear ribonucleoprotein A/B OS=Homo sapiens GN=HNRNPAB PE=1 SV=2","sp|Q99729|ROAA_HUMAN",1.97,0.78,1.44,NA,NA,NA,1.08,0.87,1.42,NA,NA,NA
+"25","Spliceosome RNA helicase BAT1 OS=Homo sapiens GN=BAT1 PE=1 SV=1","sp|Q13838|UAP56_HUMAN",1.19,1.19,1.44,1.29,NA,1.2,0.98,0.96,1.19,NA,NA,0.97
+"26","HLA class II histocompatibility antigen, DRB1-4 beta chain OS=Homo sapiens GN=HLA-DRB1 PE=1 SV=1","sp|P13760|2B14_HUMAN",1.89,1.08,1.43,NA,NA,NA,NA,NA,NA,0.95,1.08,NA
+"27","Heterogeneous nuclear ribonucleoprotein L OS=Homo sapiens GN=HNRNPL PE=1 SV=2","sp|P14866|HNRPL_HUMAN",1.24,0.59,1.43,1.45,1.03,1.21,1.07,0.69,1.48,1.02,1.05,1.1
+"28","Interleukin-25 OS=Homo sapiens GN=IL25 PE=1 SV=1","sp|Q9H293|IL25_HUMAN",0.88,0.76,1.42,0.55,0.45,0.46,NA,NA,NA,0.42,0.49,0.41
+"29","Myosin regulatory light chain 12A OS=Homo sapiens GN=MYL12A PE=1 SV=2","sp|P19105|ML12A_HUMAN",1.55,1.34,1.41,1.35,1.01,1.23,NA,NA,NA,1.34,1.13,NA
+"30","Vesicle-fusing ATPase OS=Homo sapiens GN=NSF PE=1 SV=3","sp|P46459|NSF_HUMAN",1.15,1.06,1.39,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"31","78 kDa glucose-regulated protein OS=Homo sapiens GN=HSPA5 PE=1 SV=2","sp|P11021|GRP78_HUMAN",0.78,1.51,1.38,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"32","Small nuclear ribonucleoprotein Sm D3 OS=Homo sapiens GN=SNRPD3 PE=1 SV=1","sp|P62318|SMD3_HUMAN",1.01,0.89,1.38,1.16,1.2,0.98,0.89,1.29,1.4,0.75,0.86,0.85
+"33","RNA-binding protein 14 OS=Homo sapiens GN=RBM14 PE=1 SV=2","sp|Q96PK6|RBM14_HUMAN",1.13,0.57,1.37,NA,NA,NA,0.83,0.79,0.91,NA,NA,NA
+"34","Histone H2A type 1-D OS=Homo sapiens GN=HIST1H2AD PE=1 SV=2","sp|P20671|H2A1D_HUMAN",1.6,2.37,1.37,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"35","Splicing factor, proline- and glutamine-rich OS=Homo sapiens GN=SFPQ PE=1 SV=2","sp|P23246|SFPQ_HUMAN",1.06,0.94,1.36,1.02,1.28,1.03,0.97,1.4,1.35,1.03,1.04,0.84
+"36","Thioredoxin domain-containing protein 5 OS=Homo sapiens GN=TXNDC5 PE=1 SV=2","sp|Q8NBS9|TXND5_HUMAN",1,1.24,1.36,NA,NA,NA,0.87,0.91,0.98,NA,NA,NA
+"37","Adenosine kinase OS=Homo sapiens GN=ADK PE=1 SV=2","sp|P55263|ADK_HUMAN",0.92,0.9,1.36,NA,NA,NA,1.68,0.97,1.07,NA,NA,NA
+"38","Peptidyl-prolyl cis-trans isomerase B OS=Homo sapiens GN=PPIB PE=1 SV=2","sp|P23284|PPIB_HUMAN",1.33,1.24,1.35,1.12,1.12,1.14,1.3,1.4,1,NA,NA,NA
+"39","Poly [ADP-ribose] polymerase 1 OS=Homo sapiens GN=PARP1 PE=1 SV=4","sp|P09874|PARP1_HUMAN",1.07,0.89,1.34,0.93,0.89,0.96,1.08,0.84,1.28,1.02,0.97,0.97
+"40","Spectrin beta chain, brain 1 OS=Homo sapiens GN=SPTBN1 PE=1 SV=2","sp|Q01082|SPTB2_HUMAN",1.3,1.18,1.32,NA,NA,NA,0.79,1.05,1.18,NA,NA,NA
+"41","Heterogeneous nuclear ribonucleoprotein A1 OS=Homo sapiens GN=HNRNPA1 PE=1 SV=5","sp|P09651|ROA1_HUMAN",1.16,0.57,1.31,1.59,0.61,1.41,1.1,0.89,1.51,1,1.04,1.39
+"42","Heterogeneous nuclear ribonucleoprotein U-like protein 2 OS=Homo sapiens GN=HNRNPUL2 PE=1 SV=1","sp|Q1KMD3|HNRL2_HUMAN",1.18,0.8,1.31,1.21,NA,1.17,1.25,0.85,1.65,NA,NA,1.2
+"43","Protein FAM162A OS=Homo sapiens GN=FAM162A PE=1 SV=2","sp|Q96A26|F162A_HUMAN",1.09,0.72,1.31,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"44","Cysteine-rich protein 1 OS=Homo sapiens GN=CRIP1 PE=1 SV=3","sp|P50238|CRIP1_HUMAN",1.01,0.89,1.3,1.05,1.14,1.07,NA,NA,NA,NA,NA,NA
+"45","Heterogeneous nuclear ribonucleoprotein K OS=Homo sapiens GN=HNRNPK PE=1 SV=1","sp|P61978|HNRPK_HUMAN",1.31,0.57,1.29,1.38,NA,1.36,1,0.65,1.11,NA,NA,1.36
+"46","Thiosulfate sulfurtransferase/rhodanese-like domain-containing protein 1 OS=Homo sapiens GN=TSTD1 PE=1 SV=3","sp|Q8NFU3|TSTD1_HUMAN",1.27,1.37,1.29,1.08,0.99,1.23,NA,NA,NA,1.33,1.21,NA
+"47","Splicing factor, arginine/serine-rich 7 OS=Homo sapiens GN=SFRS7 PE=1 SV=1","sp|Q16629|SFRS7_HUMAN",0.97,0.88,1.29,1.24,1,1.16,1.04,1.05,1.24,1,0.97,1.02
+"48","High mobility group nucleosome-binding domain-containing protein 4 OS=Homo sapiens GN=HMGN4 PE=1 SV=3","sp|O00479|HMGN4_HUMAN",1.67,1.11,1.29,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"49","Lamin-B2 OS=Homo sapiens GN=LMNB2 PE=1 SV=3","sp|Q03252|LMNB2_HUMAN",0.87,1.01,1.29,1.2,1.15,0.89,1.09,1.03,1.2,1.42,1.05,0.77
+"50","UV excision repair protein RAD23 homolog B OS=Homo sapiens GN=RAD23B PE=1 SV=1","sp|P54727|RD23B_HUMAN",1.02,1.11,1.28,NA,NA,NA,0.88,0.93,1.05,NA,NA,NA
+"51","Replication protein A 32 kDa subunit OS=Homo sapiens GN=RPA2 PE=1 SV=1","sp|P15927|RFA2_HUMAN",0.95,1.29,1.26,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"52","Tyrosine-protein phosphatase non-receptor type 6 OS=Homo sapiens GN=PTPN6 PE=1 SV=1","sp|P29350|PTN6_HUMAN",1.08,0.98,1.24,1.3,0.94,0.95,1.17,0.94,1.06,0.81,1.06,NA
+"53","Heterogeneous nuclear ribonucleoproteins C1/C2 OS=Homo sapiens GN=HNRNPC PE=1 SV=4","sp|P07910|HNRPC_HUMAN",1.22,1.87,1.24,1.08,1.28,1.02,1.09,1.07,0.63,1.23,0.97,NA
+"54","Core histone macro-H2A.1 OS=Homo sapiens GN=H2AFY PE=1 SV=4","sp|O75367|H2AY_HUMAN",1.04,1.06,1.23,0.96,0.86,1.07,1.28,1.01,1.07,0.86,0.79,0.96
+"55","Beta-2-microglobulin OS=Homo sapiens GN=B2M PE=1 SV=1","sp|P61769|B2MG_HUMAN",1.08,1.42,1.23,NA,NA,NA,NA,NA,NA,1.38,1.27,NA
+"56","Actin, cytoplasmic 2 OS=Homo sapiens GN=ACTG1 PE=1 SV=1","sp|P63261|ACTG_HUMAN",1.07,1.05,1.23,1.05,0.93,1.08,1.02,0.79,0.99,0.9,0.85,NA
+"57","Histone H4 OS=Homo sapiens GN=HIST1H4A PE=1 SV=2","sp|P62805|H4_HUMAN",1.1,1.64,1.23,1.13,1.07,1.02,1.12,2.7,1,0.91,1.03,NA
+"58","Histone H2B type 1-M OS=Homo sapiens GN=HIST1H2BM PE=1 SV=3","sp|Q99879|H2B1M_HUMAN",1.03,1.31,1.23,NA,NA,NA,NA,NA,NA,1.09,1.17,NA
+"59","Proteasome subunit beta type-1 OS=Homo sapiens GN=PSMB1 PE=1 SV=2","sp|P20618|PSB1_HUMAN",1.09,1.1,1.22,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60","Protein disulfide-isomerase A6 OS=Homo sapiens GN=PDIA6 PE=1 SV=1","sp|Q15084|PDIA6_HUMAN",0.75,1.54,1.22,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61","78 kDa glucose-regulated protein OS=Homo sapiens GN=HSPA5 PE=1 SV=2","sp|P11021|GRP78_HUMAN",1.2,0.98,1.22,1.16,1.01,1.23,1.02,1.12,0.98,1,1.16,NA
+"62","Heterogeneous nuclear ribonucleoprotein M OS=Homo sapiens GN=HNRNPM PE=1 SV=3","sp|P52272|HNRPM_HUMAN",1.2,1.29,1.21,1.27,0.97,1.15,0.92,1.54,1.58,NA,NA,NA
+"63","Vimentin OS=Homo sapiens GN=VIM PE=1 SV=4","sp|P08670|VIME_HUMAN",1.26,0.87,1.21,1.16,1.01,1.34,0.8,0.65,0.66,0.91,0.85,1.07
+"64","Filamin-A OS=Homo sapiens GN=FLNA PE=1 SV=4","sp|P21333|FLNA_HUMAN",1.09,1.23,1.21,1.24,1.01,1.3,1.4,1.08,1.06,1.7,1.3,NA
+"65","Catalase OS=Homo sapiens GN=CAT PE=1 SV=3","sp|P04040|CATA_HUMAN",1.08,1.4,1.21,1.06,1.27,0.99,NA,NA,NA,NA,NA,NA
+"66","40S ribosomal protein S4, X isoform OS=Homo sapiens GN=RPS4X PE=1 SV=2","sp|P62701|RS4X_HUMAN",0.81,1.01,1.21,1.07,1,1.03,0.82,0.71,0.76,0.91,0.91,NA
+"67","14-3-3 protein theta OS=Homo sapiens GN=YWHAQ PE=1 SV=1","sp|P27348|1433T_HUMAN",0.79,0.93,1.21,1.06,1.02,1.2,NA,NA,NA,NA,NA,NA
+"68","Histone H2A.x OS=Homo sapiens GN=H2AFX PE=1 SV=2","sp|P16104|H2AX_HUMAN",1.24,0.74,1.21,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"69","Peptidyl-prolyl cis-trans isomerase FKBP1A OS=Homo sapiens GN=FKBP1A PE=1 SV=2","sp|P62942|FKB1A_HUMAN",1.36,1.02,1.21,1.54,1.23,1.3,NA,NA,NA,NA,NA,NA
+"70","Electron transfer flavoprotein subunit beta OS=Homo sapiens GN=ETFB PE=1 SV=3","sp|P38117|ETFB_HUMAN",1.14,1.25,1.2,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"71","Heterogeneous nuclear ribonucleoprotein U OS=Homo sapiens GN=HNRNPU PE=1 SV=6","sp|Q00839|HNRPU_HUMAN",1.11,0.77,1.2,1.04,0.8,1.01,1.37,0.75,1.26,0.89,0.78,0.99
+"72","Small nuclear ribonucleoprotein Sm D3 OS=Homo sapiens GN=SNRPD3 PE=1 SV=1","sp|P62318|SMD3_HUMAN",1.08,1.38,1.2,1.02,1.25,0.98,NA,NA,NA,1.14,1.2,NA
+"73","Splicing factor, arginine/serine-rich 1 OS=Homo sapiens GN=SFRS1 PE=1 SV=2","sp|Q07955|SFRS1_HUMAN",1.13,0.92,1.2,1.23,0.98,1.24,1.28,1.12,1.45,0.93,0.84,1.19
+"74","Tropomyosin alpha-4 chain OS=Homo sapiens GN=TPM4 PE=1 SV=3","sp|P67936|TPM4_HUMAN",1.02,0.98,1.2,1.53,1.28,1.1,NA,NA,NA,0.85,0.84,NA
+"75","U1 small nuclear ribonucleoprotein A OS=Homo sapiens GN=SNRPA PE=1 SV=3","sp|P09012|SNRPA_HUMAN",1.11,1.13,1.19,1.11,1.33,0.98,1.1,0.93,1.37,1.19,1.06,0.91
+"76","Voltage-dependent anion-selective channel protein 1 OS=Homo sapiens GN=VDAC1 PE=1 SV=2","sp|P21796|VDAC1_HUMAN",0.98,1.3,1.18,0.55,1.03,0.65,0.8,1.87,1.54,0.91,0.82,0.89
+"77","Far upstream element-binding protein 1 OS=Homo sapiens GN=FUBP1 PE=1 SV=3","sp|Q96AE4|FUBP1_HUMAN",1.1,0.73,1.18,1.14,NA,1.17,0.84,0.71,1.1,NA,NA,1.09
+"78","Vasodilator-stimulated phosphoprotein OS=Homo sapiens GN=VASP PE=1 SV=3","sp|P50552|VASP_HUMAN",1.49,1.3,1.18,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"79","Splicing factor, arginine/serine-rich 3 OS=Homo sapiens GN=SFRS3 PE=1 SV=1","sp|P84103|SFRS3_HUMAN",1.11,0.65,1.18,1.1,1.18,1.16,1.11,0.94,1.12,1.24,1.19,1.02
+"80","Ubiquitin OS=Homo sapiens GN=RPS27A PE=1 SV=1","sp|P62988|UBIQ_HUMAN",0.82,0.72,1.17,2.11,1.06,1.3,1.13,0.92,1.35,1.51,1.64,1.42
+"81","High mobility group protein B2 OS=Homo sapiens GN=HMGB2 PE=1 SV=2","sp|P26583|HMGB2_HUMAN",1.06,1.01,1.17,NA,NA,NA,1.2,1.79,1.86,NA,NA,NA
+"82","14-3-3 protein zeta/delta OS=Homo sapiens GN=YWHAZ PE=1 SV=1","sp|P63104|1433Z_HUMAN",1.01,1.24,1.17,0.84,1.01,0.91,1.17,0.99,0.83,1.05,1.06,NA
+"83","Far upstream element-binding protein 2 OS=Homo sapiens GN=KHSRP PE=1 SV=3","sp|Q92945|FUBP2_HUMAN",1.07,1.2,1.16,NA,NA,NA,1.24,1.15,1.2,NA,NA,NA
+"84","Adenosylhomocysteinase OS=Homo sapiens GN=AHCY PE=1 SV=4","sp|P23526|SAHH_HUMAN",1.08,1.06,1.16,1.02,1.25,1.27,1.38,1.18,1.3,1.16,1.02,NA
+"85","Non-POU domain-containing octamer-binding protein OS=Homo sapiens GN=NONO PE=1 SV=4","sp|Q15233|NONO_HUMAN",1.08,0.87,1.16,1.24,1.14,1.22,0.87,1.18,1.18,0.97,0.93,1.22
+"86","Fumarate hydratase, mitochondrial OS=Homo sapiens GN=FH PE=1 SV=3","sp|P07954|FUMH_HUMAN",1.09,1.22,1.16,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"87","40S ribosomal protein S21 OS=Homo sapiens GN=RPS21 PE=1 SV=1","sp|P63220|RS21_HUMAN",0.93,1.03,1.16,NA,NA,NA,NA,NA,NA,1.17,0.86,NA
+"88","Nascent polypeptide-associated complex subunit alpha OS=Homo sapiens GN=NACA PE=1 SV=1","sp|Q13765|NACA_HUMAN",1,0.96,1.16,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"89","Nucleolin OS=Homo sapiens GN=NCL PE=1 SV=3","sp|P19338|NUCL_HUMAN",0.99,1.17,1.15,1.09,1.47,0.96,1.77,1.21,1.29,0.96,0.8,0.94
+"90","Activated RNA polymerase II transcriptional coactivator p15 OS=Homo sapiens GN=SUB1 PE=1 SV=3","sp|P53999|TCP4_HUMAN",1.05,0.87,1.15,0.87,0.91,0.73,1.19,1.12,1.03,0.77,0.8,NA
+"91","ATP-dependent RNA helicase A OS=Homo sapiens GN=DHX9 PE=1 SV=4","sp|Q08211|DHX9_HUMAN",1.02,NA,1.15,1.43,NA,NA,1.09,1.14,1.14,NA,NA,NA
+"92","Endoplasmic reticulum resident protein 29 OS=Homo sapiens GN=ERP29 PE=1 SV=4","sp|P30040|ERP29_HUMAN",1.61,1.14,1.15,1.29,1.03,1.06,1.19,1.14,1.46,1.35,1.15,NA
+"93","Probable ATP-dependent RNA helicase DDX17 OS=Homo sapiens GN=DDX17 PE=1 SV=1","sp|Q92841|DDX17_HUMAN",1.01,0.82,1.15,1.02,1.03,0.93,0.97,1,1.01,0.83,0.85,0.95
+"94","Voltage-dependent anion-selective channel protein 2 OS=Homo sapiens GN=VDAC2 PE=1 SV=2","sp|P45880|VDAC2_HUMAN",0.98,1.22,1.15,0.55,0.75,0.92,0.77,1.85,1.21,0.76,0.66,0.76
+"95","Heterogeneous nuclear ribonucleoprotein U-like protein 1 OS=Homo sapiens GN=HNRNPUL1 PE=1 SV=2","sp|Q9BUJ2|HNRL1_HUMAN",1.2,0.87,1.15,NA,NA,NA,1.2,0.88,1.26,NA,NA,NA
+"96","Cytochrome c oxidase subunit 6C OS=Homo sapiens GN=COX6C PE=1 SV=2","sp|P09669|COX6C_HUMAN",0.99,0.98,1.15,0.98,0.99,1.09,NA,NA,NA,0.88,0.97,NA
+"97","Tubulin alpha-4A chain OS=Homo sapiens GN=TUBA4A PE=1 SV=1","sp|P68366|TBA4A_HUMAN",0.97,1.1,1.15,1.34,1.13,1.4,NA,NA,NA,1.04,1.01,NA
+"98","Tyrosine-protein kinase CSK OS=Homo sapiens GN=CSK PE=1 SV=1","sp|P41240|CSK_HUMAN",1.19,1.05,1.14,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"99","Talin-1 OS=Homo sapiens GN=TLN1 PE=1 SV=3","sp|Q9Y490|TLN1_HUMAN",1.06,1.14,1.14,1.05,1.01,1.16,NA,NA,NA,NA,NA,NA
+"100","40S ribosomal protein S15a OS=Homo sapiens GN=RPS15A PE=1 SV=2","sp|P62244|RS15A_HUMAN",1.07,1,1.14,0.94,0.84,0.9,0.95,0.73,0.88,1.02,1.07,NA
+"101","Lamin-B receptor OS=Homo sapiens GN=LBR PE=1 SV=2","sp|Q14739|LBR_HUMAN",0.99,0.54,1.14,NA,NA,NA,0.95,0.96,0.91,NA,NA,NA
+"102","Actin, alpha cardiac muscle 1 OS=Homo sapiens GN=ACTC1 PE=1 SV=1","sp|P68032|ACTC_HUMAN",1.16,1.15,1.14,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"103","Programmed cell death protein 4 OS=Homo sapiens GN=PDCD4 PE=1 SV=1","sp|Q53EL6|PDCD4_HUMAN",1.08,1.06,1.14,NA,NA,NA,1,0.89,1.01,NA,NA,NA
+"104","Translocator protein OS=Homo sapiens GN=TSPO PE=1 SV=2","sp|P30536|TSPOA_HUMAN",1.3,1.2,1.13,0.95,0.91,1.05,1.09,1.32,1.14,NA,NA,NA
+"105","Histone H2A.J OS=Homo sapiens GN=H2AFJ PE=1 SV=1","sp|Q9BTM1|H2AJ_HUMAN",0.94,1.18,1.13,1.07,1.05,0.86,1.39,2.73,1.12,0.92,0.89,NA
+"106","40S ribosomal protein S24 OS=Homo sapiens GN=RPS24 PE=1 SV=1","sp|P62847|RS24_HUMAN",0.96,1.04,1.13,NA,NA,NA,0.64,0.61,0.84,NA,NA,NA
+"107","Ubiquitin-like modifier-activating enzyme 6 OS=Homo sapiens GN=UBA6 PE=1 SV=1","sp|A0AVT1|UBA6_HUMAN",0.8,0.89,1.12,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"108","Interleukin enhancer-binding factor 2 OS=Homo sapiens GN=ILF2 PE=1 SV=2","sp|Q12905|ILF2_HUMAN",1.04,0.95,1.12,0.73,NA,0.73,1.11,0.82,1.21,NA,NA,0.65
+"109","Heterogeneous nuclear ribonucleoprotein D0 OS=Homo sapiens GN=HNRNPD PE=1 SV=1","sp|Q14103|HNRPD_HUMAN",1.06,0.89,1.12,1.68,0.6,1.64,1.05,0.79,1.13,1.11,1.17,1.58
+"110","Calnexin OS=Homo sapiens GN=CANX PE=1 SV=2","sp|P27824|CALX_HUMAN",1.17,1.13,1.12,1.07,0.95,1.29,NA,NA,NA,1.24,1.2,NA
+"111","Rho GDP-dissociation inhibitor 1 OS=Homo sapiens GN=ARHGDIA PE=1 SV=3","sp|P52565|GDIR1_HUMAN",0.98,1,1.12,1.04,1.07,1.1,0.97,0.95,1.02,1.03,1.11,NA
+"112","Apoptotic chromatin condensation inducer in the nucleus OS=Homo sapiens GN=ACIN1 PE=1 SV=1","sp|Q9UKV3|ACINU_HUMAN",0.87,0.86,1.12,1.24,NA,0.88,1.28,0.89,1.38,NA,NA,1.19
+"113","Putative elongation factor 1-alpha-like 3 OS=Homo sapiens GN=EEF1AL3 PE=5 SV=1","sp|Q5VTE0|EF1A3_HUMAN",0.96,1.32,1.12,0.94,1.03,0.83,0.62,0.65,0.6,1.04,0.93,1.03
+"114","60S ribosomal protein L3 OS=Homo sapiens GN=RPL3 PE=1 SV=2","sp|P39023|RL3_HUMAN",1.14,1.05,1.11,0.89,0.97,0.86,0.59,0.76,0.91,NA,NA,NA
+"115","6-phosphofructokinase, liver type OS=Homo sapiens GN=PFKL PE=1 SV=6","sp|P17858|K6PL_HUMAN",1.14,1.2,1.11,1.2,1.24,1.26,NA,NA,NA,NA,NA,NA
+"116","HLA class II histocompatibility antigen, DR alpha chain OS=Homo sapiens GN=HLA-DRA PE=1 SV=1","sp|P01903|DRA_HUMAN",1.41,1.05,1.11,NA,NA,NA,1.03,1.86,1.29,1.01,1.26,NA
+"117","Transcription intermediary factor 1-beta OS=Homo sapiens GN=TRIM28 PE=1 SV=5","sp|Q13263|TIF1B_HUMAN",1.04,1.11,1.11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118","Protein S100-A8 OS=Homo sapiens GN=S100A8 PE=1 SV=1","sp|P05109|S10A8_HUMAN",0.79,3.58,1.11,1.57,1.38,2.12,0.86,3.23,1.81,1.19,1.26,NA
+"119","Small ubiquitin-related modifier 2 OS=Homo sapiens GN=SUMO2 PE=1 SV=1","sp|P61956|SUMO2_HUMAN",1.13,0.82,1.11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120","Tropomyosin alpha-3 chain OS=Homo sapiens GN=TPM3 PE=1 SV=1","sp|P06753|TPM3_HUMAN",1.08,1.08,1.11,NA,NA,NA,0.94,0.78,0.94,1.23,1.13,NA
+"121","Endoplasmin OS=Homo sapiens GN=HSP90B1 PE=1 SV=1","sp|P14625|ENPL_HUMAN",1.14,1.06,1.11,1.34,1.23,1.3,NA,NA,NA,0.98,0.97,NA
+"122","Ubiquitin-conjugating enzyme E2 K OS=Homo sapiens GN=UBE2K PE=1 SV=3","sp|P61086|UBE2K_HUMAN",1.14,1.08,1.11,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"123","40S ribosomal protein S14 OS=Homo sapiens GN=RPS14 PE=1 SV=3","sp|P62263|RS14_HUMAN",0.97,1.1,1.11,NA,NA,NA,NA,NA,NA,1.35,1.4,NA
+"124","Protein disulfide-isomerase OS=Homo sapiens GN=P4HB PE=1 SV=3","sp|P07237|PDIA1_HUMAN",1.07,1.15,1.11,1.12,1.38,1.28,NA,NA,NA,1.16,1.25,NA
+"125","T-cell leukemia/lymphoma protein 1A OS=Homo sapiens GN=TCL1A PE=1 SV=1","sp|P56279|TCL1A_HUMAN",2.58,0.9,1.1,1.79,1.6,1.19,2.26,2.79,0.97,1.38,1.36,NA
+"126","AP-1 complex subunit beta-1 OS=Homo sapiens GN=AP1B1 PE=1 SV=2","sp|Q10567|AP1B1_HUMAN",1.15,0.99,1.1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127","Glucosidase 2 subunit beta OS=Homo sapiens GN=PRKCSH PE=1 SV=2","sp|P14314|GLU2B_HUMAN",1.14,1.09,1.1,1.26,1.11,1.01,1.11,1.24,1.34,NA,NA,NA
+"128","3,2-trans-enoyl-CoA isomerase, mitochondrial OS=Homo sapiens GN=DCI PE=1 SV=1","sp|P42126|D3D2_HUMAN",0.89,0.82,1.1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"129","Hematopoietic lineage cell-specific protein OS=Homo sapiens GN=HCLS1 PE=1 SV=2","sp|P14317|HCLS1_HUMAN",1.1,1.09,1.1,0.89,0.97,0.87,1.04,1.41,1.09,1.13,1.06,NA
+"130","Cytochrome c1, heme protein, mitochondrial OS=Homo sapiens GN=CYC1 PE=1 SV=2","sp|P08574|CY1_HUMAN",0.76,1.16,1.1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"131","Zinc finger protein 207 OS=Homo sapiens GN=ZNF207 PE=1 SV=1","sp|O43670|ZN207_HUMAN",0.93,1,1.1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"132","Nucleolar protein 56 OS=Homo sapiens GN=NOP56 PE=1 SV=4","sp|O00567|NOP56_HUMAN",1.06,1,1.1,1.25,NA,1.15,1.04,1.19,1.12,NA,NA,1.22
+"133","T-complex protein 1 subunit theta OS=Homo sapiens GN=CCT8 PE=1 SV=4","sp|P50990|TCPQ_HUMAN",1.01,1.04,1.1,0.9,1.03,1.09,1.11,1.05,0.77,1.11,1.14,NA
+"134","Abhydrolase domain-containing protein 14B OS=Homo sapiens GN=ABHD14B PE=1 SV=1","sp|Q96IU4|ABHEB_HUMAN",1.03,0.86,1.09,1.04,1.31,0.87,1.1,0.94,0.83,1.33,1.08,NA
+"135","Glucose-6-phosphate 1-dehydrogenase OS=Homo sapiens GN=G6PD PE=1 SV=4","sp|P11413|G6PD_HUMAN",1.04,1.19,1.09,0.94,0.99,0.97,1.03,0.88,1.11,1.09,1.06,NA
+"136","Pre-mRNA-processing factor 6 OS=Homo sapiens GN=PRPF6 PE=1 SV=1","sp|O94906|PRP6_HUMAN",1.08,0.82,1.09,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"137","Histone H4 OS=Homo sapiens GN=HIST1H4A PE=1 SV=2","sp|P62805|H4_HUMAN",1.32,0.92,1.09,0.99,0.72,1.45,0.92,0.67,0.8,1.39,1.43,1.27
+"138","Delta(3,5)-Delta(2,4)-dienoyl-CoA isomerase, mitochondrial OS=Homo sapiens GN=ECH1 PE=1 SV=2","sp|Q13011|ECH1_HUMAN",1.04,1.05,1.09,1.04,1.06,0.91,NA,NA,NA,NA,NA,NA
+"139","Tyrosine-protein kinase Lyn OS=Homo sapiens GN=LYN PE=1 SV=3","sp|P07948|LYN_HUMAN",0.87,0.99,1.09,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140","Lamina-associated polypeptide 2, isoforms beta/gamma OS=Homo sapiens GN=TMPO PE=1 SV=2","sp|P42167|LAP2B_HUMAN",1.19,0.93,1.09,0.97,0.91,0.82,0.9,0.61,0.7,1.07,1.13,0.99
+"141","Purine nucleoside phosphorylase OS=Homo sapiens GN=PNP PE=1 SV=2","sp|P00491|PNPH_HUMAN",1.38,1.24,1.09,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"142","KH domain-containing, RNA-binding, signal transduction-associated protein 1 OS=Homo sapiens GN=KHDRBS1 PE=1 SV=1","sp|Q07666|KHDR1_HUMAN",1.35,0.79,1.09,0.98,NA,1.14,0.93,0.78,1.09,NA,NA,1.13
+"143","Cytochrome c OS=Homo sapiens GN=CYCS PE=1 SV=2","sp|P99999|CYC_HUMAN",0.93,1.28,1.09,NA,NA,NA,1.04,1.54,1.34,NA,NA,NA
+"144","40S ribosomal protein S3 OS=Homo sapiens GN=RPS3 PE=1 SV=2","sp|P23396|RS3_HUMAN",1.06,1.09,1.09,1.08,1.04,1.06,NA,NA,NA,1.04,1.04,NA
+"145","DAZ-associated protein 1 OS=Homo sapiens GN=DAZAP1 PE=1 SV=1","sp|Q96EP5|DAZP1_HUMAN",1.53,0.36,1.09,NA,NA,NA,0.86,0.71,0.96,NA,NA,NA
+"146","Polypyrimidine tract-binding protein 1 OS=Homo sapiens GN=PTBP1 PE=1 SV=1","sp|P26599|PTBP1_HUMAN",0.93,0.7,1.09,NA,NA,NA,1,0.63,1.29,NA,NA,NA
+"147","Interleukin-25 OS=Homo sapiens GN=IL25 PE=1 SV=1","sp|Q9H293|IL25_HUMAN",1.35,1.22,1.09,NA,NA,NA,1.33,1.45,1.32,1.07,1.14,NA
+"148","Aconitate hydratase, mitochondrial OS=Homo sapiens GN=ACO2 PE=1 SV=2","sp|Q99798|ACON_HUMAN",0.95,1,1.09,0.99,0.99,1.07,NA,NA,NA,1.03,1.03,NA
+"149","EH domain-containing protein 1 OS=Homo sapiens GN=EHD1 PE=1 SV=2","sp|Q9H4M9|EHD1_HUMAN",0.79,0.99,1.09,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"150","Heat shock 70 kDa protein 1A/1B OS=Homo sapiens GN=HSPA1A PE=1 SV=5","sp|P08107|HSP71_HUMAN",1.3,0.99,1.09,NA,NA,NA,NA,NA,NA,0.96,1.25,NA
+"151","Ferritin heavy chain OS=Homo sapiens GN=FTH1 PE=1 SV=2","sp|P02794|FRIH_HUMAN",0.68,0.99,1.08,NA,NA,NA,1.29,1.76,1.2,NA,NA,NA
+"152","AH receptor-interacting protein OS=Homo sapiens GN=AIP PE=1 SV=2","sp|O00170|AIP_HUMAN",0.95,1.2,1.08,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"153","Splicing factor, arginine/serine-rich 3 OS=Homo sapiens GN=SFRS3 PE=1 SV=1","sp|P84103|SFRS3_HUMAN",0.93,1.25,1.08,NA,NA,NA,1.09,1.14,1.02,1.26,1.26,NA
+"154","Triosephosphate isomerase OS=Homo sapiens GN=TPI1 PE=1 SV=2","sp|P60174|TPIS_HUMAN",1.09,1,1.08,0.98,1.05,0.86,1.2,0.99,0.99,0.98,0.93,NA
+"155","T-complex protein 1 subunit zeta OS=Homo sapiens GN=CCT6A PE=1 SV=3","sp|P40227|TCPZ_HUMAN",1.04,1.05,1.08,1.11,1.25,0.89,NA,NA,NA,0.98,0.92,NA
+"156","Protein disulfide-isomerase A3 OS=Homo sapiens GN=PDIA3 PE=1 SV=4","sp|P30101|PDIA3_HUMAN",1.24,0.97,1.08,1.09,1.01,1.11,1.05,1.03,1.05,1,0.99,NA
+"157","Proliferation-associated protein 2G4 OS=Homo sapiens GN=PA2G4 PE=1 SV=3","sp|Q9UQ80|PA2G4_HUMAN",0.99,1,1.08,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"158","Septin-7 OS=Homo sapiens GN=SEPT7 PE=1 SV=2","sp|Q16181|SEPT7_HUMAN",0.9,0.95,1.08,NA,NA,NA,0.9,0.82,1.14,NA,NA,NA
+"159","Transcription elongation factor A protein-like 3 OS=Homo sapiens GN=TCEAL3 PE=1 SV=1","sp|Q969E4|TCAL3_HUMAN",1.15,1.01,1.08,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"160","Annexin A7 OS=Homo sapiens GN=ANXA7 PE=1 SV=3","sp|P20073|ANXA7_HUMAN",0.95,0.85,1.08,0.97,0.91,1.04,0.9,0.86,0.96,NA,NA,NA
+"161","Synaptophysin-like protein 1 OS=Homo sapiens GN=SYPL1 PE=1 SV=1","sp|Q16563|SYPL1_HUMAN",1,1.16,1.08,1.01,1.03,0.89,NA,NA,NA,0.84,0.79,NA
+"162","rRNA 2'-O-methyltransferase fibrillarin OS=Homo sapiens GN=FBL PE=1 SV=2","sp|P22087|FBRL_HUMAN",0.97,1.13,1.08,0.96,1.03,0.85,0.97,1.29,1.19,0.89,0.89,0.89
+"163","Scavenger mRNA-decapping enzyme DcpS OS=Homo sapiens GN=DCPS PE=1 SV=2","sp|Q96C86|DCPS_HUMAN",1.14,1.16,1.08,1.23,1.22,1.05,0.86,0.96,1.03,1.24,1.04,NA
+"164","Macrophage migration inhibitory factor OS=Homo sapiens GN=MIF PE=1 SV=4","sp|P14174|MIF_HUMAN",1.31,0.97,1.08,NA,NA,NA,1.3,2.14,1.04,NA,NA,NA
+"165","Vesicle-trafficking protein SEC22b OS=Homo sapiens GN=SEC22B PE=1 SV=3","sp|O75396|SC22B_HUMAN",1.08,1.03,1.08,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"166","14-3-3 protein epsilon OS=Homo sapiens GN=YWHAE PE=1 SV=1","sp|P62258|1433E_HUMAN",0.99,1.05,1.08,NA,NA,NA,1.02,1.19,0.91,1.17,1.12,NA
+"167","Thyroid hormone receptor-associated protein 3 OS=Homo sapiens GN=THRAP3 PE=1 SV=2","sp|Q9Y2W1|TR150_HUMAN",0.97,0.72,1.08,NA,NA,NA,1.07,0.79,1.45,NA,NA,NA
+"168","Calpain small subunit 1 OS=Homo sapiens GN=CAPNS1 PE=1 SV=1","sp|P04632|CPNS1_HUMAN",1.06,1.12,1.08,1.14,1.01,1.07,1.04,0.79,0.89,1.1,1.15,NA
+"169","Non-histone chromosomal protein HMG-17 OS=Homo sapiens GN=HMGN2 PE=1 SV=3","sp|P05204|HMGN2_HUMAN",1.77,1,1.08,NA,NA,NA,1.42,0.99,1.21,NA,NA,NA
+"170","Actin-related protein 3 OS=Homo sapiens GN=ACTR3 PE=1 SV=3","sp|P61158|ARP3_HUMAN",1.16,1.05,1.07,0.84,1,1.02,1.43,1.2,1.12,1,0.99,NA
+"171","60S ribosomal protein L22 OS=Homo sapiens GN=RPL22 PE=1 SV=2","sp|P35268|RL22_HUMAN",0.94,0.94,1.07,0.93,1.03,0.99,NA,NA,NA,0.63,0.57,NA
+"172","Pre-mRNA-processing-splicing factor 8 OS=Homo sapiens GN=PRPF8 PE=1 SV=2","sp|Q6P2Q9|PRP8_HUMAN",0.99,NA,1.07,0.82,NA,NA,0.97,1.05,0.96,NA,NA,NA
+"173","ATP synthase subunit e, mitochondrial OS=Homo sapiens GN=ATP5I PE=1 SV=2","sp|P56385|ATP5I_HUMAN",1.19,0.98,1.07,NA,NA,NA,NA,NA,NA,1.09,1.05,NA
+"174","Lamin-B1 OS=Homo sapiens GN=LMNB1 PE=1 SV=2","sp|P20700|LMNB1_HUMAN",1.12,0.94,1.07,1.08,0.94,1.08,1.27,1.42,1.23,0.75,0.78,1.15
+"175","Protein disulfide-isomerase A6 OS=Homo sapiens GN=PDIA6 PE=1 SV=1","sp|Q15084|PDIA6_HUMAN",1.13,1.11,1.07,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"176","Matrin-3 OS=Homo sapiens GN=MATR3 PE=1 SV=2","sp|P43243|MATR3_HUMAN",1.03,0.8,1.07,1.09,NA,1.03,1.06,0.88,1.21,NA,NA,0.9
+"177","Switch-associated protein 70 OS=Homo sapiens GN=SWAP70 PE=1 SV=1","sp|Q9UH65|SWP70_HUMAN",1.03,1.28,1.07,0.99,1.07,1.01,NA,NA,NA,1.54,1.38,NA
+"178","Ubiquitin-conjugating enzyme E2 variant 2 OS=Homo sapiens GN=UBE2V2 PE=1 SV=4","sp|Q15819|UB2V2_HUMAN",0.99,1.05,1.07,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"179","Heat shock cognate 71 kDa protein OS=Homo sapiens GN=HSPA8 PE=1 SV=1","sp|P11142|HSP7C_HUMAN",0.9,1.17,1.07,NA,NA,NA,0.89,0.92,1.01,NA,NA,NA
+"180","Calreticulin OS=Homo sapiens GN=CALR PE=1 SV=1","sp|P27797|CALR_HUMAN",1.11,1.03,1.07,1.2,1.08,1.06,1.05,0.98,1.19,1.23,1.2,NA
+"181","Glucose-6-phosphate isomerase OS=Homo sapiens GN=GPI PE=1 SV=4","sp|P06744|G6PI_HUMAN",1.14,1.17,1.07,1.03,0.92,1.17,1.11,0.88,1.08,1.05,1.16,NA
+"182","ADP/ATP translocase 2 OS=Homo sapiens GN=SLC25A5 PE=1 SV=6","sp|P05141|ADT2_HUMAN",1.07,1.08,1.07,NA,NA,NA,NA,NA,NA,0.94,0.91,NA
+"183","SUMO-conjugating enzyme UBC9 OS=Homo sapiens GN=UBE2I PE=1 SV=1","sp|P63279|UBC9_HUMAN",0.9,0.85,1.07,0.86,1.13,1.04,0.9,0.89,0.96,NA,NA,NA
+"184","Small nuclear ribonucleoprotein-associated proteins B and B' OS=Homo sapiens GN=SNRPB PE=1 SV=2","sp|P14678|RSMB_HUMAN",1.21,0.96,1.07,NA,NA,NA,0.87,1.01,0.96,NA,NA,NA
+"185","Peptidyl-prolyl cis-trans isomerase FKBP3 OS=Homo sapiens GN=FKBP3 PE=1 SV=1","sp|Q00688|FKBP3_HUMAN",1.09,0.92,1.07,0.88,0.97,0.95,NA,NA,NA,NA,NA,NA
+"186","Protein S100-A6 OS=Homo sapiens GN=S100A6 PE=1 SV=1","sp|P06703|S10A6_HUMAN",0.91,1.12,1.07,1.02,0.99,1.32,1.21,1,0.82,0.78,0.84,NA
+"187","Heterogeneous nuclear ribonucleoprotein D-like OS=Homo sapiens GN=HNRPDL PE=1 SV=3","sp|O14979|HNRDL_HUMAN",0.97,0.65,1.07,1.72,NA,1.29,1.19,0.7,0.81,NA,NA,1.35
+"188","Ras-related protein Rab-7a OS=Homo sapiens GN=RAB7A PE=1 SV=1","sp|P51149|RAB7A_HUMAN",1.04,1.04,1.06,1.02,0.97,1.03,0.98,0.83,1.02,1.18,1.15,NA
+"189","Puromycin-sensitive aminopeptidase OS=Homo sapiens GN=NPEPPS PE=1 SV=2","sp|P55786|PSA_HUMAN",1.01,1.08,1.06,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"190","T-complex protein 1 subunit gamma OS=Homo sapiens GN=CCT3 PE=1 SV=4","sp|P49368|TCPG_HUMAN",1.05,1,1.06,0.99,1.18,1.12,0.91,1.29,1.07,NA,NA,NA
+"191","Leukotriene A-4 hydrolase OS=Homo sapiens GN=LTA4H PE=1 SV=2","sp|P09960|LKHA4_HUMAN",0.98,1.02,1.06,1.39,1.05,1.02,1.26,0.99,1.32,1.11,1.23,NA
+"192","Transketolase OS=Homo sapiens GN=TKT PE=1 SV=3","sp|P29401|TKT_HUMAN",0.93,1.19,1.06,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"193","Protein LYRIC OS=Homo sapiens GN=MTDH PE=1 SV=2","sp|Q86UE4|LYRIC_HUMAN",1.05,1.02,1.06,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"194","Ubiquitin carboxyl-terminal hydrolase 5 OS=Homo sapiens GN=USP5 PE=1 SV=2","sp|P45974|UBP5_HUMAN",1.06,0.99,1.06,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"195","Glia maturation factor gamma OS=Homo sapiens GN=GMFG PE=1 SV=1","sp|O60234|GMFG_HUMAN",1.16,1.1,1.06,1.07,1.13,0.98,NA,NA,NA,1.26,1.17,NA
+"196","Moesin OS=Homo sapiens GN=MSN PE=1 SV=3","sp|P26038|MOES_HUMAN",1.02,0.98,1.06,0.92,0.85,1.02,0.99,1,1.07,0.91,0.86,NA
+"197","WD repeat-containing protein 1 OS=Homo sapiens GN=WDR1 PE=1 SV=4","sp|O75083|WDR1_HUMAN",1.02,1.03,1.05,1,1.02,0.99,1.13,0.96,1.03,1.05,0.91,NA
+"198","Protein S100-A9 OS=Homo sapiens GN=S100A9 PE=1 SV=1","sp|P06702|S10A9_HUMAN",0.78,3.75,1.05,1.47,1.29,1.95,0.86,3.79,1.97,0.9,0.79,NA
+"199","Elongation factor 1-gamma OS=Homo sapiens GN=EEF1G PE=1 SV=3","sp|P26641|EF1G_HUMAN",1.08,1.02,1.05,1.19,0.96,1.15,0.89,0.92,1.32,0.94,0.87,NA
+"200","Hsc70-interacting protein OS=Homo sapiens GN=ST13 PE=1 SV=2","sp|P50502|F10A1_HUMAN",0.93,0.93,1.05,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"201","Histone H1.4 OS=Homo sapiens GN=HIST1H1E PE=1 SV=2","sp|P10412|H14_HUMAN",1.5,1.04,1.05,NA,NA,NA,1.13,0.92,1.17,NA,NA,NA
+"202","Polypyrimidine tract-binding protein 1 OS=Homo sapiens GN=PTBP1 PE=1 SV=1","sp|P26599|PTBP1_HUMAN",0.9,1.27,1.05,NA,NA,NA,0.95,1.45,1.04,0.97,1.01,NA
+"203","Nucleophosmin OS=Homo sapiens GN=NPM1 PE=1 SV=2","sp|P06748|NPM_HUMAN",1.17,1.07,1.04,1.6,1.21,1.63,1.17,0.75,0.87,1.68,1.49,1.38
+"204","Trifunctional enzyme subunit beta, mitochondrial OS=Homo sapiens GN=HADHB PE=1 SV=3","sp|P55084|ECHB_HUMAN",1.06,0.98,1.04,1.04,1.12,1.06,NA,NA,NA,0.8,0.78,NA
+"205","Transmembrane protein 109 OS=Homo sapiens GN=TMEM109 PE=1 SV=1","sp|Q9BVC6|TM109_HUMAN",1.01,0.86,1.04,NA,NA,NA,NA,NA,NA,0.83,0.88,NA
+"206","Prohibitin OS=Homo sapiens GN=PHB PE=1 SV=1","sp|P35232|PHB_HUMAN",0.99,1.11,1.04,0.93,1,0.99,NA,NA,NA,1.02,0.9,NA
+"207","40S ribosomal protein SA OS=Homo sapiens GN=RPSA PE=1 SV=4","sp|P08865|RSSA_HUMAN",1.03,1.01,1.04,1,1.06,0.95,0.93,0.88,1.05,0.93,0.88,NA
+"208","Heterogeneous nuclear ribonucleoproteins C1/C2 OS=Homo sapiens GN=HNRNPC PE=1 SV=4","sp|P07910|HNRPC_HUMAN",1.11,0.62,1.04,1.21,0.9,1.17,1.23,0.78,1.46,0.9,0.83,1
+"209","Arachidonate 5-lipoxygenase OS=Homo sapiens GN=ALOX5 PE=1 SV=2","sp|P09917|LOX5_HUMAN",1.12,0.98,1.04,1.14,1.14,1.26,0.82,0.83,1.15,1.2,1.15,NA
+"210","Adenylyl cyclase-associated protein 1 OS=Homo sapiens GN=CAP1 PE=1 SV=4","sp|Q01518|CAP1_HUMAN",1.01,1.05,1.04,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"211","Prohibitin-2 OS=Homo sapiens GN=PHB2 PE=1 SV=2","sp|Q99623|PHB2_HUMAN",0.97,0.98,1.04,NA,NA,NA,1.05,0.94,0.96,1,0.87,NA
+"212","Eukaryotic translation initiation factor 1A, X-chromosomal OS=Homo sapiens GN=EIF1AX PE=1 SV=2","sp|P47813|IF1AX_HUMAN",1.04,0.94,1.04,NA,NA,NA,NA,NA,NA,0.93,0.86,NA
+"213","Macrophage-capping protein OS=Homo sapiens GN=CAPG PE=1 SV=1","sp|P40121|CAPG_HUMAN",1.54,1.1,1.04,0.94,1.11,1.09,NA,NA,NA,1.01,0.93,NA
+"214","Cofilin-1 OS=Homo sapiens GN=CFL1 PE=1 SV=3","sp|P23528|COF1_HUMAN",1.02,0.87,1.04,0.94,0.87,0.97,1.2,0.88,0.94,0.96,0.94,NA
+"215","Actin-related protein 2/3 complex subunit 4 OS=Homo sapiens GN=ARPC4 PE=1 SV=3","sp|P59998|ARPC4_HUMAN",1.09,1.01,1.03,0.86,0.96,1.02,1.12,1.01,0.91,1.07,0.94,NA
+"216","Neutral alpha-glucosidase AB OS=Homo sapiens GN=GANAB PE=1 SV=3","sp|Q14697|GANAB_HUMAN",1.08,1.02,1.03,1.1,1.07,1.11,1.07,1.26,1.2,0.96,1.15,NA
+"217","40S ribosomal protein S2 OS=Homo sapiens GN=RPS2 PE=1 SV=2","sp|P15880|RS2_HUMAN",1.05,0.97,1.03,NA,NA,NA,1.14,1.15,1.01,1.2,1.38,NA
+"218","Actin-related protein 2 OS=Homo sapiens GN=ACTR2 PE=1 SV=1","sp|P61160|ARP2_HUMAN",1.06,0.94,1.03,NA,NA,NA,1.01,0.89,1,0.9,0.84,NA
+"219","60S ribosomal protein L24 OS=Homo sapiens GN=RPL24 PE=1 SV=1","sp|P83731|RL24_HUMAN",1.02,0.97,1.03,NA,NA,NA,0.92,0.69,0.95,1.03,1.06,NA
+"220","SWI/SNF complex subunit SMARCC2 OS=Homo sapiens GN=SMARCC2 PE=1 SV=1","sp|Q8TAQ2|SMRC2_HUMAN",0.88,0.96,1.03,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"221","40S ribosomal protein S5 OS=Homo sapiens GN=RPS5 PE=1 SV=4","sp|P46782|RS5_HUMAN",0.98,0.87,1.03,0.93,0.94,1.12,NA,NA,NA,0.79,0.76,NA
+"222","Gamma-interferon-inducible lysosomal thiol reductase OS=Homo sapiens GN=IFI30 PE=1 SV=2","sp|P13284|GILT_HUMAN",1.2,1.09,1.03,0.9,0.98,0.76,NA,NA,NA,NA,NA,NA
+"223","Superoxide dismutase [Cu-Zn] OS=Homo sapiens GN=SOD1 PE=1 SV=2","sp|P00441|SODC_HUMAN",0.9,0.85,1.03,0.84,1,1.03,1.02,1.45,1.16,0.91,1.02,NA
+"224","Coronin-1A OS=Homo sapiens GN=CORO1A PE=1 SV=4","sp|P31146|COR1A_HUMAN",1.19,0.98,1.03,1.2,0.92,1.12,0.85,0.98,1.14,1.16,1.07,1.12
+"225","Heterogeneous nuclear ribonucleoprotein F OS=Homo sapiens GN=HNRNPF PE=1 SV=3","sp|P52597|HNRPF_HUMAN",1.12,1.11,1.03,NA,NA,NA,1.1,0.93,1.08,1.21,1.03,NA
+"226","40S ribosomal protein S19 OS=Homo sapiens GN=RPS19 PE=1 SV=2","sp|P39019|RS19_HUMAN",0.98,0.95,1.03,0.98,0.99,0.97,0.76,1.05,1.08,1,1.02,NA
+"227","Tubulin beta-2C chain OS=Homo sapiens GN=TUBB2C PE=1 SV=1","sp|P68371|TBB2C_HUMAN",0.97,0.96,1.03,1.29,1.17,1.07,NA,NA,NA,1.06,0.89,NA
+"228","Putative ubiquitin-conjugating enzyme E2 N-like OS=Homo sapiens GN=UBE2NL PE=5 SV=1","sp|Q5JXB2|UE2NL_HUMAN",0.88,1.01,1.03,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"229","Lymphocyte-specific protein 1 OS=Homo sapiens GN=LSP1 PE=1 SV=1","sp|P33241|LSP1_HUMAN",1.06,1.24,1.03,1.15,0.97,1.02,1.27,1.41,1.28,NA,NA,NA
+"230","NADH dehydrogenase [ubiquinone] 1 alpha subcomplex subunit 4 OS=Homo sapiens GN=NDUFA4 PE=1 SV=1","sp|O00483|NDUA4_HUMAN",1.19,0.99,1.03,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"231","Cytochrome b5 type B OS=Homo sapiens GN=CYB5B PE=1 SV=2","sp|O43169|CYB5B_HUMAN",1.18,1.1,1.03,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"232","60S ribosomal protein L31 OS=Homo sapiens GN=RPL31 PE=1 SV=1","sp|P62899|RL31_HUMAN",0.99,1.03,1.03,0.96,0.97,0.89,NA,NA,NA,1.09,1.07,NA
+"233","PRA1 family protein 3 OS=Homo sapiens GN=ARL6IP5 PE=1 SV=1","sp|O75915|PRAF3_HUMAN",1.01,1.1,1.03,1.12,1.08,1.08,NA,NA,NA,NA,NA,NA
+"234","Histone-binding protein RBBP7 OS=Homo sapiens GN=RBBP7 PE=1 SV=1","sp|Q16576|RBBP7_HUMAN",1.05,1.02,1.03,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"235","ADP-ribosylation factor 1 OS=Homo sapiens GN=ARF1 PE=1 SV=2","sp|P84077|ARF1_HUMAN",1.07,1.05,1.02,0.99,0.98,1,1.01,0.88,0.94,NA,NA,NA
+"236","Tubulin beta chain OS=Homo sapiens GN=TUBB PE=1 SV=2","sp|P07437|TBB5_HUMAN",1.2,1.16,1.02,1.09,1.25,1.08,1.08,0.89,1.2,0.91,1.12,NA
+"237","Peroxiredoxin-6 OS=Homo sapiens GN=PRDX6 PE=1 SV=3","sp|P30041|PRDX6_HUMAN",1.15,0.96,1.02,1.02,1.18,0.96,0.95,1.03,0.88,1.08,1.04,NA
+"238","ATP synthase subunit d, mitochondrial OS=Homo sapiens GN=ATP5H PE=1 SV=3","sp|O75947|ATP5H_HUMAN",0.99,0.98,1.02,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"239","Protein DEK OS=Homo sapiens GN=DEK PE=1 SV=1","sp|P35659|DEK_HUMAN",1.12,1.01,1.02,0.88,0.86,0.96,1.05,1,1.12,0.91,0.98,0.87
+"240","Stress-70 protein, mitochondrial OS=Homo sapiens GN=HSPA9 PE=1 SV=2","sp|P38646|GRP75_HUMAN",0.99,1,1.02,1.02,0.89,0.94,0.99,1.08,1.13,0.85,0.99,NA
+"241","Probable ATP-dependent RNA helicase DDX17 OS=Homo sapiens GN=DDX17 PE=1 SV=1","sp|Q92841|DDX17_HUMAN",0.96,0.98,1.02,NA,NA,NA,1.26,1.35,1.04,NA,NA,NA
+"242","Rab GDP dissociation inhibitor beta OS=Homo sapiens GN=GDI2 PE=1 SV=2","sp|P50395|GDIB_HUMAN",0.97,0.91,1.02,0.93,0.81,0.87,NA,NA,NA,0.85,0.94,NA
+"243","Poly(rC)-binding protein 1 OS=Homo sapiens GN=PCBP1 PE=1 SV=2","sp|Q15365|PCBP1_HUMAN",0.97,0.97,1.02,0.94,1.26,0.96,NA,NA,NA,0.92,0.75,NA
+"244","Single-stranded DNA-binding protein, mitochondrial OS=Homo sapiens GN=SSBP1 PE=1 SV=1","sp|Q04837|SSBP_HUMAN",1.07,0.83,1.02,1.17,0.96,1.16,NA,NA,NA,0.91,0.83,NA
+"245","Neuroblast differentiation-associated protein AHNAK OS=Homo sapiens GN=AHNAK PE=1 SV=2","sp|Q09666|AHNK_HUMAN",1.18,1.03,1.02,1.14,0.97,0.92,1.11,1.75,0.86,0.99,0.94,1.19
+"246","60S ribosomal protein L18 OS=Homo sapiens GN=RPL18 PE=1 SV=2","sp|Q07020|RL18_HUMAN",1.06,1.21,1.02,0.94,0.97,0.92,NA,NA,NA,NA,NA,NA
+"247","Stromal membrane-associated protein 2 OS=Homo sapiens GN=SMAP2 PE=1 SV=1","sp|Q8WU79|SMAP2_HUMAN",1.12,1.13,1.02,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"248","Transgelin-2 OS=Homo sapiens GN=TAGLN2 PE=1 SV=3","sp|P37802|TAGL2_HUMAN",1.04,0.98,1.02,0.9,0.92,0.88,0.98,0.86,0.96,0.83,0.82,NA
+"249","Interleukin enhancer-binding factor 3 OS=Homo sapiens GN=ILF3 PE=1 SV=3","sp|Q12906|ILF3_HUMAN",1.12,0.87,1.02,1.14,NA,1,1.16,0.89,1.03,NA,NA,1.03
+"250","60S acidic ribosomal protein P2 OS=Homo sapiens GN=RPLP2 PE=1 SV=1","sp|P05387|RLA2_HUMAN",1.07,1.05,1.01,0.97,0.95,0.87,NA,NA,NA,NA,NA,NA
+"251","Transforming protein RhoA OS=Homo sapiens GN=RHOA PE=1 SV=1","sp|P61586|RHOA_HUMAN",0.99,1.01,1.01,NA,NA,NA,1.19,0.89,1.04,NA,NA,NA
+"252","ATP synthase subunit b, mitochondrial OS=Homo sapiens GN=ATP5F1 PE=1 SV=2","sp|P24539|AT5F1_HUMAN",0.97,0.87,1.01,1.02,0.92,1.04,NA,NA,NA,NA,NA,NA
+"253","Elongation factor Tu, mitochondrial OS=Homo sapiens GN=TUFM PE=1 SV=2","sp|P49411|EFTU_HUMAN",0.81,0.95,1.01,0.93,0.97,1,0.96,1.04,1.01,0.97,0.88,NA
+"254","Prothymosin alpha OS=Homo sapiens GN=PTMA PE=1 SV=2","sp|P06454|PTMA_HUMAN",0.88,0.7,1.01,NA,NA,NA,0.95,0.68,0.8,0.89,1.09,NA
+"255","60S ribosomal protein L13 OS=Homo sapiens GN=RPL13 PE=1 SV=4","sp|P26373|RL13_HUMAN",0.98,0.93,1.01,0.98,0.91,0.93,0.85,0.77,0.9,1.02,0.97,NA
+"256","SUMO-activating enzyme subunit 2 OS=Homo sapiens GN=UBA2 PE=1 SV=2","sp|Q9UBT2|SAE2_HUMAN",1.02,1.23,1.01,NA,NA,NA,NA,NA,NA,1.49,1.46,NA
+"257","ATP synthase subunit gamma, mitochondrial OS=Homo sapiens GN=ATP5C1 PE=1 SV=1","sp|P36542|ATPG_HUMAN",0.92,0.88,1.01,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"258","Profilin-1 OS=Homo sapiens GN=PFN1 PE=1 SV=2","sp|P07737|PROF1_HUMAN",1.02,1.09,1.01,1.16,1.04,0.88,1.22,0.61,0.82,1,0.96,NA
+"259","Malate dehydrogenase, mitochondrial OS=Homo sapiens GN=MDH2 PE=1 SV=3","sp|P40926|MDHM_HUMAN",1.01,1.11,1.01,1.03,1.08,1.03,0.95,0.74,0.97,0.98,0.91,NA
+"260","60S ribosomal protein L14 OS=Homo sapiens GN=RPL14 PE=1 SV=4","sp|P50914|RL14_HUMAN",0.93,0.93,1.01,1.06,1.12,1.02,NA,NA,NA,NA,NA,NA
+"261","Pyruvate dehydrogenase E1 component subunit beta, mitochondrial OS=Homo sapiens GN=PDHB PE=1 SV=3","sp|P11177|ODPB_HUMAN",0.81,0.89,1.01,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"262","Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex, mitochondrial OS=Homo sapiens GN=DLST PE=1 SV=3","sp|P36957|ODO2_HUMAN",1.13,0.97,1.01,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"263","Fructose-bisphosphate aldolase A OS=Homo sapiens GN=ALDOA PE=1 SV=2","sp|P04075|ALDOA_HUMAN",0.91,1.01,1.01,0.91,1.02,1.01,0.84,0.87,0.85,0.99,1.08,NA
+"264","Ig mu chain C region OS=Homo sapiens GN=IGHM PE=1 SV=3","sp|P01871|IGHM_HUMAN",1.16,1.03,1.01,NA,NA,NA,NA,NA,NA,1.49,0.84,NA
+"265","Interleukin enhancer-binding factor 2 OS=Homo sapiens GN=ILF2 PE=1 SV=2","sp|Q12905|ILF2_HUMAN",0.94,1.35,1.01,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"266","T-complex protein 1 subunit alpha OS=Homo sapiens GN=TCP1 PE=1 SV=1","sp|P17987|TCPA_HUMAN",1.04,1.17,1.01,1.03,1,1.04,NA,NA,NA,1.17,1.06,NA
+"267","60S ribosomal protein L7 OS=Homo sapiens GN=RPL7 PE=1 SV=1","sp|P18124|RL7_HUMAN",1.16,0.97,1.01,NA,NA,NA,NA,NA,NA,0.72,0.73,NA
+"268","14-3-3 protein beta/alpha OS=Homo sapiens GN=YWHAB PE=1 SV=3","sp|P31946|1433B_HUMAN",0.97,0.99,1.01,1.03,0.94,1.03,1.07,0.97,1.01,0.89,1.02,NA
+"269","Bcl-2-associated transcription factor 1 OS=Homo sapiens GN=BCLAF1 PE=1 SV=2","sp|Q9NYF8|BCLF1_HUMAN",1.24,0.76,1.01,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"270","Citrate synthase, mitochondrial OS=Homo sapiens GN=CS PE=1 SV=2","sp|O75390|CISY_HUMAN",0.97,0.98,1.01,0.89,0.85,0.86,0.88,0.83,1.03,1.01,0.94,NA
+"271","Ubiquitin-conjugating enzyme E2 L3 OS=Homo sapiens GN=UBE2L3 PE=1 SV=1","sp|P68036|UB2L3_HUMAN",1.06,1.08,1.01,NA,NA,NA,0.81,1.42,1,1.14,1.1,NA
+"272","Stathmin OS=Homo sapiens GN=STMN1 PE=1 SV=3","sp|P16949|STMN1_HUMAN",1.06,1.05,1.01,1.07,1.31,1.14,0.76,1.13,0.97,NA,NA,NA
+"273","Elongation factor 1-delta OS=Homo sapiens GN=EEF1D PE=1 SV=5","sp|P29692|EF1D_HUMAN",1.03,1.04,1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"274","40S ribosomal protein S25 OS=Homo sapiens GN=RPS25 PE=1 SV=1","sp|P62851|RS25_HUMAN",0.97,0.96,1,1.04,0.96,1.14,NA,NA,NA,NA,NA,NA
+"275","L-lactate dehydrogenase B chain OS=Homo sapiens GN=LDHB PE=1 SV=2","sp|P07195|LDHB_HUMAN",1.08,1.11,1,1.02,0.97,0.94,0.93,0.72,0.83,0.94,0.94,NA
+"276","Eukaryotic initiation factor 4A-I OS=Homo sapiens GN=EIF4A1 PE=1 SV=1","sp|P60842|IF4A1_HUMAN",1.03,1.01,1,NA,NA,NA,NA,NA,NA,1.06,0.97,NA
+"277","Lamina-associated polypeptide 2, isoforms beta/gamma OS=Homo sapiens GN=TMPO PE=1 SV=2","sp|P42167|LAP2B_HUMAN",0.96,0.98,1,NA,NA,NA,1.27,0.92,1.11,0.93,0.87,NA
+"278","Ubiquitin-conjugating enzyme E2 variant 1 OS=Homo sapiens GN=UBE2V1 PE=1 SV=2","sp|Q13404|UB2V1_HUMAN",0.99,0.94,1,1.07,0.89,0.99,1.1,1.03,1.08,1.19,1.09,NA
+"279","Transitional endoplasmic reticulum ATPase OS=Homo sapiens GN=VCP PE=1 SV=4","sp|P55072|TERA_HUMAN",1.03,1.04,1,0.9,0.96,0.85,NA,NA,NA,0.91,0.98,NA
+"280","Enoyl-CoA hydratase, mitochondrial OS=Homo sapiens GN=ECHS1 PE=1 SV=4","sp|P30084|ECHM_HUMAN",1.07,0.9,1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"281","Guanine nucleotide-binding protein subunit beta-2-like 1 OS=Homo sapiens GN=GNB2L1 PE=1 SV=3","sp|P63244|GBLP_HUMAN",0.88,0.9,1,1.06,0.98,0.99,0.95,0.78,0.89,1.02,0.95,NA
+"282","Cytosolic non-specific dipeptidase OS=Homo sapiens GN=CNDP2 PE=1 SV=2","sp|Q96KP4|CNDP2_HUMAN",1.04,1.16,1,NA,NA,NA,NA,NA,NA,1.19,1.1,NA
+"283","Tubulin alpha-1A chain OS=Homo sapiens GN=TUBA1A PE=1 SV=1","sp|Q71U36|TBA1A_HUMAN",1.01,0.97,1,NA,NA,NA,NA,NA,NA,0.94,1.01,NA
+"284","40S ribosomal protein S12 OS=Homo sapiens GN=RPS12 PE=1 SV=3","sp|P25398|RS12_HUMAN",1,0.93,1,NA,NA,NA,0.99,1.2,0.96,0.87,0.91,NA
+"285","10 kDa heat shock protein, mitochondrial OS=Homo sapiens GN=HSPE1 PE=1 SV=2","sp|P61604|CH10_HUMAN",1,1.08,1,0.95,1.09,1.12,0.88,1.32,0.99,1.13,1.02,NA
+"286","Chloride intracellular channel protein 1 OS=Homo sapiens GN=CLIC1 PE=1 SV=4","sp|O00299|CLIC1_HUMAN",1.02,1.08,1,0.98,1.05,1.01,0.83,1.06,0.91,0.91,0.95,NA
+"287","Ribonuclease inhibitor OS=Homo sapiens GN=RNH1 PE=1 SV=2","sp|P13489|RINI_HUMAN",1.11,0.87,1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"288","Guanine nucleotide-binding protein G(I)/G(S)/G(O) subunit gamma-2 OS=Homo sapiens GN=GNG2 PE=1 SV=2","sp|P59768|GBG2_HUMAN",0.96,1.18,1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"289","SH3 domain-binding glutamic acid-rich-like protein OS=Homo sapiens GN=SH3BGRL PE=1 SV=1","sp|O75368|SH3L1_HUMAN",1.05,0.96,1,NA,NA,NA,NA,NA,NA,1.24,1.03,NA
+"290","Heat shock protein HSP 90-alpha OS=Homo sapiens GN=HSP90AA1 PE=1 SV=5","sp|P07900|HS90A_HUMAN",0.92,0.89,1,0.98,1.06,0.88,1.14,0.87,0.92,1.2,1.09,NA
+"291","Stress-induced-phosphoprotein 1 OS=Homo sapiens GN=STIP1 PE=1 SV=1","sp|P31948|STIP1_HUMAN",0.97,1.05,1,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"292","Trifunctional enzyme subunit alpha, mitochondrial OS=Homo sapiens GN=HADHA PE=1 SV=2","sp|P40939|ECHA_HUMAN",1.04,0.89,1,1.1,0.96,1.03,0.75,1.18,1.01,0.87,0.83,NA
+"293","Phosphate carrier protein, mitochondrial OS=Homo sapiens GN=SLC25A3 PE=1 SV=2","sp|Q00325|MPCP_HUMAN",0.97,0.95,0.99,1.17,1.04,1.11,0.84,1.25,1.03,1.14,0.99,NA
+"294","60S ribosomal protein L15 OS=Homo sapiens GN=RPL15 PE=1 SV=2","sp|P61313|RL15_HUMAN",0.95,0.87,0.99,NA,NA,NA,0.93,0.95,0.94,0.89,0.86,NA
+"295","60S ribosomal protein L13a OS=Homo sapiens GN=RPL13A PE=1 SV=2","sp|P40429|RL13A_HUMAN",0.95,0.85,0.99,0.92,0.87,0.86,NA,NA,NA,NA,NA,NA
+"296","Malate dehydrogenase, cytoplasmic OS=Homo sapiens GN=MDH1 PE=1 SV=4","sp|P40925|MDHC_HUMAN",1.07,0.87,0.99,0.93,1,0.99,NA,NA,NA,1.01,0.92,NA
+"297","Alpha-actinin-4 OS=Homo sapiens GN=ACTN4 PE=1 SV=2","sp|O43707|ACTN4_HUMAN",0.97,0.94,0.99,1.18,1.1,1.28,NA,NA,NA,NA,NA,NA
+"298","Nucleolar protein 58 OS=Homo sapiens GN=NOP58 PE=1 SV=1","sp|Q9Y2X3|NOP58_HUMAN",0.94,1,0.99,NA,NA,NA,1.12,1.05,1.18,NA,NA,NA
+"299","Galectin-1 OS=Homo sapiens GN=LGALS1 PE=1 SV=2","sp|P09382|LEG1_HUMAN",1.31,1.25,0.99,1.11,1.2,1.37,1.07,2.82,1.7,0.8,1.25,NA
+"300","Phosphoglycerate mutase 1 OS=Homo sapiens GN=PGAM1 PE=1 SV=2","sp|P18669|PGAM1_HUMAN",0.99,1.03,0.99,0.97,1.11,0.98,0.92,1,1,1.01,1.04,NA
+"301","60S ribosomal protein L5 OS=Homo sapiens GN=RPL5 PE=1 SV=3","sp|P46777|RL5_HUMAN",1,0.93,0.99,1.07,1.12,0.92,0.87,0.93,0.99,0.91,0.94,NA
+"302","Sulfide:quinone oxidoreductase, mitochondrial OS=Homo sapiens GN=SQRDL PE=1 SV=1","sp|Q9Y6N5|SQRD_HUMAN",1.13,1.04,0.99,0.98,1.06,1.04,1.05,1,1.18,NA,NA,NA
+"303","Clathrin heavy chain 1 OS=Homo sapiens GN=CLTC PE=1 SV=5","sp|Q00610|CLH1_HUMAN",1.09,1.13,0.99,0.96,0.98,1.02,NA,NA,NA,1.24,0.95,NA
+"304","Phosphatidylethanolamine-binding protein 1 OS=Homo sapiens GN=PEBP1 PE=1 SV=3","sp|P30086|PEBP1_HUMAN",0.9,0.97,0.99,0.81,1.22,0.82,1.14,1.24,1.04,1.22,1.1,NA
+"305","40S ribosomal protein S8 OS=Homo sapiens GN=RPS8 PE=1 SV=2","sp|P62241|RS8_HUMAN",0.93,0.92,0.99,0.95,0.95,0.92,NA,NA,NA,0.85,0.79,NA
+"306","ATP synthase subunit g, mitochondrial OS=Homo sapiens GN=ATP5L PE=1 SV=3","sp|O75964|ATP5L_HUMAN",0.96,0.95,0.99,NA,NA,NA,0.82,0.87,0.89,NA,NA,NA
+"307","Protein tyrosine phosphatase receptor type C-associated protein OS=Homo sapiens GN=PTPRCAP PE=1 SV=1","sp|Q14761|PTCA_HUMAN",0.96,1.01,0.99,0.81,0.86,0.72,0.8,0.7,0.91,0.92,0.84,NA
+"308","Histidine triad nucleotide-binding protein 1 OS=Homo sapiens GN=HINT1 PE=1 SV=2","sp|P49773|HINT1_HUMAN",1.03,0.99,0.99,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"309","Annexin A11 OS=Homo sapiens GN=ANXA11 PE=1 SV=1","sp|P50995|ANX11_HUMAN",0.97,0.98,0.98,NA,NA,NA,NA,NA,NA,0.92,1.04,NA
+"310","NHP2-like protein 1 OS=Homo sapiens GN=NHP2L1 PE=1 SV=3","sp|P55769|NH2L1_HUMAN",1.02,1.18,0.98,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"311","Ras-related protein Rab-1B OS=Homo sapiens GN=RAB1B PE=1 SV=1","sp|Q9H0U4|RAB1B_HUMAN",1.01,0.95,0.98,1.1,0.92,1.06,NA,NA,NA,NA,NA,NA
+"312","Translin OS=Homo sapiens GN=TSN PE=1 SV=1","sp|Q15631|TSN_HUMAN",0.87,0.91,0.98,NA,NA,NA,1.18,1.38,1.19,1.11,0.98,NA
+"313","60S ribosomal protein L8 OS=Homo sapiens GN=RPL8 PE=1 SV=2","sp|P62917|RL8_HUMAN",0.84,0.94,0.98,0.99,0.84,1.03,NA,NA,NA,1.16,1.05,NA
+"314","Putative tropomyosin alpha-3 chain-like protein OS=Homo sapiens PE=5 SV=2","sp|A6NL28|TPM3L_HUMAN",0.93,0.82,0.98,1,0.92,0.96,0.81,0.9,0.89,0.98,0.92,NA
+"315","Far upstream element-binding protein 1 OS=Homo sapiens GN=FUBP1 PE=1 SV=3","sp|Q96AE4|FUBP1_HUMAN",1,1.09,0.98,0.87,1.03,0.87,1.13,1.15,1.13,1.1,1.15,NA
+"316","Heterogeneous nuclear ribonucleoprotein D-like OS=Homo sapiens GN=HNRPDL PE=1 SV=3","sp|O14979|HNRDL_HUMAN",1.02,1.4,0.98,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"317","60S ribosomal protein L28 OS=Homo sapiens GN=RPL28 PE=1 SV=3","sp|P46779|RL28_HUMAN",0.86,0.77,0.98,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"318","Neuroblast differentiation-associated protein AHNAK OS=Homo sapiens GN=AHNAK PE=1 SV=2","sp|Q09666|AHNK_HUMAN",1.01,1.07,0.98,1.34,1.08,1.26,1.04,1.36,1.29,1.1,1.2,NA
+"319","Actin-related protein 2/3 complex subunit 3 OS=Homo sapiens GN=ARPC3 PE=1 SV=3","sp|O15145|ARPC3_HUMAN",1.04,0.97,0.98,NA,NA,NA,0.91,0.83,0.99,0.98,1.12,NA
+"320","Thioredoxin OS=Homo sapiens GN=TXN PE=1 SV=3","sp|P10599|THIO_HUMAN",1.03,1.2,0.98,0.96,1.14,0.89,NA,NA,NA,0.84,0.97,NA
+"321","Importin subunit beta-1 OS=Homo sapiens GN=KPNB1 PE=1 SV=2","sp|Q14974|IMB1_HUMAN",1.12,1.17,0.98,NA,NA,NA,NA,NA,NA,1.41,1.42,NA
+"322","Extended synaptotagmin-1 OS=Homo sapiens GN=ESYT1 PE=1 SV=1","sp|Q9BSJ8|ESYT1_HUMAN",1.06,1.05,0.98,NA,NA,NA,0.84,1.69,1.26,NA,NA,NA
+"323","Glyceraldehyde-3-phosphate dehydrogenase OS=Homo sapiens GN=GAPDH PE=1 SV=3","sp|P04406|G3P_HUMAN",0.9,0.94,0.98,1.19,1.05,0.87,1.04,0.91,0.92,1.12,1.12,NA
+"324","Hepatoma-derived growth factor-related protein 2 OS=Homo sapiens GN=HDGFRP2 PE=1 SV=1","sp|Q7Z4V5|HDGR2_HUMAN",1.07,0.9,0.98,NA,NA,NA,NA,NA,NA,0.96,0.97,NA
+"325","Proteasome activator complex subunit 1 OS=Homo sapiens GN=PSME1 PE=1 SV=1","sp|Q06323|PSME1_HUMAN",1.03,1.06,0.98,0.95,0.96,0.93,1.1,0.98,1.04,0.87,1.02,NA
+"326","40S ribosomal protein S16 OS=Homo sapiens GN=RPS16 PE=1 SV=2","sp|P62249|RS16_HUMAN",1.02,0.98,0.98,0.99,0.92,0.96,0.92,0.9,0.94,0.91,0.94,NA
+"327","Heterochromatin protein 1-binding protein 3 OS=Homo sapiens GN=HP1BP3 PE=1 SV=1","sp|Q5SSJ5|HP1B3_HUMAN",0.98,0.91,0.98,0.94,1.02,0.9,1.05,1.07,0.94,1.14,1.22,1.07
+"328","LIM and SH3 domain protein 1 OS=Homo sapiens GN=LASP1 PE=1 SV=2","sp|Q14847|LASP1_HUMAN",1.29,1.04,0.97,0.85,0.91,0.97,0.92,1.23,1.06,1.12,0.91,NA
+"329","Nucleosome assembly protein 1-like 4 OS=Homo sapiens GN=NAP1L4 PE=1 SV=1","sp|Q99733|NP1L4_HUMAN",1.02,1.11,0.97,NA,NA,NA,NA,NA,NA,1.27,1.39,NA
+"330","60S ribosomal protein L36 OS=Homo sapiens GN=RPL36 PE=1 SV=3","sp|Q9Y3U8|RL36_HUMAN",0.94,0.9,0.97,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"331","60S ribosomal protein L18a OS=Homo sapiens GN=RPL18A PE=1 SV=2","sp|Q02543|RL18A_HUMAN",0.88,0.86,0.97,NA,NA,NA,0.88,0.63,0.86,NA,NA,NA
+"332","Isocitrate dehydrogenase [NADP], mitochondrial OS=Homo sapiens GN=IDH2 PE=1 SV=2","sp|P48735|IDHP_HUMAN",1,1.12,0.97,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"333","Tyrosine-protein kinase BAZ1B OS=Homo sapiens GN=BAZ1B PE=1 SV=2","sp|Q9UIG0|BAZ1B_HUMAN",1.14,0.74,0.97,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"334","Titin OS=Homo sapiens GN=TTN PE=1 SV=2","sp|Q8WZ42|TITIN_HUMAN",1.02,0.85,0.97,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"335","ATP synthase subunit alpha, mitochondrial OS=Homo sapiens GN=ATP5A1 PE=1 SV=1","sp|P25705|ATPA_HUMAN",0.97,0.93,0.97,0.93,0.95,1.04,1,1.08,1.04,0.95,0.93,NA
+"336","Peptidyl-prolyl cis-trans isomerase B OS=Homo sapiens GN=PPIB PE=1 SV=2","sp|P23284|PPIB_HUMAN",1.08,0.96,0.97,0.81,NA,1,NA,NA,NA,NA,NA,0.84
+"337","Programmed cell death 6-interacting protein OS=Homo sapiens GN=PDCD6IP PE=1 SV=1","sp|Q8WUM4|PDC6I_HUMAN",0.97,0.96,0.97,NA,NA,NA,NA,NA,NA,0.98,1.08,NA
+"338","Elongation factor 1-beta OS=Homo sapiens GN=EEF1B2 PE=1 SV=3","sp|P24534|EF1B_HUMAN",1.05,1.08,0.97,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"339","6-phosphogluconate dehydrogenase, decarboxylating OS=Homo sapiens GN=PGD PE=1 SV=3","sp|P52209|6PGD_HUMAN",0.95,0.99,0.97,1.06,0.97,0.99,NA,NA,NA,0.73,0.77,NA
+"340","Eukaryotic translation initiation factor 5A-1 OS=Homo sapiens GN=EIF5A PE=1 SV=2","sp|P63241|IF5A1_HUMAN",0.93,1.05,0.97,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"341","Guanine nucleotide-binding protein G(i) subunit alpha-2 OS=Homo sapiens GN=GNAI2 PE=1 SV=3","sp|P04899|GNAI2_HUMAN",0.86,0.95,0.97,1.4,1.33,0.93,NA,NA,NA,NA,NA,NA
+"342","Cytoskeleton-associated protein 4 OS=Homo sapiens GN=CKAP4 PE=1 SV=2","sp|Q07065|CKAP4_HUMAN",1.11,1.01,0.96,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"343","Glyoxalase domain-containing protein 4 OS=Homo sapiens GN=GLOD4 PE=1 SV=1","sp|Q9HC38|GLOD4_HUMAN",1.01,1,0.96,NA,NA,NA,1.07,0.74,0.89,NA,NA,NA
+"344","Actin-related protein 2/3 complex subunit 1B OS=Homo sapiens GN=ARPC1B PE=1 SV=3","sp|O15143|ARC1B_HUMAN",0.98,0.97,0.96,NA,NA,NA,0.97,0.96,1.09,1.05,1.05,NA
+"345","Actin-related protein 2/3 complex subunit 2 OS=Homo sapiens GN=ARPC2 PE=1 SV=1","sp|O15144|ARPC2_HUMAN",1.05,0.96,0.96,1.09,0.96,1.01,0.99,0.79,0.96,0.88,0.84,NA
+"346","40S ribosomal protein S3a OS=Homo sapiens GN=RPS3A PE=1 SV=2","sp|P61247|RS3A_HUMAN",0.96,0.97,0.96,0.9,0.68,0.84,1.21,0.97,1.01,0.99,0.99,NA
+"347","Aspartate aminotransferase, mitochondrial OS=Homo sapiens GN=GOT2 PE=1 SV=2","sp|P00505|AATM_HUMAN",0.87,0.96,0.96,1.01,0.88,0.91,1.41,1.13,0.85,1.16,0.92,NA
+"348","ATP synthase subunit beta, mitochondrial OS=Homo sapiens GN=ATP5B PE=1 SV=3","sp|P06576|ATPB_HUMAN",0.9,0.9,0.96,0.99,0.95,1.01,0.81,0.89,0.95,0.9,0.89,NA
+"349","Small ubiquitin-related modifier 4 OS=Homo sapiens GN=SUMO4 PE=1 SV=2","sp|Q6EEV6|SUMO4_HUMAN",0.97,0.91,0.96,NA,NA,NA,NA,NA,NA,1.19,1.02,NA
+"350","GTP-binding nuclear protein Ran OS=Homo sapiens GN=RAN PE=1 SV=3","sp|P62826|RAN_HUMAN",1,0.95,0.96,1.13,0.84,0.9,0.94,0.88,0.95,1.08,1.13,NA
+"351","Ubiquitin thioesterase OTUB1 OS=Homo sapiens GN=OTUB1 PE=1 SV=2","sp|Q96FW1|OTUB1_HUMAN",0.87,0.86,0.96,0.83,0.98,0.84,NA,NA,NA,NA,NA,NA
+"352","Pre-mRNA-processing factor 19 OS=Homo sapiens GN=PRPF19 PE=1 SV=1","sp|Q9UMS4|PRP19_HUMAN",0.84,1.1,0.96,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"353","RNA-binding protein Raly OS=Homo sapiens GN=RALY PE=1 SV=1","sp|Q9UKM9|RALY_HUMAN",1.31,0.77,0.96,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"354","Grancalcin OS=Homo sapiens GN=GCA PE=1 SV=2","sp|P28676|GRAN_HUMAN",1.08,1.4,0.96,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"355","RNA-binding protein EWS OS=Homo sapiens GN=EWSR1 PE=1 SV=1","sp|Q01844|EWS_HUMAN",0.94,1.24,0.96,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"356","X-ray repair cross-complementing protein 6 OS=Homo sapiens GN=XRCC6 PE=1 SV=2","sp|P12956|XRCC6_HUMAN",0.78,1.03,0.96,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"357","60S ribosomal protein L23 OS=Homo sapiens GN=RPL23 PE=1 SV=1","sp|P62829|RL23_HUMAN",1,0.95,0.96,0.94,0.97,0.95,1.07,0.69,1.01,1.15,0.88,NA
+"358","Annexin A2 OS=Homo sapiens GN=ANXA2 PE=1 SV=2","sp|P07355|ANXA2_HUMAN",0.99,1.01,0.96,0.9,0.97,1.11,NA,NA,NA,1,1.09,NA
+"359","60 kDa heat shock protein, mitochondrial OS=Homo sapiens GN=HSPD1 PE=1 SV=2","sp|P10809|CH60_HUMAN",0.95,1.09,0.96,1.05,1.11,1.01,0.86,1.24,1,1.04,0.98,NA
+"360","Putative 40S ribosomal protein S10-like OS=Homo sapiens GN=RPS10P5 PE=5 SV=1","sp|Q9NQ39|RS10L_HUMAN",0.93,0.81,0.96,NA,NA,NA,1.01,0.98,1.16,0.95,0.91,NA
+"361","60S ribosomal protein L9 OS=Homo sapiens GN=RPL9 PE=1 SV=1","sp|P32969|RL9_HUMAN",1.02,0.97,0.95,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"362","Protein RCC2 OS=Homo sapiens GN=RCC2 PE=1 SV=2","sp|Q9P258|RCC2_HUMAN",0.91,1.07,0.95,0.84,NA,0.93,0.73,0.97,0.89,NA,NA,0.85
+"363","Paraspeckle component 1 OS=Homo sapiens GN=PSPC1 PE=1 SV=1","sp|Q8WXF1|PSPC1_HUMAN",1.02,1.05,0.95,NA,NA,NA,1.01,1.25,1.14,NA,NA,NA
+"364","60S ribosomal protein L26 OS=Homo sapiens GN=RPL26 PE=1 SV=1","sp|P61254|RL26_HUMAN",0.96,0.88,0.95,NA,NA,NA,0.73,0.71,0.87,0.96,0.98,NA
+"365","Phosphoglucomutase-2 OS=Homo sapiens GN=PGM2 PE=1 SV=4","sp|Q96G03|PGM2_HUMAN",1.03,0.79,0.95,0.86,0.9,0.96,NA,NA,NA,NA,NA,NA
+"366","60S ribosomal protein L6 OS=Homo sapiens GN=RPL6 PE=1 SV=3","sp|Q02878|RL6_HUMAN",0.76,1.17,0.95,NA,NA,NA,1.4,1.16,1.1,NA,NA,NA
+"367","ES1 protein homolog, mitochondrial OS=Homo sapiens GN=C21orf33 PE=1 SV=3","sp|P30042|ES1_HUMAN",1.02,1.08,0.95,NA,NA,NA,NA,NA,NA,1.03,1.08,NA
+"368","40S ribosomal protein S13 OS=Homo sapiens GN=RPS13 PE=1 SV=2","sp|P62277|RS13_HUMAN",0.88,1.4,0.95,0.85,0.89,0.94,0.99,0.86,1.03,1.64,1.58,NA
+"369","Serpin B9 OS=Homo sapiens GN=SERPINB9 PE=1 SV=1","sp|P50453|SPB9_HUMAN",1,0.88,0.95,0.99,0.97,0.98,1.05,0.8,1.17,0.75,0.91,NA
+"370","T-complex protein 1 subunit delta OS=Homo sapiens GN=CCT4 PE=1 SV=4","sp|P50991|TCPD_HUMAN",0.94,1.01,0.95,0.79,1.02,0.87,NA,NA,NA,NA,NA,NA
+"371","Putative heterogeneous nuclear ribonucleoprotein A1-like 3 OS=Homo sapiens GN=HNRPA1L3 PE=5 SV=1","sp|P0C7M2|RA1L3_HUMAN",0.93,2.24,0.95,0.96,1.41,0.91,0.71,3.59,1.26,1.23,1.17,NA
+"372","1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase gamma-2 OS=Homo sapiens GN=PLCG2 PE=1 SV=4","sp|P16885|PLCG2_HUMAN",1.22,1.01,0.95,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"373","Protein DJ-1 OS=Homo sapiens GN=PARK7 PE=1 SV=2","sp|Q99497|PARK7_HUMAN",0.93,1.02,0.95,1.12,1.02,1.04,1.08,1.05,0.93,0.88,1.15,NA
+"374","Myotrophin OS=Homo sapiens GN=MTPN PE=1 SV=2","sp|P58546|MTPN_HUMAN",0.94,0.91,0.95,NA,NA,NA,1.11,0.77,0.78,NA,NA,NA
+"375","60S ribosomal protein L23a OS=Homo sapiens GN=RPL23A PE=1 SV=1","sp|P62750|RL23A_HUMAN",1,0.85,0.95,NA,NA,NA,0.92,1.02,0.85,NA,NA,NA
+"376","Calponin-2 OS=Homo sapiens GN=CNN2 PE=1 SV=4","sp|Q99439|CNN2_HUMAN",1.07,1.11,0.95,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"377","U6 snRNA-associated Sm-like protein LSm3 OS=Homo sapiens GN=LSM3 PE=1 SV=2","sp|P62310|LSM3_HUMAN",1.08,0.88,0.95,0.94,1.07,0.8,0.99,1.33,1.02,NA,NA,NA
+"378","Elongation factor 2 OS=Homo sapiens GN=EEF2 PE=1 SV=4","sp|P13639|EF2_HUMAN",1.03,1.02,0.95,0.96,0.96,0.96,0.82,0.59,0.81,0.98,0.95,NA
+"379","40S ribosomal protein S9 OS=Homo sapiens GN=RPS9 PE=1 SV=3","sp|P46781|RS9_HUMAN",1,1.11,0.94,0.97,0.95,1.03,NA,NA,NA,1.12,1.08,NA
+"380","60S ribosomal protein L4 OS=Homo sapiens GN=RPL4 PE=1 SV=5","sp|P36578|RL4_HUMAN",0.96,0.97,0.94,NA,NA,NA,0.83,0.82,0.9,0.88,0.86,NA
+"381","X-ray repair cross-complementing protein 6 OS=Homo sapiens GN=XRCC6 PE=1 SV=2","sp|P12956|XRCC6_HUMAN",1.03,0.95,0.94,1.11,1.19,1.02,1,0.86,1.02,1.01,1.04,NA
+"382","ATP synthase subunit O, mitochondrial OS=Homo sapiens GN=ATP5O PE=1 SV=1","sp|P48047|ATPO_HUMAN",1.02,0.97,0.94,1.07,1.03,1.09,NA,NA,NA,1.08,0.98,NA
+"383","60S ribosomal protein L35a OS=Homo sapiens GN=RPL35A PE=1 SV=2","sp|P18077|RL35A_HUMAN",1.04,0.92,0.94,1.01,1.12,1.21,0.93,1.08,0.88,0.86,0.94,NA
+"384","3-hydroxyacyl-CoA dehydrogenase type-2 OS=Homo sapiens GN=HSD17B10 PE=1 SV=3","sp|Q99714|HCD2_HUMAN",0.87,1.24,0.94,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"385","Leukocyte elastase inhibitor OS=Homo sapiens GN=SERPINB1 PE=1 SV=1","sp|P30740|ILEU_HUMAN",0.95,0.99,0.94,NA,NA,NA,NA,NA,NA,1.12,1.29,NA
+"386","Heterogeneous nuclear ribonucleoproteins A2/B1 OS=Homo sapiens GN=HNRNPA2B1 PE=1 SV=2","sp|P22626|ROA2_HUMAN",0.96,2.25,0.94,0.85,1.37,0.81,1.03,2.74,1.34,1.32,1.36,NA
+"387","Calcium-binding mitochondrial carrier protein SCaMC-1 OS=Homo sapiens GN=SLC25A24 PE=1 SV=2","sp|Q6NUK1|SCMC1_HUMAN",0.97,0.81,0.94,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"388","40S ribosomal protein S7 OS=Homo sapiens GN=RPS7 PE=1 SV=1","sp|P62081|RS7_HUMAN",0.94,0.93,0.94,1.12,0.74,1,0.94,0.63,1.04,0.96,0.96,NA
+"389","EF-hand domain-containing protein D2 OS=Homo sapiens GN=EFHD2 PE=1 SV=1","sp|Q96C19|EFHD2_HUMAN",1.03,1,0.94,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"390","Acidic leucine-rich nuclear phosphoprotein 32 family member A OS=Homo sapiens GN=ANP32A PE=1 SV=1","sp|P39687|AN32A_HUMAN",1.07,0.87,0.94,0.93,0.88,0.91,NA,NA,NA,1.28,1.07,NA
+"391","Syntaxin-7 OS=Homo sapiens GN=STX7 PE=1 SV=4","sp|O15400|STX7_HUMAN",0.98,0.98,0.94,0.99,1.2,0.94,NA,NA,NA,0.95,0.97,NA
+"392","Actin-related protein 2 OS=Homo sapiens GN=ACTR2 PE=1 SV=1","sp|P61160|ARP2_HUMAN",1.12,1.14,0.94,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"393","Phosphoglycerate kinase 1 OS=Homo sapiens GN=PGK1 PE=1 SV=3","sp|P00558|PGK1_HUMAN",0.91,0.96,0.94,0.93,0.9,1.04,1,0.81,0.99,1.11,1.08,NA
+"394","X-ray repair cross-complementing protein 5 OS=Homo sapiens GN=XRCC5 PE=1 SV=3","sp|P13010|XRCC5_HUMAN",1,0.95,0.94,1.11,1.02,0.94,1,0.85,0.97,0.98,1.07,NA
+"395","Diacylglycerol kinase alpha OS=Homo sapiens GN=DGKA PE=1 SV=3","sp|P23743|DGKA_HUMAN",1.03,0.99,0.94,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"396","Peptidyl-prolyl cis-trans isomerase A OS=Homo sapiens GN=PPIA PE=1 SV=2","sp|P62937|PPIA_HUMAN",0.91,0.72,0.94,0.77,0.77,0.81,0.96,0.97,0.97,0.94,0.96,NA
+"397","60S ribosomal protein L34 OS=Homo sapiens GN=RPL34 PE=1 SV=3","sp|P49207|RL34_HUMAN",0.91,0.84,0.94,1.01,0.8,1.03,NA,NA,NA,0.68,0.82,NA
+"398","Plastin-2 OS=Homo sapiens GN=LCP1 PE=1 SV=5","sp|P13796|PLSL_HUMAN",0.93,1.06,0.93,0.7,0.92,0.95,0.82,0.8,0.86,0.93,0.74,NA
+"399","Histone H1.2 OS=Homo sapiens GN=HIST1H1C PE=1 SV=2","sp|P16403|H12_HUMAN",1.23,0.82,0.93,0.65,0.42,0.97,1.06,0.84,1.09,0.85,0.76,0.78
+"400","Cystatin-B OS=Homo sapiens GN=CSTB PE=1 SV=2","sp|P04080|CYTB_HUMAN",1,0.83,0.93,0.94,1.07,0.93,1.4,1,1.04,1.16,0.88,NA
+"401","Receptor-type tyrosine-protein phosphatase C OS=Homo sapiens GN=PTPRC PE=1 SV=2","sp|P08575|PTPRC_HUMAN",1.01,0.99,0.93,1.03,1.11,1.06,0.94,0.9,0.93,0.92,0.94,NA
+"402","Eukaryotic translation initiation factor 3 subunit C OS=Homo sapiens GN=EIF3C PE=1 SV=1","sp|Q99613|EIF3C_HUMAN",0.9,1,0.93,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"403","F-actin-capping protein subunit beta OS=Homo sapiens GN=CAPZB PE=1 SV=4","sp|P47756|CAPZB_HUMAN",0.96,0.95,0.93,0.74,0.74,0.76,1.02,1.09,1.11,0.95,0.91,NA
+"404","Putative elongation factor 1-alpha-like 3 OS=Homo sapiens GN=EEF1AL3 PE=5 SV=1","sp|Q5VTE0|EF1A3_HUMAN",0.93,0.85,0.93,1.09,0.87,0.95,1.04,1.01,1.04,0.84,0.82,NA
+"405","Non-POU domain-containing octamer-binding protein OS=Homo sapiens GN=NONO PE=1 SV=4","sp|Q15233|NONO_HUMAN",0.95,1.08,0.93,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"406","Heterogeneous nuclear ribonucleoprotein H OS=Homo sapiens GN=HNRNPH1 PE=1 SV=4","sp|P31943|HNRH1_HUMAN",1.02,1.15,0.93,1.04,1.21,1,NA,NA,NA,NA,NA,NA
+"407","Heat shock cognate 71 kDa protein OS=Homo sapiens GN=HSPA8 PE=1 SV=1","sp|P11142|HSP7C_HUMAN",0.94,0.99,0.93,0.99,1.05,0.93,0.85,1.42,0.94,0.99,0.91,NA
+"408","Cell division control protein 42 homolog OS=Homo sapiens GN=CDC42 PE=1 SV=1","sp|P60953|CDC42_HUMAN",0.93,1.11,0.93,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"409","Rho GDP-dissociation inhibitor 2 OS=Homo sapiens GN=ARHGDIB PE=1 SV=3","sp|P52566|GDIR2_HUMAN",0.93,0.85,0.93,0.97,0.85,0.79,0.58,0.79,0.76,0.92,0.93,NA
+"410","Transaldolase OS=Homo sapiens GN=TALDO1 PE=1 SV=2","sp|P37837|TALDO_HUMAN",1.03,0.91,0.93,1.04,0.94,0.91,0.99,0.9,0.91,0.98,1.18,NA
+"411","60S acidic ribosomal protein P0-like OS=Homo sapiens PE=1 SV=1","sp|Q8NHW5|RLA0L_HUMAN",0.98,1.04,0.93,1.01,0.97,0.96,0.88,0.95,1.04,0.99,1.06,NA
+"412","HLA class II histocompatibility antigen gamma chain OS=Homo sapiens GN=CD74 PE=1 SV=3","sp|P04233|HG2A_HUMAN",1.08,1.01,0.93,0.95,0.92,0.94,NA,NA,NA,0.99,0.94,NA
+"413","Proteasome subunit alpha type-7 OS=Homo sapiens GN=PSMA7 PE=1 SV=1","sp|O14818|PSA7_HUMAN",1.05,1.02,0.93,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"414","Heat shock protein HSP 90-beta OS=Homo sapiens GN=HSP90AB1 PE=1 SV=4","sp|P08238|HS90B_HUMAN",0.99,0.92,0.93,1,0.99,0.95,0.89,0.84,0.93,0.98,0.99,NA
+"415","60S ribosomal protein L7a OS=Homo sapiens GN=RPL7A PE=1 SV=2","sp|P62424|RL7A_HUMAN",0.97,0.96,0.93,NA,NA,NA,NA,NA,NA,1.11,1.08,NA
+"416","Lactoylglutathione lyase OS=Homo sapiens GN=GLO1 PE=1 SV=4","sp|Q04760|LGUL_HUMAN",0.84,0.85,0.92,0.88,1.25,0.98,0.87,0.96,0.69,1.16,1.03,NA
+"417","Thioredoxin-dependent peroxide reductase, mitochondrial OS=Homo sapiens GN=PRDX3 PE=1 SV=3","sp|P30048|PRDX3_HUMAN",0.9,0.98,0.92,0.92,1.04,1.03,NA,NA,NA,NA,NA,NA
+"418","Nucleolin OS=Homo sapiens GN=NCL PE=1 SV=3","sp|P19338|NUCL_HUMAN",0.97,0.89,0.92,0.93,0.87,0.89,0.74,1.07,0.94,1.05,1.11,NA
+"419","Alcohol dehydrogenase class-3 OS=Homo sapiens GN=ADH5 PE=1 SV=4","sp|P11766|ADHX_HUMAN",1.06,0.93,0.92,NA,NA,NA,1.1,0.85,0.97,1.19,0.98,NA
+"420","Heterogeneous nuclear ribonucleoprotein U OS=Homo sapiens GN=HNRNPU PE=1 SV=6","sp|Q00839|HNRPU_HUMAN",0.95,1.15,0.92,0.92,0.97,0.93,0.67,1.01,0.92,1.17,1.12,NA
+"421","Polyadenylate-binding protein 1 OS=Homo sapiens GN=PABPC1 PE=1 SV=2","sp|P11940|PABP1_HUMAN",1.03,1.07,0.92,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"422","SAP domain-containing ribonucleoprotein OS=Homo sapiens GN=SARNP PE=1 SV=3","sp|P82979|SARNP_HUMAN",1.1,0.96,0.91,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"423","Heterogeneous nuclear ribonucleoprotein H3 OS=Homo sapiens GN=HNRNPH3 PE=1 SV=2","sp|P31942|HNRH3_HUMAN",0.96,0.9,0.91,NA,NA,NA,1.08,0.77,1.21,NA,NA,NA
+"424","Heterogeneous nuclear ribonucleoprotein H3 OS=Homo sapiens GN=HNRNPH3 PE=1 SV=2","sp|P31942|HNRH3_HUMAN",1.21,1.35,0.91,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"425","40S ribosomal protein S20 OS=Homo sapiens GN=RPS20 PE=1 SV=1","sp|P60866|RS20_HUMAN",0.95,0.96,0.91,1.01,0.9,0.94,NA,NA,NA,NA,NA,NA
+"426","Peroxiredoxin-5, mitochondrial OS=Homo sapiens GN=PRDX5 PE=1 SV=3","sp|P30044|PRDX5_HUMAN",1.2,1,0.91,NA,NA,NA,1.05,1.35,1.13,NA,NA,NA
+"427","Voltage-dependent anion-selective channel protein 1 OS=Homo sapiens GN=VDAC1 PE=1 SV=2","sp|P21796|VDAC1_HUMAN",0.93,1.02,0.91,1.03,1.1,1.08,0.91,0.94,0.93,1.11,1.06,NA
+"428","Septin-9 OS=Homo sapiens GN=SEPT9 PE=1 SV=2","sp|Q9UHD8|SEPT9_HUMAN",1.01,0.95,0.91,0.97,0.89,0.99,1,1.38,1.26,NA,NA,NA
+"429","Histone H1.3 OS=Homo sapiens GN=HIST1H1D PE=1 SV=2","sp|P16402|H13_HUMAN",1.5,1.14,0.91,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"430","Complement component 1 Q subcomponent-binding protein, mitochondrial OS=Homo sapiens GN=C1QBP PE=1 SV=1","sp|Q07021|C1QBP_HUMAN",0.99,0.83,0.91,NA,NA,NA,0.81,0.71,1.04,NA,NA,NA
+"431","60S ribosomal protein L12 OS=Homo sapiens GN=RPL12 PE=1 SV=1","sp|P30050|RL12_HUMAN",1.02,0.94,0.91,1.06,0.84,1.03,0.82,0.9,0.83,1.05,0.96,NA
+"432","High mobility group protein B1 OS=Homo sapiens GN=HMGB1 PE=1 SV=3","sp|P09429|HMGB1_HUMAN",0.88,0.66,0.91,0.61,0.71,0.7,0.82,0.79,0.9,0.98,0.89,NA
+"433","60S ribosomal protein L21 OS=Homo sapiens GN=RPL21 PE=1 SV=2","sp|P46778|RL21_HUMAN",1,0.83,0.91,NA,NA,NA,0.86,0.72,0.96,0.86,0.85,NA
+"434","NADH-cytochrome b5 reductase 3 OS=Homo sapiens GN=CYB5R3 PE=1 SV=3","sp|P00387|NB5R3_HUMAN",0.84,1.12,0.9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"435","Actin, cytoplasmic 2 OS=Homo sapiens GN=ACTG1 PE=1 SV=1","sp|P63261|ACTG_HUMAN",0.89,1.82,0.9,0.89,1.36,0.95,1.15,0.8,0.88,1.23,1.2,1.76
+"436","Phosphate carrier protein, mitochondrial OS=Homo sapiens GN=SLC25A3 PE=1 SV=2","sp|Q00325|MPCP_HUMAN",0.85,1.06,0.9,0.82,1.01,0.78,0.76,0.86,0.78,0.95,1.01,0.97
+"437","Isocitrate dehydrogenase [NAD] subunit alpha, mitochondrial OS=Homo sapiens GN=IDH3A PE=1 SV=1","sp|P50213|IDH3A_HUMAN",0.85,1,0.9,0.89,1.02,0.98,NA,NA,NA,NA,NA,NA
+"438","Alpha-enolase OS=Homo sapiens GN=ENO1 PE=1 SV=2","sp|P06733|ENOA_HUMAN",1.05,1.11,0.9,0.97,1.17,1.09,0.93,0.82,0.96,0.98,0.97,NA
+"439","Signal recognition particle 14 kDa protein OS=Homo sapiens GN=SRP14 PE=1 SV=2","sp|P37108|SRP14_HUMAN",1.08,0.93,0.9,NA,NA,NA,NA,NA,NA,1.16,1.08,NA
+"440","Replication protein A 70 kDa DNA-binding subunit OS=Homo sapiens GN=RPA1 PE=1 SV=2","sp|P27694|RFA1_HUMAN",0.88,0.98,0.9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"441","Nucleoside diphosphate kinase B OS=Homo sapiens GN=NME2 PE=1 SV=1","sp|P22392|NDKB_HUMAN",1.07,1.15,0.9,1.1,1.12,1.08,0.97,1.05,1.02,1,0.93,NA
+"442","ADP/ATP translocase 2 OS=Homo sapiens GN=SLC25A5 PE=1 SV=6","sp|P05141|ADT2_HUMAN",0.87,1.46,0.9,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"443","Ras-related C3 botulinum toxin substrate 2 OS=Homo sapiens GN=RAC2 PE=1 SV=1","sp|P15153|RAC2_HUMAN",0.85,0.84,0.89,0.94,0.8,0.76,NA,NA,NA,0.79,0.73,NA
+"444","Enhancer of rudimentary homolog OS=Homo sapiens GN=ERH PE=1 SV=1","sp|P84090|ERH_HUMAN",1.16,1.03,0.89,1.42,NA,1.76,0.78,0.63,0.8,NA,NA,1.49
+"445","Growth factor receptor-bound protein 2 OS=Homo sapiens GN=GRB2 PE=1 SV=1","sp|P62993|GRB2_HUMAN",0.88,0.88,0.89,0.89,0.87,0.84,1.17,0.85,1.03,0.98,0.98,NA
+"446","2,4-dienoyl-CoA reductase, mitochondrial OS=Homo sapiens GN=DECR1 PE=1 SV=1","sp|Q16698|DECR_HUMAN",1.09,0.96,0.89,0.93,0.82,1,0.72,0.82,0.84,NA,NA,NA
+"447","RNA-binding protein 8A OS=Homo sapiens GN=RBM8A PE=1 SV=1","sp|Q9Y5S9|RBM8A_HUMAN",0.87,0.83,0.89,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"448","Prostaglandin E synthase 3 OS=Homo sapiens GN=PTGES3 PE=1 SV=1","sp|Q15185|TEBP_HUMAN",0.86,0.76,0.89,NA,NA,NA,1.02,0.67,0.92,NA,NA,NA
+"449","U5 small nuclear ribonucleoprotein 200 kDa helicase OS=Homo sapiens GN=SNRNP200 PE=1 SV=2","sp|O75643|U520_HUMAN",0.91,0.93,0.89,NA,NA,NA,0.84,1.07,0.98,NA,NA,NA
+"450","40S ribosomal protein S23 OS=Homo sapiens GN=RPS23 PE=1 SV=3","sp|P62266|RS23_HUMAN",0.99,0.95,0.89,NA,NA,NA,0.95,0.95,1.02,0.93,1.07,NA
+"451","Glutamate dehydrogenase 1, mitochondrial OS=Homo sapiens GN=GLUD1 PE=1 SV=2","sp|P00367|DHE3_HUMAN",0.87,1,0.88,NA,NA,NA,0.93,0.66,0.92,1.02,1.3,NA
+"452","Mitochondrial inner membrane protein OS=Homo sapiens GN=IMMT PE=1 SV=1","sp|Q16891|IMMT_HUMAN",0.89,1.18,0.88,NA,NA,NA,0.99,1.38,1.27,NA,NA,NA
+"453","Succinyl-CoA ligase [GDP-forming] subunit alpha, mitochondrial OS=Homo sapiens GN=SUCLG1 PE=1 SV=4","sp|P53597|SUCA_HUMAN",0.9,0.76,0.88,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"454","60S ribosomal protein L6 OS=Homo sapiens GN=RPL6 PE=1 SV=3","sp|Q02878|RL6_HUMAN",0.92,0.97,0.88,0.88,0.94,0.95,0.87,0.83,0.94,1.01,1.11,NA
+"455","ATPase inhibitor, mitochondrial OS=Homo sapiens GN=ATPIF1 PE=1 SV=1","sp|Q9UII2|ATIF1_HUMAN",0.98,1.01,0.88,NA,NA,NA,NA,NA,NA,1.03,1.02,NA
+"456","Ezrin OS=Homo sapiens GN=EZR PE=1 SV=4","sp|P15311|EZRI_HUMAN",0.9,1.38,0.88,0.82,1.25,0.8,0.88,0.81,0.73,1.05,0.92,0.98
+"457","2-oxoglutarate dehydrogenase, mitochondrial OS=Homo sapiens GN=OGDH PE=1 SV=3","sp|Q02218|ODO1_HUMAN",0.8,0.92,0.88,1.13,1,1.01,NA,NA,NA,NA,NA,NA
+"458","Signal recognition particle 9 kDa protein OS=Homo sapiens GN=SRP9 PE=1 SV=2","sp|P49458|SRP09_HUMAN",1,0.95,0.88,NA,NA,NA,0.96,1.08,1.05,0.87,1.06,NA
+"459","Transcription factor A, mitochondrial OS=Homo sapiens GN=TFAM PE=1 SV=1","sp|Q00059|TFAM_HUMAN",0.88,0.98,0.88,0.62,NA,0.77,0.89,1.19,1,NA,NA,0.79
+"460","60S ribosomal protein L27a OS=Homo sapiens GN=RPL27A PE=1 SV=2","sp|P46776|RL27A_HUMAN",0.92,0.99,0.88,NA,NA,NA,NA,NA,NA,0.78,0.87,NA
+"461","Ubiquitin-like modifier-activating enzyme 1 OS=Homo sapiens GN=UBA1 PE=1 SV=3","sp|P22314|UBA1_HUMAN",0.92,1.05,0.88,0.96,0.97,0.94,1.13,0.7,0.98,0.93,0.98,NA
+"462","Pyruvate kinase isozymes M1/M2 OS=Homo sapiens GN=PKM2 PE=1 SV=4","sp|P14618|KPYM_HUMAN",0.99,1.1,0.88,0.99,0.89,0.99,0.95,1.02,0.89,0.92,0.92,NA
+"463","Annexin A5 OS=Homo sapiens GN=ANXA5 PE=1 SV=2","sp|P08758|ANXA5_HUMAN",1.06,0.98,0.87,0.93,1.01,1,0.8,0.86,0.77,0.94,1.02,NA
+"464","Nuclear mitotic apparatus protein 1 OS=Homo sapiens GN=NUMA1 PE=1 SV=2","sp|Q14980|NUMA1_HUMAN",0.95,0.76,0.87,NA,NA,NA,1.09,1.07,1.16,NA,NA,NA
+"465","Succinyl-CoA ligase [GDP-forming] subunit beta, mitochondrial OS=Homo sapiens GN=SUCLG2 PE=1 SV=2","sp|Q96I99|SUCB2_HUMAN",0.89,1.21,0.87,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"466","Protein S100-A4 OS=Homo sapiens GN=S100A4 PE=1 SV=1","sp|P26447|S10A4_HUMAN",1.08,0.95,0.87,NA,NA,NA,0.77,0.98,0.84,0.96,1.05,NA
+"467","Actin-related protein 2/3 complex subunit 3 OS=Homo sapiens GN=ARPC3 PE=1 SV=3","sp|O15145|ARPC3_HUMAN",0.72,1.21,0.87,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"468","Protein SET OS=Homo sapiens GN=SET PE=1 SV=3","sp|Q01105|SET_HUMAN",1.14,1,0.87,0.83,1.01,0.89,0.84,1.03,0.81,1.05,1.04,NA
+"469","Neuron-specific calcium-binding protein hippocalcin OS=Homo sapiens GN=HPCA PE=1 SV=2","sp|P84074|HPCA_HUMAN",0.95,0.92,0.87,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"470","60S ribosomal protein L27 OS=Homo sapiens GN=RPL27 PE=1 SV=2","sp|P61353|RL27_HUMAN",0.91,0.88,0.87,0.93,0.75,0.85,0.76,0.65,0.9,0.91,0.94,NA
+"471","Proteasome subunit alpha type-1 OS=Homo sapiens GN=PSMA1 PE=1 SV=1","sp|P25786|PSA1_HUMAN",1.02,1.27,0.87,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"472","Cytochrome c oxidase subunit 2 OS=Homo sapiens GN=MT-CO2 PE=1 SV=1","sp|P00403|COX2_HUMAN",0.92,1.13,0.87,0.5,1.2,0.51,NA,NA,NA,0.86,0.77,1.04
+"473","40S ribosomal protein S11 OS=Homo sapiens GN=RPS11 PE=1 SV=3","sp|P62280|RS11_HUMAN",0.9,0.92,0.87,NA,NA,NA,0.77,0.65,0.88,NA,NA,NA
+"474","Histone H2A type 2-B OS=Homo sapiens GN=HIST2H2AB PE=1 SV=3","sp|Q8IUE6|H2A2B_HUMAN",1.12,0.5,0.87,0.51,0.68,0.8,1.03,0.66,0.72,0.96,1.15,0.7
+"475","Elongation factor 2 OS=Homo sapiens GN=EEF2 PE=1 SV=4","sp|P13639|EF2_HUMAN",0.84,1.52,0.86,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"476","L-lactate dehydrogenase A chain OS=Homo sapiens GN=LDHA PE=1 SV=2","sp|P00338|LDHA_HUMAN",1.03,0.99,0.86,0.94,0.96,0.96,0.77,0.72,0.9,0.82,0.78,NA
+"477","MLL1/MLL complex subunit C17orf49 OS=Homo sapiens GN=C17orf49 PE=1 SV=1","sp|Q8IXM2|CQ049_HUMAN",0.96,0.91,0.86,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"478","60S ribosomal protein L11 OS=Homo sapiens GN=RPL11 PE=1 SV=2","sp|P62913|RL11_HUMAN",0.83,0.8,0.86,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"479","DNA topoisomerase 1 OS=Homo sapiens GN=TOP1 PE=1 SV=2","sp|P11387|TOP1_HUMAN",1.08,1.23,0.86,0.95,NA,0.82,0.89,1.04,1.22,NA,NA,1.22
+"480","ATP synthase subunit alpha, mitochondrial OS=Homo sapiens GN=ATP5A1 PE=1 SV=1","sp|P25705|ATPA_HUMAN",0.83,1.29,0.86,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"481","Glutathione S-transferase P OS=Homo sapiens GN=GSTP1 PE=1 SV=2","sp|P09211|GSTP1_HUMAN",0.86,1.44,0.86,0.89,0.97,1.4,0.97,0.96,1.41,1.15,1.34,NA
+"482","Proteasome subunit beta type-8 OS=Homo sapiens GN=PSMB8 PE=1 SV=2","sp|P28062|PSB8_HUMAN",0.97,1.18,0.86,0.91,0.69,0.88,NA,NA,NA,NA,NA,NA
+"483","Small nuclear ribonucleoprotein G-like protein OS=Homo sapiens PE=3 SV=2","sp|A8MWD9|RUXGL_HUMAN",0.94,0.99,0.85,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"484","Moesin OS=Homo sapiens GN=MSN PE=1 SV=3","sp|P26038|MOES_HUMAN",1.02,0.94,0.85,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"485","Protein kinase C beta type OS=Homo sapiens GN=PRKCB PE=1 SV=4","sp|P05771|KPCB_HUMAN",0.85,0.9,0.85,NA,NA,NA,1.5,1.08,1.15,0.77,0.86,NA
+"486","Heterogeneous nuclear ribonucleoprotein K OS=Homo sapiens GN=HNRNPK PE=1 SV=1","sp|P61978|HNRPK_HUMAN",0.88,1.16,0.85,0.71,0.99,0.74,1.12,2.06,1.11,1.07,1.01,NA
+"487","Actin-related protein 2/3 complex subunit 4 OS=Homo sapiens GN=ARPC4 PE=1 SV=3","sp|P59998|ARPC4_HUMAN",0.71,1.48,0.85,NA,NA,NA,0.9,1.02,0.82,NA,NA,NA
+"488","Actin-related protein 3 OS=Homo sapiens GN=ACTR3 PE=1 SV=3","sp|P61158|ARP3_HUMAN",0.87,1.42,0.85,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"489","Coronin-1A OS=Homo sapiens GN=CORO1A PE=1 SV=4","sp|P31146|COR1A_HUMAN",0.83,0.85,0.85,0.84,0.92,0.88,1.01,0.65,0.75,0.83,0.87,NA
+"490","Ezrin OS=Homo sapiens GN=EZR PE=1 SV=4","sp|P15311|EZRI_HUMAN",0.98,0.96,0.84,0.96,0.91,0.93,0.93,0.95,1.12,0.87,0.85,NA
+"491","LIM domain-containing protein 2 OS=Homo sapiens GN=LIMD2 PE=1 SV=1","sp|Q9BT23|LIMD2_HUMAN",0.82,0.86,0.84,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"492","Myosin-9 OS=Homo sapiens GN=MYH9 PE=1 SV=4","sp|P35579|MYH9_HUMAN",0.55,1.27,0.84,0.69,1.41,0.82,1.7,1.31,1.03,0.82,1.03,1.35
+"493","40S ribosomal protein S6 OS=Homo sapiens GN=RPS6 PE=1 SV=1","sp|P62753|RS6_HUMAN",0.75,0.7,0.84,NA,NA,NA,0.77,0.57,0.87,0.71,0.73,NA
+"494","DNA-dependent protein kinase catalytic subunit OS=Homo sapiens GN=PRKDC PE=1 SV=3","sp|P78527|PRKDC_HUMAN",0.92,0.69,0.84,0.66,NA,0.71,0.78,0.96,0.95,NA,NA,0.71
+"495","T-complex protein 1 subunit eta OS=Homo sapiens GN=CCT7 PE=1 SV=2","sp|Q99832|TCPH_HUMAN",0.85,0.85,0.84,NA,NA,NA,0.99,1.01,0.92,NA,NA,NA
+"496","Calmodulin OS=Homo sapiens GN=CALM1 PE=1 SV=2","sp|P62158|CALM_HUMAN",0.99,0.99,0.84,NA,NA,NA,1.16,0.77,1.08,0.86,0.98,NA
+"497","40S ribosomal protein S28 OS=Homo sapiens GN=RPS28 PE=1 SV=1","sp|P62857|RS28_HUMAN",0.83,0.77,0.83,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"498","Thymosin beta-4 OS=Homo sapiens GN=TMSB4X PE=1 SV=2","sp|P62328|TYB4_HUMAN",1.23,1.11,0.82,1.05,0.81,0.86,0.75,1.09,1.05,NA,NA,NA
+"499","Vimentin OS=Homo sapiens GN=VIM PE=1 SV=4","sp|P08670|VIME_HUMAN",0.75,0.62,0.82,0.76,1.08,1,1.21,1.61,1.83,0.64,0.62,NA
+"500","Centromere/kinetochore protein zw10 homolog OS=Homo sapiens GN=ZW10 PE=1 SV=3","sp|O43264|ZW10_HUMAN",0.89,1.01,0.82,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"501","LIM and SH3 domain protein 1 OS=Homo sapiens GN=LASP1 PE=1 SV=2","sp|Q14847|LASP1_HUMAN",0.85,1.22,0.82,NA,1.27,NA,NA,NA,NA,1.18,1.08,NA
+"502","Medium-chain specific acyl-CoA dehydrogenase, mitochondrial OS=Homo sapiens GN=ACADM PE=1 SV=1","sp|P11310|ACADM_HUMAN",0.82,0.98,0.82,0.99,1.2,1.2,0.84,1.25,0.91,NA,NA,NA
+"503","Ubiquitin OS=Homo sapiens GN=RPS27A PE=1 SV=1","sp|P62988|UBIQ_HUMAN",1.04,1.04,0.82,0.95,0.88,0.81,0.93,1.2,0.89,1.02,1.11,NA
+"504","High mobility group protein HMG-I/HMG-Y OS=Homo sapiens GN=HMGA1 PE=1 SV=3","sp|P17096|HMGA1_HUMAN",1.24,0.97,0.82,1.04,0.74,1.14,1.22,1.08,1.25,1.02,0.72,1.2
+"505","Alpha-enolase OS=Homo sapiens GN=ENO1 PE=1 SV=2","sp|P06733|ENOA_HUMAN",0.66,2.21,0.81,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"506","Coactosin-like protein OS=Homo sapiens GN=COTL1 PE=1 SV=3","sp|Q14019|COTL1_HUMAN",0.96,0.99,0.8,0.86,0.9,1,0.83,0.68,0.79,0.75,0.79,NA
+"507","Putative histone H2B type 2-C OS=Homo sapiens GN=HIST2H2BC PE=5 SV=3","sp|Q6DN03|H2B2C_HUMAN",1.28,0.65,0.8,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"508","NAD(P) transhydrogenase, mitochondrial OS=Homo sapiens GN=NNT PE=1 SV=3","sp|Q13423|NNTM_HUMAN",0.76,1,0.8,NA,NA,NA,NA,NA,NA,1.06,0.9,NA
+"509","Pyruvate dehydrogenase E1 component subunit alpha, somatic form, mitochondrial OS=Homo sapiens GN=PDHA1 PE=1 SV=3","sp|P08559|ODPA_HUMAN",0.69,0.73,0.79,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"510","DNA-(apurinic or apyrimidinic site) lyase OS=Homo sapiens GN=APEX1 PE=1 SV=2","sp|P27695|APEX1_HUMAN",0.86,0.86,0.79,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"511","Actin-related protein 2/3 complex subunit 2 OS=Homo sapiens GN=ARPC2 PE=1 SV=1","sp|O15144|ARPC2_HUMAN",0.79,1.6,0.79,NA,1.41,NA,0.69,0.82,0.74,1.02,1.05,NA
+"512","Lymphocyte-specific protein 1 OS=Homo sapiens GN=LSP1 PE=1 SV=1","sp|P33241|LSP1_HUMAN",0.99,1.1,0.79,NA,NA,NA,0.95,1.04,0.96,NA,NA,NA
+"513","Protocadherin Fat 4 OS=Homo sapiens GN=FAT4 PE=2 SV=2","sp|Q6V0I7|FAT4_HUMAN",0.7,0.57,0.78,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"514","Acyl-CoA-binding protein OS=Homo sapiens GN=DBI PE=1 SV=2","sp|P07108|ACBP_HUMAN",1.2,1.15,0.78,0.5,1.02,1.13,1.46,0.98,0.95,1.05,1.58,NA
+"515","Heat shock protein HSP 90-beta OS=Homo sapiens GN=HSP90AB1 PE=1 SV=4","sp|P08238|HS90B_HUMAN",0.84,1.56,0.78,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"516","High mobility group protein B2 OS=Homo sapiens GN=HMGB2 PE=1 SV=2","sp|P26583|HMGB2_HUMAN",0.82,0.87,0.78,0.93,NA,1.15,0.56,0.6,0.78,NA,NA,1.28
+"517","Pro-interleukin-16 OS=Homo sapiens GN=IL16 PE=1 SV=4","sp|Q14005|IL16_HUMAN",0.95,1.34,0.77,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"518","H/ACA ribonucleoprotein complex subunit 4 OS=Homo sapiens GN=DKC1 PE=1 SV=3","sp|O60832|DKC1_HUMAN",0.91,1.08,0.77,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"519","Arachidonate 5-lipoxygenase-activating protein OS=Homo sapiens GN=ALOX5AP PE=1 SV=2","sp|P20292|AL5AP_HUMAN",0.97,0.86,0.76,NA,NA,NA,NA,NA,NA,1.09,0.7,NA
+"520","60S acidic ribosomal protein P0-like OS=Homo sapiens PE=1 SV=1","sp|Q8NHW5|RLA0L_HUMAN",0.77,1.09,0.76,NA,NA,NA,1.21,0.88,0.71,NA,NA,NA
+"521","Nucleophosmin OS=Homo sapiens GN=NPM1 PE=1 SV=2","sp|P06748|NPM_HUMAN",0.82,0.94,0.76,0.75,0.93,0.72,0.68,1.32,1.02,1.03,1.04,NA
+"522","Heat shock protein HSP 90-alpha OS=Homo sapiens GN=HSP90AA1 PE=1 SV=5","sp|P07900|HS90A_HUMAN",0.79,1.58,0.76,NA,NA,NA,0.81,0.69,0.47,NA,NA,NA
+"523","Putative high mobility group protein 1-like 10 OS=Homo sapiens GN=HMGB1L10 PE=5 SV=1","sp|Q9UGV6|HMGLX_HUMAN",0.78,1.18,0.76,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"524","Histone H2A.Z OS=Homo sapiens GN=H2AFZ PE=1 SV=2","sp|P0C0S5|H2AZ_HUMAN",0.95,0.65,0.76,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"525","Annexin A6 OS=Homo sapiens GN=ANXA6 PE=1 SV=3","sp|P08133|ANXA6_HUMAN",0.81,0.77,0.76,0.75,0.67,0.67,0.53,0.58,0.58,0.62,0.85,NA
+"526","Uncharacterized protein C1orf77 OS=Homo sapiens GN=C1orf77 PE=1 SV=2","sp|Q9Y3Y2|CA077_HUMAN",1.49,0.65,0.76,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"527","Eukaryotic translation initiation factor 4B OS=Homo sapiens GN=EIF4B PE=1 SV=2","sp|P23588|IF4B_HUMAN",0.79,0.93,0.76,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"528","Tyrosine-protein phosphatase non-receptor type 6 OS=Homo sapiens GN=PTPN6 PE=1 SV=1","sp|P29350|PTN6_HUMAN",0.84,1.47,0.75,NA,NA,NA,0.5,0.33,0.34,NA,NA,NA
+"529","Glyceraldehyde-3-phosphate dehydrogenase OS=Homo sapiens GN=GAPDH PE=1 SV=3","sp|P04406|G3P_HUMAN",0.76,1.55,0.75,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"530","ATPase family AAA domain-containing protein 3A OS=Homo sapiens GN=ATAD3A PE=1 SV=2","sp|Q9NVI7|ATD3A_HUMAN",0.93,1.07,0.75,NA,NA,NA,1.07,1.33,0.81,NA,NA,NA
+"531","Lysozyme C OS=Homo sapiens GN=LYZ PE=1 SV=1","sp|P61626|LYSC_HUMAN",0.6,1.62,0.75,1.19,1.27,1.54,NA,NA,NA,NA,NA,NA
+"532","Tubulin beta chain OS=Homo sapiens GN=TUBB PE=1 SV=2","sp|P07437|TBB5_HUMAN",0.77,1.4,0.75,NA,NA,NA,1.29,0.94,0.77,NA,NA,NA
+"533","40S ribosomal protein S18 OS=Homo sapiens GN=RPS18 PE=1 SV=3","sp|P62269|RS18_HUMAN",0.91,0.91,0.74,0.92,0.78,1.01,0.93,0.76,0.96,0.99,0.95,NA
+"534","Peroxiredoxin-1 OS=Homo sapiens GN=PRDX1 PE=1 SV=1","sp|Q06830|PRDX1_HUMAN",0.61,0.65,0.74,0.72,0.88,0.71,0.91,0.93,0.77,0.82,0.77,NA
+"535","Heme-binding protein 2 OS=Homo sapiens GN=HEBP2 PE=1 SV=1","sp|Q9Y5Z4|HEBP2_HUMAN",0.71,0.72,0.74,1.1,1.21,1.02,NA,NA,NA,NA,NA,NA
+"536","Hematopoietic lineage cell-specific protein OS=Homo sapiens GN=HCLS1 PE=1 SV=2","sp|P14317|HCLS1_HUMAN",0.74,1.47,0.73,NA,NA,NA,0.81,0.78,0.7,NA,NA,NA
+"537","Twinfilin-2 OS=Homo sapiens GN=TWF2 PE=1 SV=2","sp|Q6IBS0|TWF2_HUMAN",0.94,0.74,0.72,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"538","T-box transcription factor TBX10 OS=Homo sapiens GN=TBX10 PE=2 SV=2","sp|O75333|TBX10_HUMAN",1.04,0.79,0.72,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"539","NHP2-like protein 1 OS=Homo sapiens GN=NHP2L1 PE=1 SV=3","sp|P55769|NH2L1_HUMAN",1.16,1.02,0.71,1.23,1.24,1.11,0.87,1.06,0.77,1.09,0.99,1.48
+"540","Transketolase OS=Homo sapiens GN=TKT PE=1 SV=3","sp|P29401|TKT_HUMAN",0.85,1.05,0.71,0.92,1.5,1.29,NA,NA,NA,NA,NA,NA
+"541","Elongation factor Tu, mitochondrial OS=Homo sapiens GN=TUFM PE=1 SV=2","sp|P49411|EFTU_HUMAN",0.75,2.05,0.71,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"542","DNA-(apurinic or apyrimidinic site) lyase OS=Homo sapiens GN=APEX1 PE=1 SV=2","sp|P27695|APEX1_HUMAN",0.96,0.76,0.71,NA,NA,NA,0.8,1.03,0.85,NA,NA,NA
+"543","Plastin-2 OS=Homo sapiens GN=LCP1 PE=1 SV=5","sp|P13796|PLSL_HUMAN",0.67,2.07,0.69,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"544","Apoptosis-inducing factor 1, mitochondrial OS=Homo sapiens GN=AIFM1 PE=1 SV=1","sp|O95831|AIFM1_HUMAN",0.99,0.8,0.69,NA,NA,NA,NA,NA,NA,0.81,0.91,NA
+"545","Histone H2B type 1-D OS=Homo sapiens GN=HIST1H2BD PE=1 SV=2","sp|P58876|H2B1D_HUMAN",1.45,0.83,0.69,NA,NA,NA,0.94,0.81,0.76,NA,NA,NA
+"546","Transcription factor HES-2 OS=Homo sapiens GN=HES2 PE=2 SV=1","sp|Q9Y543|HES2_HUMAN",1.1,0.67,0.68,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"547","Tyrosine-protein kinase SYK OS=Homo sapiens GN=SYK PE=1 SV=1","sp|P43405|KSYK_HUMAN",0.92,0.93,0.68,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"548","SUMO-conjugating enzyme UBC9 OS=Homo sapiens GN=UBE2I PE=1 SV=1","sp|P63279|UBC9_HUMAN",0.72,1.23,0.67,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"549","Peroxiredoxin-1 OS=Homo sapiens GN=PRDX1 PE=1 SV=1","sp|Q06830|PRDX1_HUMAN",1.08,1.3,0.67,0.87,1.31,1.55,0.62,0.74,0.57,1.07,1.01,0.96
+"550","14-3-3 protein zeta/delta OS=Homo sapiens GN=YWHAZ PE=1 SV=1","sp|P63104|1433Z_HUMAN",0.75,1.61,0.66,NA,NA,NA,0.74,0.64,0.62,NA,NA,NA
+"551","U2 small nuclear ribonucleoprotein A' OS=Homo sapiens GN=SNRPA1 PE=1 SV=2","sp|P09661|RU2A_HUMAN",0.9,0.87,0.65,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"552","Triosephosphate isomerase OS=Homo sapiens GN=TPI1 PE=1 SV=2","sp|P60174|TPIS_HUMAN",0.49,2.04,0.65,NA,NA,NA,0.45,0.32,0.32,NA,NA,NA
+"553","Tropomyosin alpha-3 chain OS=Homo sapiens GN=TPM3 PE=1 SV=1","sp|P06753|TPM3_HUMAN",0.54,1.8,0.64,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"554","Protein S100-A8 OS=Homo sapiens GN=S100A8 PE=1 SV=1","sp|P05109|S10A8_HUMAN",0.53,1.59,0.63,0.65,NA,1.09,0.44,0.57,0.44,NA,NA,0.69
+"555","Lysozyme C OS=Homo sapiens GN=LYZ PE=1 SV=1","sp|P61626|LYSC_HUMAN",0.55,1.45,0.63,1.18,NA,1.97,0.44,1.07,0.6,NA,NA,0.8
+"556","40S ribosomal protein S19 OS=Homo sapiens GN=RPS19 PE=1 SV=2","sp|P39019|RS19_HUMAN",0.76,0.99,0.62,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"557","Phosphatidylinositol-3,4,5-trisphosphate 5-phosphatase 1 OS=Homo sapiens GN=INPP5D PE=1 SV=2","sp|Q92835|SHIP1_HUMAN",0.73,1.02,0.6,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"558","CapZ-interacting protein OS=Homo sapiens GN=RCSD1 PE=1 SV=1","sp|Q6JBY9|CPZIP_HUMAN",1.21,1.14,0.6,NA,NA,NA,1.25,1.22,1.14,NA,NA,NA
+"559","Peptidyl-prolyl cis-trans isomerase A OS=Homo sapiens GN=PPIA PE=1 SV=2","sp|P62937|PPIA_HUMAN",0.69,2.03,0.59,0.66,1.12,0.66,0.34,0.39,0.45,1.42,1.12,0.96
+"560","Receptor-type tyrosine-protein phosphatase C OS=Homo sapiens GN=PTPRC PE=1 SV=2","sp|P08575|PTPRC_HUMAN",0.57,1.22,0.58,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"561","Histone H1.5 OS=Homo sapiens GN=HIST1H1B PE=1 SV=3","sp|P16401|H15_HUMAN",2.15,0.69,0.54,0.72,0.71,1.07,0.74,1.03,1.08,0.95,1.29,1.33
+"562","Cathepsin G OS=Homo sapiens GN=CTSG PE=1 SV=2","sp|P08311|CATG_HUMAN",0.52,1.34,0.52,NA,NA,NA,0.57,1.48,0.74,NA,NA,NA
+"563","Splicing factor, arginine/serine-rich 6 OS=Homo sapiens GN=SFRS6 PE=1 SV=2","sp|Q13247|SFRS6_HUMAN",0.89,0.36,0.5,NA,NA,NA,1.21,1.07,1.52,NA,NA,NA
+"564","Lipase member I OS=Homo sapiens GN=LIPI PE=1 SV=2","sp|Q6XZB0|LIPI_HUMAN",1.64,0.93,0.47,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"565","Rho GDP-dissociation inhibitor 2 OS=Homo sapiens GN=ARHGDIB PE=1 SV=3","sp|P52566|GDIR2_HUMAN",0.51,2.63,0.45,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"566","Myeloperoxidase OS=Homo sapiens GN=MPO PE=1 SV=1","sp|P05164|PERM_HUMAN",0.36,1.28,0.44,0.64,NA,0.88,0.39,1.47,0.48,NA,NA,0.5
+"567","Chromobox protein homolog 3 OS=Homo sapiens GN=CBX3 PE=1 SV=4","sp|Q13185|CBX3_HUMAN",1.18,0.85,0.44,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"568","Protein S100-A9 OS=Homo sapiens GN=S100A9 PE=1 SV=1","sp|P06702|S10A9_HUMAN",0.3,1.21,0.39,0.48,NA,0.97,0.45,0.63,0.42,NA,NA,0.41
+"569","Lactotransferrin OS=Homo sapiens GN=LTF PE=1 SV=6","sp|P02788|TRFL_HUMAN",0.32,1.62,0.38,NA,NA,NA,0.34,1.22,0.48,NA,NA,NA
+"570","Azurocidin OS=Homo sapiens GN=AZU1 PE=1 SV=3","sp|P20160|CAP7_HUMAN",0.36,1.48,0.35,NA,NA,NA,0.42,1.04,0.4,NA,NA,NA
+"571","Serum albumin OS=Homo sapiens GN=ALB PE=1 SV=2","sp|P02768|ALBU_HUMAN",NA,NA,NA,NA,NA,NA,2.48,1.48,0.56,NA,NA,NA
+"572","HLA class I histocompatibility antigen, B-38 alpha chain OS=Homo sapiens GN=HLA-B PE=2 SV=1","sp|Q95365|1B38_HUMAN",NA,NA,NA,NA,NA,NA,2.09,1.5,1.52,NA,NA,NA
+"573","Fermitin family homolog 3 OS=Homo sapiens GN=FERMT3 PE=1 SV=1","sp|Q86UX7|URP2_HUMAN",NA,NA,NA,NA,NA,NA,1.73,1.04,1.15,NA,NA,NA
+"574","60S ribosomal protein L13 OS=Homo sapiens GN=RPL13 PE=1 SV=4","sp|P26373|RL13_HUMAN",NA,NA,NA,NA,NA,NA,1.55,1.11,0.93,NA,NA,NA
+"575","Cytochrome c oxidase subunit 2 OS=Homo sapiens GN=MT-CO2 PE=1 SV=1","sp|P00403|COX2_HUMAN",NA,NA,NA,NA,NA,NA,1.51,1.44,1.86,NA,NA,NA
+"576","Ferritin light chain OS=Homo sapiens GN=FTL PE=1 SV=2","sp|P02792|FRIL_HUMAN",NA,NA,NA,0.95,0.94,1.35,1.48,0.65,0.98,NA,NA,NA
+"577","Talin-2 OS=Homo sapiens GN=TLN2 PE=1 SV=4","sp|Q9Y4G6|TLN2_HUMAN",NA,NA,NA,NA,NA,NA,1.47,1.09,1.04,NA,NA,NA
+"578","Gamma-interferon-inducible protein 16 OS=Homo sapiens GN=IFI16 PE=1 SV=3","sp|Q16666|IF16_HUMAN",NA,NA,NA,NA,NA,NA,1.47,1.02,1.11,NA,NA,NA
+"579","Keratinocyte proline-rich protein OS=Homo sapiens GN=KPRP PE=1 SV=1","sp|Q5T749|KPRP_HUMAN",NA,NA,NA,NA,NA,NA,1.44,1.19,1.05,NA,NA,NA
+"580","Putative 40S ribosomal protein S26-like 1 OS=Homo sapiens GN=RPS26P11 PE=5 SV=1","sp|Q5JNZ5|RS26L_HUMAN",NA,NA,NA,NA,NA,NA,1.42,0.91,1.14,NA,NA,NA
+"581","Calcium/calmodulin-dependent protein kinase type II subunit delta OS=Homo sapiens GN=CAMK2D PE=1 SV=3","sp|Q13557|KCC2D_HUMAN",NA,NA,NA,NA,NA,NA,1.41,1.35,1.21,NA,NA,NA
+"582","Ras-related protein Rab-5C OS=Homo sapiens GN=RAB5C PE=1 SV=2","sp|P51148|RAB5C_HUMAN",NA,NA,NA,NA,NA,NA,1.4,1.14,1.21,NA,NA,NA
+"583","Annexin A2 OS=Homo sapiens GN=ANXA2 PE=1 SV=2","sp|P07355|ANXA2_HUMAN",NA,NA,NA,NA,NA,NA,1.39,1.94,1.31,NA,NA,NA
+"584","Intercellular adhesion molecule 3 OS=Homo sapiens GN=ICAM3 PE=1 SV=2","sp|P32942|ICAM3_HUMAN",NA,NA,NA,NA,NA,NA,1.38,1.56,0.99,NA,NA,NA
+"585","Scaffold attachment factor B1 OS=Homo sapiens GN=SAFB PE=1 SV=4","sp|Q15424|SAFB1_HUMAN",NA,NA,NA,NA,NA,NA,1.38,1,1.33,NA,NA,NA
+"586","Histone H1.2 OS=Homo sapiens GN=HIST1H1C PE=1 SV=2","sp|P16403|H12_HUMAN",NA,NA,NA,NA,NA,NA,1.33,1.3,0.65,NA,NA,NA
+"587","Calmegin OS=Homo sapiens GN=CLGN PE=1 SV=1","sp|O14967|CLGN_HUMAN",NA,NA,NA,NA,NA,NA,1.32,1.3,1,NA,NA,NA
+"588","Cytochrome c oxidase subunit 4 isoform 1, mitochondrial OS=Homo sapiens GN=COX4I1 PE=1 SV=1","sp|P13073|COX41_HUMAN",NA,NA,NA,NA,NA,NA,1.29,2.12,1.4,NA,NA,NA
+"589","40S ribosomal protein S17 OS=Homo sapiens GN=RPS17 PE=1 SV=2","sp|P08708|RS17_HUMAN",NA,NA,NA,NA,NA,NA,1.28,1.08,1.21,NA,NA,NA
+"590","60S ribosomal protein L7a OS=Homo sapiens GN=RPL7A PE=1 SV=2","sp|P62424|RL7A_HUMAN",NA,NA,NA,NA,NA,NA,1.27,0.9,0.85,NA,NA,NA
+"591","60S ribosomal protein L7 OS=Homo sapiens GN=RPL7 PE=1 SV=1","sp|P18124|RL7_HUMAN",NA,NA,NA,NA,NA,NA,1.27,1.14,1.13,NA,NA,NA
+"592","Proteasome subunit beta type-4 OS=Homo sapiens GN=PSMB4 PE=1 SV=4","sp|P28070|PSB4_HUMAN",NA,NA,NA,NA,NA,NA,1.27,1.17,1.11,NA,NA,NA
+"593","Clathrin light chain A OS=Homo sapiens GN=CLTA PE=1 SV=1","sp|P09496|CLCA_HUMAN",NA,NA,NA,NA,NA,NA,1.25,1.27,1.01,NA,NA,NA
+"594","Uncharacterized protein C1orf14 OS=Homo sapiens GN=C1orf14 PE=1 SV=2","sp|Q9BZQ2|CA014_HUMAN",NA,NA,NA,NA,NA,NA,1.24,1.2,0.98,NA,NA,NA
+"595","Splicing factor, arginine/serine-rich 9 OS=Homo sapiens GN=SFRS9 PE=1 SV=1","sp|Q13242|SFRS9_HUMAN",NA,NA,NA,NA,NA,NA,1.24,1,0.91,NA,NA,NA
+"596","60S ribosomal protein L15 OS=Homo sapiens GN=RPL15 PE=1 SV=2","sp|P61313|RL15_HUMAN",NA,NA,NA,NA,NA,NA,1.24,1.18,0.95,NA,NA,NA
+"597","FACT complex subunit SSRP1 OS=Homo sapiens GN=SSRP1 PE=1 SV=1","sp|Q08945|SSRP1_HUMAN",NA,NA,NA,NA,NA,NA,1.21,1.43,1.45,NA,NA,NA
+"598","Small nuclear ribonucleoprotein-associated protein N OS=Homo sapiens GN=SNRPN PE=1 SV=1","sp|P63162|RSMN_HUMAN",NA,NA,NA,NA,NA,NA,1.21,1.27,1.07,NA,NA,NA
+"599","40S ribosomal protein S6 OS=Homo sapiens GN=RPS6 PE=1 SV=1","sp|P62753|RS6_HUMAN",NA,NA,NA,NA,NA,NA,1.2,0.81,0.84,NA,NA,NA
+"600","4-trimethylaminobutyraldehyde dehydrogenase OS=Homo sapiens GN=ALDH9A1 PE=1 SV=3","sp|P49189|AL9A1_HUMAN",NA,NA,NA,NA,NA,NA,1.19,1.1,0.9,NA,NA,NA
+"601","Adipocyte plasma membrane-associated protein OS=Homo sapiens GN=APMAP PE=1 SV=2","sp|Q9HDC9|APMAP_HUMAN",NA,NA,NA,NA,NA,NA,1.19,1.36,1.09,NA,NA,NA
+"602","ADP/ATP translocase 3 OS=Homo sapiens GN=SLC25A6 PE=1 SV=4","sp|P12236|ADT3_HUMAN",NA,NA,NA,1.19,1.06,1.13,1.19,1.31,1.5,NA,NA,NA
+"603","DNA topoisomerase 2-beta OS=Homo sapiens GN=TOP2B PE=1 SV=3","sp|Q02880|TOP2B_HUMAN",NA,NA,NA,NA,NA,NA,1.18,1.01,1.15,NA,NA,NA
+"604","Acidic leucine-rich nuclear phosphoprotein 32 family member B OS=Homo sapiens GN=ANP32B PE=1 SV=1","sp|Q92688|AN32B_HUMAN",NA,NA,NA,NA,NA,NA,1.17,1.22,1.26,NA,NA,NA
+"605","U1 small nuclear ribonucleoprotein 70 kDa OS=Homo sapiens GN=SNRNP70 PE=1 SV=2","sp|P08621|RU17_HUMAN",NA,NA,NA,0.99,NA,0.93,1.17,1.09,1,NA,NA,1.05
+"606","Non-histone chromosomal protein HMG-14 OS=Homo sapiens GN=HMGN1 PE=1 SV=3","sp|P05114|HMGN1_HUMAN",NA,NA,NA,NA,NA,NA,1.16,0.85,1.17,NA,NA,NA
+"607","Septin-11 OS=Homo sapiens GN=SEPT11 PE=1 SV=3","sp|Q9NVA2|SEP11_HUMAN",NA,NA,NA,NA,NA,NA,1.16,1.05,1.1,NA,NA,NA
+"608","60S ribosomal protein L36a OS=Homo sapiens GN=RPL36A PE=1 SV=2","sp|P83881|RL36A_HUMAN",NA,NA,NA,NA,NA,NA,1.14,0.75,0.87,NA,NA,NA
+"609","rRNA 2'-O-methyltransferase fibrillarin OS=Homo sapiens GN=FBL PE=1 SV=2","sp|P22087|FBRL_HUMAN",NA,NA,NA,NA,NA,NA,1.14,0.98,0.96,NA,NA,NA
+"610","Splicing factor, arginine/serine-rich 5 OS=Homo sapiens GN=SFRS5 PE=1 SV=1","sp|Q13243|SFRS5_HUMAN",NA,NA,NA,NA,NA,NA,1.13,1.21,1.29,NA,NA,NA
+"611","Transformer-2 protein homolog alpha OS=Homo sapiens GN=TRA2A PE=1 SV=1","sp|Q13595|TRA2A_HUMAN",NA,NA,NA,NA,NA,NA,1.12,1.2,1.01,NA,NA,NA
+"612","Guanine nucleotide-binding protein subunit beta-2-like 1 OS=Homo sapiens GN=GNB2L1 PE=1 SV=3","sp|P63244|GBLP_HUMAN",NA,NA,NA,NA,NA,NA,1.12,1.1,0.91,NA,NA,NA
+"613","ELAV-like protein 1 OS=Homo sapiens GN=ELAVL1 PE=1 SV=2","sp|Q15717|ELAV1_HUMAN",NA,NA,NA,1.17,NA,1.18,1.12,1.04,1.17,NA,NA,1.13
+"614","Adenine phosphoribosyltransferase OS=Homo sapiens GN=APRT PE=1 SV=2","sp|P07741|APT_HUMAN",NA,NA,NA,NA,NA,NA,1.12,1.19,1.44,NA,NA,NA
+"615","Serine/threonine-protein kinase VRK1 OS=Homo sapiens GN=VRK1 PE=1 SV=1","sp|Q99986|VRK1_HUMAN",NA,NA,NA,NA,NA,NA,1.11,1.02,0.98,NA,NA,NA
+"616","Probable ATP-dependent RNA helicase DDX5 OS=Homo sapiens GN=DDX5 PE=1 SV=1","sp|P17844|DDX5_HUMAN",NA,NA,NA,NA,NA,NA,1.11,1.05,1.23,NA,NA,NA
+"617","TATA-binding protein-associated factor 2N OS=Homo sapiens GN=TAF15 PE=1 SV=1","sp|Q92804|RBP56_HUMAN",NA,NA,NA,NA,NA,NA,1.11,1.12,0.99,NA,NA,NA
+"618","60S ribosomal protein L10a OS=Homo sapiens GN=RPL10A PE=1 SV=2","sp|P62906|RL10A_HUMAN",NA,NA,NA,NA,NA,NA,1.11,1.29,0.67,NA,NA,NA
+"619","RNA-binding protein 39 OS=Homo sapiens GN=RBM39 PE=1 SV=2","sp|Q14498|RBM39_HUMAN",NA,NA,NA,NA,NA,NA,1.1,0.88,1.16,NA,NA,NA
+"620","Probable transcription factor PML OS=Homo sapiens GN=PML PE=1 SV=3","sp|P29590|PML_HUMAN",NA,NA,NA,NA,NA,NA,1.1,2.39,1.07,NA,NA,NA
+"621","Guanine nucleotide-binding protein G(I)/G(S)/G(T) subunit beta-2 OS=Homo sapiens GN=GNB2 PE=1 SV=3","sp|P62879|GBB2_HUMAN",NA,NA,NA,NA,NA,NA,1.09,0.77,0.88,NA,NA,NA
+"622","60S ribosomal protein L5 OS=Homo sapiens GN=RPL5 PE=1 SV=3","sp|P46777|RL5_HUMAN",NA,NA,NA,NA,NA,NA,1.09,0.95,0.78,NA,NA,NA
+"623","Heterogeneous nuclear ribonucleoprotein Q OS=Homo sapiens GN=SYNCRIP PE=1 SV=2","sp|O60506|HNRPQ_HUMAN",NA,NA,NA,NA,NA,NA,1.08,0.88,1.06,NA,NA,NA
+"624","Serrate RNA effector molecule homolog OS=Homo sapiens GN=SRRT PE=1 SV=1","sp|Q9BXP5|SRRT_HUMAN",NA,NA,NA,NA,NA,NA,1.08,1.68,1.28,NA,NA,NA
+"625","Glutathione S-transferase omega-1 OS=Homo sapiens GN=GSTO1 PE=1 SV=2","sp|P78417|GSTO1_HUMAN",NA,NA,NA,NA,NA,NA,1.08,0.86,1.02,NA,NA,NA
+"626","Rab GDP dissociation inhibitor alpha OS=Homo sapiens GN=GDI1 PE=1 SV=2","sp|P31150|GDIA_HUMAN",NA,NA,NA,NA,NA,NA,1.08,1.01,0.92,NA,NA,NA
+"627","Ubiquitin-conjugating enzyme E2 N OS=Homo sapiens GN=UBE2N PE=1 SV=1","sp|P61088|UBE2N_HUMAN",NA,NA,NA,NA,NA,NA,1.08,0.94,1.04,NA,NA,NA
+"628","DNA-3-methyladenine glycosylase OS=Homo sapiens GN=MPG PE=1 SV=3","sp|P29372|3MG_HUMAN",NA,NA,NA,NA,NA,NA,1.07,1.18,0.98,NA,NA,NA
+"629","Splicing factor, arginine/serine-rich 13A OS=Homo sapiens GN=SFRS13A PE=1 SV=1","sp|O75494|SF13A_HUMAN",1.13,NA,NA,NA,NA,NA,1.07,1.08,0.88,NA,NA,NA
+"630","Sorting and assembly machinery component 50 homolog OS=Homo sapiens GN=SAMM50 PE=1 SV=3","sp|Q9Y512|SAM50_HUMAN",NA,NA,NA,NA,NA,NA,1.07,1.39,1.25,NA,NA,NA
+"631","Heterogeneous nuclear ribonucleoprotein H2 OS=Homo sapiens GN=HNRNPH2 PE=1 SV=1","sp|P55795|HNRH2_HUMAN",NA,NA,NA,NA,NA,NA,1.07,1.14,1.06,NA,NA,NA
+"632","Dedicator of cytokinesis protein 2 OS=Homo sapiens GN=DOCK2 PE=1 SV=2","sp|Q92608|DOCK2_HUMAN",NA,NA,NA,NA,NA,NA,1.05,1.28,1.01,NA,NA,NA
+"633","14-3-3 protein gamma OS=Homo sapiens GN=YWHAG PE=1 SV=2","sp|P61981|1433G_HUMAN",NA,NA,NA,NA,NA,NA,1.05,1.09,1.07,NA,NA,NA
+"634","Chromodomain-helicase-DNA-binding protein 4 OS=Homo sapiens GN=CHD4 PE=1 SV=1","sp|Q14839|CHD4_HUMAN",NA,NA,NA,NA,NA,NA,1.05,0.91,1.05,NA,NA,NA
+"635","Glutathione peroxidase 1 OS=Homo sapiens GN=GPX1 PE=1 SV=3","sp|P07203|GPX1_HUMAN",NA,NA,NA,NA,NA,NA,1.05,0.8,0.98,NA,NA,NA
+"636","Lupus La protein OS=Homo sapiens GN=SSB PE=1 SV=2","sp|P05455|LA_HUMAN",NA,NA,NA,NA,NA,NA,1.04,0.82,1.05,1.16,1.09,NA
+"637","Tubulin alpha-1C chain OS=Homo sapiens GN=TUBA1C PE=1 SV=1","sp|Q9BQE3|TBA1C_HUMAN",NA,NA,NA,0.99,0.78,0.91,1.03,0.66,1.1,NA,NA,NA
+"638","Cytochrome b-c1 complex subunit 8 OS=Homo sapiens GN=UQCRQ PE=1 SV=4","sp|O14949|QCR8_HUMAN",NA,NA,NA,NA,NA,NA,1.01,1.26,1.16,NA,NA,NA
+"639","Putative 40S ribosomal protein S10-like OS=Homo sapiens GN=RPS10P5 PE=5 SV=1","sp|Q9NQ39|RS10L_HUMAN",NA,NA,NA,NA,NA,NA,1,0.7,0.61,NA,NA,NA
+"640","Splicing factor U2AF 65 kDa subunit OS=Homo sapiens GN=U2AF2 PE=1 SV=4","sp|P26368|U2AF2_HUMAN",NA,NA,NA,NA,NA,NA,1,1.14,0.98,NA,NA,NA
+"641","Nuclear transport factor 2 OS=Homo sapiens GN=NUTF2 PE=1 SV=1","sp|P61970|NTF2_HUMAN",NA,NA,NA,NA,NA,NA,1,1.01,0.74,NA,NA,NA
+"642","6-phosphogluconolactonase OS=Homo sapiens GN=PGLS PE=1 SV=2","sp|O95336|6PGL_HUMAN",NA,NA,NA,NA,NA,NA,1,0.98,1.06,NA,NA,NA
+"643","Histone-binding protein RBBP4 OS=Homo sapiens GN=RBBP4 PE=1 SV=3","sp|Q09028|RBBP4_HUMAN",NA,NA,NA,NA,NA,NA,1,0.99,1.26,NA,NA,NA
+"644","Heat shock 70 kDa protein 4 OS=Homo sapiens GN=HSPA4 PE=1 SV=4","sp|P34932|HSP74_HUMAN",NA,NA,NA,NA,NA,NA,0.99,1.16,0.91,NA,NA,NA
+"645","Protein-S-isoprenylcysteine O-methyltransferase OS=Homo sapiens GN=ICMT PE=1 SV=1","sp|O60725|ICMT_HUMAN",NA,NA,NA,NA,NA,NA,0.99,1.2,0.9,NA,NA,NA
+"646","Eukaryotic initiation factor 4A-III OS=Homo sapiens GN=EIF4A3 PE=1 SV=4","sp|P38919|IF4A3_HUMAN",NA,NA,NA,NA,NA,NA,0.98,1.03,1.21,NA,NA,NA
+"647","CUGBP Elav-like family member 2 OS=Homo sapiens GN=CELF2 PE=1 SV=1","sp|O95319|CELF2_HUMAN",NA,NA,NA,NA,NA,NA,0.98,0.89,1.1,NA,NA,NA
+"648","Alcohol dehydrogenase [NADP+] OS=Homo sapiens GN=AKR1A1 PE=1 SV=3","sp|P14550|AK1A1_HUMAN",NA,NA,NA,NA,NA,NA,0.98,0.89,0.97,NA,NA,NA
+"649","T-complex protein 1 subunit epsilon OS=Homo sapiens GN=CCT5 PE=1 SV=1","sp|P48643|TCPE_HUMAN",NA,NA,NA,NA,NA,NA,0.97,0.96,1.06,NA,NA,NA
+"650","Ras GTPase-activating-like protein IQGAP1 OS=Homo sapiens GN=IQGAP1 PE=1 SV=1","sp|P46940|IQGA1_HUMAN",NA,NA,NA,NA,NA,NA,0.97,1.14,1.03,NA,NA,NA
+"651","Histone H2A type 1-J OS=Homo sapiens GN=HIST1H2AJ PE=1 SV=3","sp|Q99878|H2A1J_HUMAN",NA,NA,NA,NA,NA,NA,0.97,0.69,0.71,NA,NA,NA
+"652","SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A member 5 OS=Homo sapiens GN=SMARCA5 PE=1 SV=1","sp|O60264|SMCA5_HUMAN",NA,NA,NA,NA,NA,NA,0.97,1.04,0.97,NA,NA,NA
+"653","Squamous cell carcinoma antigen recognized by T-cells 3 OS=Homo sapiens GN=SART3 PE=1 SV=1","sp|Q15020|SART3_HUMAN",NA,NA,NA,NA,NA,NA,0.96,1.22,1.11,NA,NA,NA
+"654","Histone H2B type 1-L OS=Homo sapiens GN=HIST1H2BL PE=1 SV=3","sp|Q99880|H2B1L_HUMAN",NA,NA,NA,NA,NA,NA,0.95,2.92,0.93,NA,NA,NA
+"655","Transcriptional repressor CTCF OS=Homo sapiens GN=CTCF PE=1 SV=1","sp|P49711|CTCF_HUMAN",NA,NA,NA,NA,NA,NA,0.94,1.16,1.02,NA,NA,NA
+"656","Superoxide dismutase [Mn], mitochondrial OS=Homo sapiens GN=SOD2 PE=1 SV=2","sp|P04179|SODM_HUMAN",NA,NA,NA,NA,NA,NA,0.94,1.23,0.96,NA,NA,NA
+"657","Actin-related protein 2/3 complex subunit 5 OS=Homo sapiens GN=ARPC5 PE=1 SV=3","sp|O15511|ARPC5_HUMAN",NA,NA,NA,NA,NA,NA,0.94,0.92,0.78,NA,NA,NA
+"658","Proliferating cell nuclear antigen OS=Homo sapiens GN=PCNA PE=1 SV=1","sp|P12004|PCNA_HUMAN",NA,NA,NA,NA,NA,NA,0.94,1,0.86,NA,NA,NA
+"659","RNA-binding protein FUS OS=Homo sapiens GN=FUS PE=1 SV=1","sp|P35637|FUS_HUMAN",NA,NA,NA,1.23,0.91,1.09,0.94,0.8,1.03,0.74,0.73,1
+"660","Histone H2A.V OS=Homo sapiens GN=H2AFV PE=1 SV=3","sp|Q71UI9|H2AV_HUMAN",NA,NA,NA,0.86,NA,1.29,0.93,0.92,0.81,NA,NA,0.94
+"661","60S ribosomal protein L23 OS=Homo sapiens GN=RPL23 PE=1 SV=1","sp|P62829|RL23_HUMAN",NA,NA,NA,NA,NA,NA,0.92,0.88,0.94,NA,NA,NA
+"662","Putative small nuclear ribonucleoprotein polypeptide E-like protein 1 OS=Homo sapiens GN=SNRPEL1 PE=5 SV=1","sp|Q5VYJ4|RUEL1_HUMAN",NA,NA,NA,NA,NA,NA,0.91,0.96,1.16,NA,NA,NA
+"663","Small nuclear ribonucleoprotein F OS=Homo sapiens GN=SNRPF PE=1 SV=1","sp|P62306|RUXF_HUMAN",1,0.85,NA,NA,NA,NA,0.91,0.93,1.19,NA,NA,NA
+"664","Heterogeneous nuclear ribonucleoprotein G OS=Homo sapiens GN=RBMX PE=1 SV=3","sp|P38159|HNRPG_HUMAN",NA,NA,NA,NA,NA,NA,0.91,2.45,1.33,NA,NA,NA
+"665","RuvB-like 1 OS=Homo sapiens GN=RUVBL1 PE=1 SV=1","sp|Q9Y265|RUVB1_HUMAN",NA,NA,NA,NA,NA,NA,0.9,1.09,0.99,NA,NA,NA
+"666","6-phosphofructokinase type C OS=Homo sapiens GN=PFKP PE=1 SV=2","sp|Q01813|K6PP_HUMAN",NA,NA,NA,NA,NA,NA,0.89,1.19,1.02,NA,NA,NA
+"667","Structural maintenance of chromosomes flexible hinge domain-containing protein 1 OS=Homo sapiens GN=SMCHD1 PE=1 SV=2","sp|A6NHR9|SMHD1_HUMAN",NA,NA,NA,NA,NA,NA,0.89,1,0.96,NA,NA,NA
+"668","Myosin light polypeptide 6 OS=Homo sapiens GN=MYL6 PE=1 SV=2","sp|P60660|MYL6_HUMAN",NA,NA,NA,NA,NA,NA,0.88,0.91,0.84,NA,NA,NA
+"669","40S ribosomal protein S23 OS=Homo sapiens GN=RPS23 PE=1 SV=3","sp|P62266|RS23_HUMAN",NA,NA,NA,NA,NA,NA,0.88,0.79,0.65,NA,NA,NA
+"670","Tubulin alpha-1C chain OS=Homo sapiens GN=TUBA1C PE=1 SV=1","sp|Q9BQE3|TBA1C_HUMAN",NA,NA,NA,NA,NA,NA,0.88,0.97,0.73,NA,NA,NA
+"671","UPF0027 protein C22orf28 OS=Homo sapiens GN=C22orf28 PE=1 SV=1","sp|Q9Y3I0|CV028_HUMAN",NA,NA,NA,NA,NA,NA,0.88,1.01,0.83,NA,NA,NA
+"672","Heterogeneous nuclear ribonucleoprotein D0 OS=Homo sapiens GN=HNRNPD PE=1 SV=1","sp|Q14103|HNRPD_HUMAN",NA,NA,NA,NA,NA,NA,0.88,1.56,1.12,NA,NA,NA
+"673","Protein NipSnap homolog 1 OS=Homo sapiens GN=NIPSNAP1 PE=1 SV=1","sp|Q9BPW8|NIPS1_HUMAN",NA,NA,NA,NA,NA,NA,0.88,1.19,0.93,NA,NA,NA
+"674","Prohibitin-2 OS=Homo sapiens GN=PHB2 PE=1 SV=2","sp|Q99623|PHB2_HUMAN",NA,NA,NA,NA,NA,NA,0.88,0.76,0.61,NA,NA,NA
+"675","Ras-related C3 botulinum toxin substrate 2 OS=Homo sapiens GN=RAC2 PE=1 SV=1","sp|P15153|RAC2_HUMAN",NA,NA,NA,NA,NA,NA,0.87,0.78,0.76,NA,NA,NA
+"676","Small ubiquitin-related modifier 1 OS=Homo sapiens GN=SUMO1 PE=1 SV=1","sp|P63165|SUMO1_HUMAN",NA,NA,NA,NA,NA,NA,0.87,0.88,0.86,NA,NA,NA
+"677","Regulator of chromosome condensation OS=Homo sapiens GN=RCC1 PE=1 SV=1","sp|P18754|RCC1_HUMAN",NA,NA,NA,NA,NA,NA,0.86,1.04,1.27,NA,NA,NA
+"678","60S ribosomal protein L37 OS=Homo sapiens GN=RPL37 PE=1 SV=2","sp|P61927|RL37_HUMAN",NA,NA,NA,NA,NA,NA,0.86,0.89,0.98,NA,NA,NA
+"679","Mitotic checkpoint protein BUB3 OS=Homo sapiens GN=BUB3 PE=1 SV=1","sp|O43684|BUB3_HUMAN",NA,NA,NA,NA,NA,NA,0.86,0.39,1.03,NA,NA,NA
+"680","Putative oxidoreductase GLYR1 OS=Homo sapiens GN=GLYR1 PE=1 SV=3","sp|Q49A26|GLYR1_HUMAN",NA,NA,NA,NA,NA,NA,0.86,0.87,0.84,NA,NA,NA
+"681","Translocator protein OS=Homo sapiens GN=TSPO PE=1 SV=2","sp|P30536|TSPOA_HUMAN",NA,NA,NA,NA,NA,NA,0.86,1.13,0.75,NA,NA,NA
+"682","UMP-CMP kinase OS=Homo sapiens GN=CMPK1 PE=1 SV=3","sp|P30085|KCY_HUMAN",NA,NA,NA,1.08,1.14,0.98,0.85,0.9,0.91,NA,NA,NA
+"683","Histone H2B type 1-B OS=Homo sapiens GN=HIST1H2BB PE=1 SV=2","sp|P33778|H2B1B_HUMAN",NA,NA,NA,NA,NA,NA,0.85,0.68,0.67,NA,NA,NA
+"684","Transportin-2 OS=Homo sapiens GN=TNPO2 PE=1 SV=3","sp|O14787|TNPO2_HUMAN",NA,NA,NA,NA,NA,NA,0.84,0.88,0.96,NA,NA,NA
+"685","Spectrin alpha chain, brain OS=Homo sapiens GN=SPTAN1 PE=1 SV=3","sp|Q13813|SPTA2_HUMAN",NA,NA,NA,0.86,NA,0.84,0.82,0.87,1.35,NA,NA,1
+"686","Matrin-3 OS=Homo sapiens GN=MATR3 PE=1 SV=2","sp|P43243|MATR3_HUMAN",NA,NA,NA,NA,NA,NA,0.82,1.32,0.79,NA,NA,NA
+"687","Nuclear pore membrane glycoprotein 210 OS=Homo sapiens GN=NUP210 PE=1 SV=3","sp|Q8TEM1|PO210_HUMAN",NA,NA,NA,NA,NA,NA,0.82,1.37,0.92,NA,NA,NA
+"688","ADP/ATP translocase 3 OS=Homo sapiens GN=SLC25A6 PE=1 SV=4","sp|P12236|ADT3_HUMAN",NA,NA,NA,NA,NA,NA,0.82,0.97,0.74,NA,NA,NA
+"689","THO complex subunit 1 OS=Homo sapiens GN=THOC1 PE=1 SV=1","sp|Q96FV9|THOC1_HUMAN",NA,NA,NA,NA,NA,NA,0.81,0.88,0.95,NA,NA,NA
+"690","NEDD8-conjugating enzyme Ubc12 OS=Homo sapiens GN=UBE2M PE=1 SV=1","sp|P61081|UBC12_HUMAN",NA,NA,NA,NA,NA,NA,0.81,0.87,0.97,NA,NA,NA
+"691","60S ribosomal protein L32 OS=Homo sapiens GN=RPL32 PE=1 SV=2","sp|P62910|RL32_HUMAN",NA,NA,NA,NA,NA,NA,0.81,0.66,0.86,NA,NA,NA
+"692","Chromobox protein homolog 3 OS=Homo sapiens GN=CBX3 PE=1 SV=4","sp|Q13185|CBX3_HUMAN",NA,NA,NA,NA,NA,NA,0.8,1.47,0.95,NA,NA,NA
+"693","GTP-binding nuclear protein Ran OS=Homo sapiens GN=RAN PE=1 SV=3","sp|P62826|RAN_HUMAN",NA,NA,NA,NA,NA,NA,0.8,0.9,0.79,NA,NA,NA
+"694","Mitochondrial carrier homolog 2 OS=Homo sapiens GN=MTCH2 PE=1 SV=1","sp|Q9Y6C9|MTCH2_HUMAN",NA,NA,NA,NA,NA,NA,0.79,1.3,0.93,NA,NA,NA
+"695","ATP-dependent RNA helicase A OS=Homo sapiens GN=DHX9 PE=1 SV=4","sp|Q08211|DHX9_HUMAN",NA,NA,NA,NA,NA,NA,0.77,1.1,0.92,NA,NA,NA
+"696","1-acyl-sn-glycerol-3-phosphate acyltransferase epsilon OS=Homo sapiens GN=AGPAT5 PE=1 SV=3","sp|Q9NUQ2|PLCE_HUMAN",NA,NA,NA,NA,NA,NA,0.72,1.19,0.97,NA,NA,NA
+"697","DENN domain-containing protein 1C OS=Homo sapiens GN=DENND1C PE=1 SV=1","sp|Q8IV53|DEN1C_HUMAN",NA,NA,NA,NA,NA,NA,0.71,0.84,0.63,NA,NA,NA
+"698","General transcription factor II-I OS=Homo sapiens GN=GTF2I PE=1 SV=2","sp|P78347|GTF2I_HUMAN",NA,NA,NA,NA,NA,NA,0.68,0.83,0.72,NA,NA,NA
+"699","Hexokinase-1 OS=Homo sapiens GN=HK1 PE=1 SV=3","sp|P19367|HXK1_HUMAN",NA,NA,NA,NA,NA,NA,0.67,1.3,1.05,NA,NA,NA
+"700","60S ribosomal protein L30 OS=Homo sapiens GN=RPL30 PE=1 SV=2","sp|P62888|RL30_HUMAN",NA,NA,NA,NA,NA,NA,0.66,0.46,0.7,NA,NA,NA
+"701","Splicing factor 3A subunit 2 OS=Homo sapiens GN=SF3A2 PE=1 SV=2","sp|Q15428|SF3A2_HUMAN",NA,NA,NA,NA,NA,NA,0.62,0.63,0.86,NA,NA,NA
+"702","Small nuclear ribonucleoprotein G OS=Homo sapiens GN=SNRPG PE=1 SV=1","sp|P62308|RUXG_HUMAN",NA,NA,NA,NA,NA,NA,0.6,0.89,0.74,NA,NA,NA
+"703","Cofilin-1 OS=Homo sapiens GN=CFL1 PE=1 SV=3","sp|P23528|COF1_HUMAN",NA,NA,NA,NA,NA,NA,0.54,0.69,0.69,NA,NA,NA
+"704","40S ribosomal protein S16 OS=Homo sapiens GN=RPS16 PE=1 SV=2","sp|P62249|RS16_HUMAN",NA,NA,NA,0.86,NA,0.95,0.47,1.23,0.47,NA,NA,1.01
+"705","Ig gamma-3 chain C region OS=Homo sapiens GN=IGHG3 PE=1 SV=2","sp|P01860|IGHG3_HUMAN",NA,NA,NA,NA,NA,NA,0.36,0.46,0.2,NA,NA,NA
+"706","HLA class II histocompatibility antigen, DRB1-1 beta chain OS=Homo sapiens GN=HLA-DRB1 PE=1 SV=2","sp|P04229|2B11_HUMAN",NA,NA,NA,NA,NA,NA,0.29,0.93,0.38,NA,NA,NA
+"707","3-ketoacyl-CoA thiolase, mitochondrial OS=Homo sapiens GN=ACAA2 PE=1 SV=2","sp|P42765|THIM_HUMAN",NA,NA,NA,0.77,1.03,1.18,NA,NA,NA,NA,NA,NA
+"708","60S ribosomal protein L26-like 1 OS=Homo sapiens GN=RPL26L1 PE=1 SV=1","sp|Q9UNX3|RL26L_HUMAN",NA,NA,NA,1.09,0.96,1.08,NA,NA,NA,NA,NA,NA
+"709","Calponin-3 OS=Homo sapiens GN=CNN3 PE=1 SV=1","sp|Q15417|CNN3_HUMAN",NA,NA,NA,1.12,1.14,0.95,NA,NA,NA,NA,NA,NA
+"710","Cytochrome b-c1 complex subunit Rieske, mitochondrial OS=Homo sapiens GN=UQCRFS1 PE=1 SV=2","sp|P47985|UCRI_HUMAN",NA,NA,NA,0.82,1.07,1.04,NA,NA,NA,NA,NA,NA
+"711","Cytochrome c oxidase subunit 7A2, mitochondrial OS=Homo sapiens GN=COX7A2 PE=1 SV=1","sp|P14406|CX7A2_HUMAN",NA,NA,NA,1.09,1.23,1.11,NA,NA,NA,NA,NA,NA
+"712","Drebrin-like protein OS=Homo sapiens GN=DBNL PE=1 SV=1","sp|Q9UJU6|DBNL_HUMAN",NA,NA,NA,0.95,0.9,0.78,NA,NA,NA,NA,NA,NA
+"713","Electron transfer flavoprotein subunit alpha, mitochondrial OS=Homo sapiens GN=ETFA PE=1 SV=1","sp|P13804|ETFA_HUMAN",NA,NA,NA,1.05,1.12,1.09,NA,NA,NA,NA,NA,NA
+"714","Glutamate dehydrogenase 2, mitochondrial OS=Homo sapiens GN=GLUD2 PE=1 SV=2","sp|P49448|DHE4_HUMAN",NA,NA,NA,0.96,0.95,1.09,NA,NA,NA,NA,NA,NA
+"715","Heat shock 70 kDa protein 1-like OS=Homo sapiens GN=HSPA1L PE=1 SV=2","sp|P34931|HS71L_HUMAN",NA,NA,NA,0.83,1.13,0.97,NA,NA,NA,NA,NA,NA
+"716","Heterogeneous nuclear ribonucleoprotein A/B OS=Homo sapiens GN=HNRNPAB PE=1 SV=2","sp|Q99729|ROAA_HUMAN",NA,NA,NA,0.92,1.26,1.04,NA,NA,NA,NA,NA,NA
+"717","HLA class I histocompatibility antigen, B-59 alpha chain OS=Homo sapiens GN=HLA-B PE=2 SV=1","sp|Q29940|1B59_HUMAN",NA,NA,NA,1.07,1.01,1.3,NA,NA,NA,NA,NA,NA
+"718","HLA class II histocompatibility antigen, DRB1-11 beta chain OS=Homo sapiens GN=HLA-DRB1 PE=2 SV=1","sp|P20039|2B1B_HUMAN",NA,NA,NA,1.19,1.06,1.55,NA,NA,NA,NA,NA,NA
+"719","Lamina-associated polypeptide 2, isoform alpha OS=Homo sapiens GN=TMPO PE=1 SV=2","sp|P42166|LAP2A_HUMAN",NA,NA,NA,1.29,1.11,0.96,NA,NA,NA,NA,NA,NA
+"720","Platelet basic protein OS=Homo sapiens GN=PPBP PE=1 SV=3","sp|P02775|CXCL7_HUMAN",NA,NA,NA,1.35,1.37,1.26,NA,NA,NA,NA,NA,NA
+"721","Poly(rC)-binding protein 2 OS=Homo sapiens GN=PCBP2 PE=1 SV=1","sp|Q15366|PCBP2_HUMAN",NA,NA,NA,1.14,0.99,1.02,NA,NA,NA,NA,NA,NA
+"722","Proteasome subunit alpha type-3 OS=Homo sapiens GN=PSMA3 PE=1 SV=2","sp|P25788|PSA3_HUMAN",NA,NA,NA,0.88,0.94,0.8,NA,NA,NA,NA,NA,NA
+"723","Putative 40S ribosomal protein S26-like 1 OS=Homo sapiens GN=RPS26P11 PE=5 SV=1","sp|Q5JNZ5|RS26L_HUMAN",NA,NA,NA,0.94,0.74,0.96,NA,NA,NA,NA,NA,NA
+"724","Rho-related GTP-binding protein RhoC OS=Homo sapiens GN=RHOC PE=1 SV=1","sp|P08134|RHOC_HUMAN",NA,NA,NA,1.06,0.89,1,NA,NA,NA,NA,NA,NA
+"725","#REF!","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"726","Spliceosome RNA helicase BAT1 OS=Homo sapiens GN=BAT1 PE=1 SV=1","sp|Q13838|UAP56_HUMAN",NA,NA,NA,1.05,1.16,1.14,NA,NA,NA,NA,NA,NA
+"727","Tetratricopeptide repeat protein 30B OS=Homo sapiens GN=TTC30B PE=2 SV=1","sp|Q8N4P2|TT30B_HUMAN",NA,NA,NA,1.06,1.26,1.29,NA,NA,NA,NA,NA,NA
+"728","40S ribosomal protein S4, X isoform OS=Homo sapiens GN=RPS4X PE=1 SV=2","sp|P62701|RS4X_HUMAN",NA,NA,NA,0.66,NA,0.62,NA,NA,NA,NA,NA,0.77
+"729","5'-3' exoribonuclease 2 OS=Homo sapiens GN=XRN2 PE=1 SV=1","sp|Q9H0D6|XRN2_HUMAN",NA,NA,NA,1.01,NA,0.94,NA,NA,NA,NA,NA,1.01
+"730","ATP-dependent RNA helicase DDX39 OS=Homo sapiens GN=DDX39 PE=1 SV=2","sp|O00148|DDX39_HUMAN",NA,NA,NA,NA,1.32,NA,NA,NA,NA,0.97,1.07,NA
+"731","FAD-dependent oxidoreductase domain-containing protein 2 OS=Homo sapiens GN=FOXRED2 PE=1 SV=1","sp|Q8IWF2|FXRD2_HUMAN",NA,NA,NA,1.83,NA,1.94,NA,NA,NA,NA,NA,1.72
+"732","Histone H2A.J OS=Homo sapiens GN=H2AFJ PE=1 SV=1","sp|Q9BTM1|H2AJ_HUMAN",NA,NA,NA,0.3,0.77,0.46,NA,NA,NA,1.45,1.43,0.79
+"733","Histone H2B type 1-L OS=Homo sapiens GN=HIST1H2BL PE=1 SV=3","sp|Q99880|H2B1L_HUMAN",NA,NA,NA,0.93,0.62,1.28,NA,NA,NA,1.29,1.09,1.29
+"734","Histone H2B type 2-E OS=Homo sapiens GN=HIST2H2BE PE=1 SV=3","sp|Q16778|H2B2E_HUMAN",NA,NA,NA,0.76,0.56,1.6,NA,NA,NA,1.18,1.28,1.36
+"735","Histone H3.2 OS=Homo sapiens GN=HIST2H3A PE=1 SV=3","sp|Q71DI3|H32_HUMAN",NA,NA,NA,1.18,0.92,1.27,NA,NA,NA,1.24,1.34,1.23
+"736","Host cell factor 1 OS=Homo sapiens GN=HCFC1 PE=1 SV=2","sp|P51610|HCFC1_HUMAN",NA,NA,NA,1.08,NA,1.11,NA,NA,NA,NA,NA,1.07
+"737","Ig mu heavy chain disease protein OS=Homo sapiens PE=1 SV=1","sp|P04220|MUCB_HUMAN",NA,NA,NA,NA,0.55,NA,NA,NA,NA,1.13,0.53,NA
+"738","Malate dehydrogenase, mitochondrial OS=Homo sapiens GN=MDH2 PE=1 SV=3","sp|P40926|MDHM_HUMAN",NA,NA,NA,NA,1.25,NA,NA,NA,NA,1.02,0.96,NA
+"739","Myeloid cell nuclear differentiation antigen OS=Homo sapiens GN=MNDA PE=1 SV=1","sp|P41218|MNDA_HUMAN",NA,NA,NA,1.6,NA,1.53,NA,NA,NA,NA,NA,0.82
+"740","Nuclear autoantigen Sp-100 OS=Homo sapiens GN=SP100 PE=1 SV=3","sp|P23497|SP100_HUMAN",NA,NA,NA,0.45,NA,0.81,NA,NA,NA,NA,NA,1.21
+"741","Peptidyl-prolyl cis-trans isomerase C OS=Homo sapiens GN=PPIC PE=1 SV=1","sp|P45877|PPIC_HUMAN",NA,NA,NA,NA,0.97,NA,NA,NA,NA,1.13,1.22,NA
+"742","Polypyrimidine tract-binding protein 2 OS=Homo sapiens GN=PTBP2 PE=1 SV=1","sp|Q9UKA9|PTBP2_HUMAN",NA,NA,NA,1.26,NA,1.21,NA,NA,NA,NA,NA,1.27
+"743","Putative pre-mRNA-splicing factor ATP-dependent RNA helicase DHX15 OS=Homo sapiens GN=DHX15 PE=1 SV=2","sp|O43143|DHX15_HUMAN",NA,NA,NA,1.1,NA,1.19,NA,NA,NA,NA,NA,1.17
+"744","Small nuclear ribonucleoprotein Sm D2 OS=Homo sapiens GN=SNRPD2 PE=1 SV=1","sp|P62316|SMD2_HUMAN",NA,NA,NA,1.16,NA,0.96,NA,NA,NA,NA,NA,0.96
+"745","Small nuclear ribonucleoprotein-associated protein N OS=Homo sapiens GN=SNRPN PE=1 SV=1","sp|P63162|RSMN_HUMAN",NA,NA,NA,1.27,1.13,1.01,NA,NA,NA,0.99,1.07,0.89
+"746","Testis anion transporter 1 OS=Homo sapiens GN=SLC26A8 PE=1 SV=1","sp|Q96RN1|S26A8_HUMAN",NA,NA,NA,NA,0.66,NA,NA,NA,NA,0.9,0.89,NA
+"747","Transformer-2 protein homolog beta OS=Homo sapiens GN=TRA2B PE=1 SV=1","sp|P62995|TRA2B_HUMAN",NA,NA,NA,1.01,NA,0.84,NA,NA,NA,NA,NA,0.8
+"748","Tubulin beta-1 chain OS=Homo sapiens GN=TUBB1 PE=1 SV=1","sp|Q9H4B7|TBB1_HUMAN",NA,NA,NA,0.78,NA,0.75,NA,NA,NA,NA,NA,1.14
+"749","WD40 repeat-containing protein SMU1 OS=Homo sapiens GN=SMU1 PE=1 SV=2","sp|Q2TAY7|SMU1_HUMAN",NA,NA,NA,0.93,NA,0.86,NA,NA,NA,NA,NA,0.96
+"750","X-ray repair cross-complementing protein 5 OS=Homo sapiens GN=XRCC5 PE=1 SV=3","sp|P13010|XRCC5_HUMAN",NA,NA,NA,0.7,NA,0.7,NA,NA,NA,NA,NA,0.8
+"751","","",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
