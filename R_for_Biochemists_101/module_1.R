@@ -53,6 +53,6 @@ p <- p + stat_smooth(method = "lm", formula = y ~ x) +
 p
 
 # save your output wtih Export or
-p + ggsave("ProteinStandardCurve.pdf")
+ggsave("ProteinStandardCurve.pdf", p)
 
 
