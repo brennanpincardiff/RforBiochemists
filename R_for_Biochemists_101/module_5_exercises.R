@@ -22,16 +22,44 @@ ggplot(data,
 
 
 ## ----ans_exercise_2 -----------------------------------------------------
-library(sp)
-library(rmapshaper)
-link <- "http://biogeo.ucdavis.edu/data/gadm2.8/rds/ARG_adm1.rds"
-download.file(url=link, destfile="file.rda", mode="wb")
-region_map <- readRDS("file.rda")
-region_map <- ms_simplify(region_map, keep = 0.01)
-library(broom)
-region_map <- tidy(region_map, region="NAME_1")
-library(ggplot2)
-ggplot(data = region_map,
-       aes(x = long, y = lat, group = group)) + 
-         geom_path() +
-  coord_map()
+library(sf)
+## Repeat the workflow for Argentina
+
+arg_link <- "https://geodata.ucdavis.edu/gadm/gadm4.1/gpkg/gadm41_ARG.gpkg"
+
+# download the data
+download.file(url=arg_link, destfile="arg_file.gpkg", mode="wb")
+# only 19.5 MB so faster than United Kindgom file
+
+# check layers within the data
+st_layers("arg_file.gpkg")
+
+# this function is from the package sf
+
+# output
+# Driver: GPKG
+# Available layers:
+#  layer_name geometry_type features fields crs_name
+# 1  ADM_ADM_0 Multi Polygon        1      2   WGS 84
+# 2  ADM_ADM_1 Multi Polygon       24     11   WGS 84
+# 3  ADM_ADM_2 Multi Polygon      502     13   WGS 84
+
+## layer 2, maybe
+# open one of the layers in the file
+arg_2 <- st_read("arg_file.gpkg", layer = "ADM_ADM_1")
+
+# simplify the level of detail st_simplify()
+arg_simpl <- st_simplify(arg_2,
+                        dTolerance = 1000)
+
+# check size of arg_2
+round(c(object.size(arg_2)) / 1024)
+# [1] 6098
+
+# to the size of arg_simpl
+round(c(object.size(arg_simpl)) / 1024)
+# [1] 147
+
+# plot the file
+ggplot() + geom_sf(data = arg_simpl)
+# plots faster...
