@@ -102,28 +102,60 @@ heatmap(data.m)
 
 ## ------------------------------------------------------------------------
 ## required packages
-## install.packages("sp", "rmapshaper", "broom")
-## step 1: download the map data
-## download the file...
-library(sp) 
-library(rmapshaper)  # we use the ms_simplify() function
-library(broom)   # use tidy() function to plot data with ggplot2
+## install.packages("sf")
+library(sf)
 library(ggplot2)
-library(mapproj)
 
-link <- "http://biogeo.ucdavis.edu/data/gadm2.8/rds/GBR_adm2.rds"
-download.file(url=link, destfile="file.rda", mode="wb")
-region_map <- readRDS("file.rda")
+## step 1: find and download the map data
+# identify the URL
+link <- "https://geodata.ucdavis.edu/gadm/gadm4.1/gpkg/gadm41_GBR.gpkg"
 
-## step 2: simplify the level of detail...
-region_map <- ms_simplify(region_map, keep = 0.01)
-plot(region_map)
+# download the data
+download.file(url=link, destfile="file.gpkg", mode="wb")
+# it's a big file (411.6 MB) and takes a while to download
 
-region_map <- tidy(region_map, region="NAME_2")
-ggplot(data = region_map,
-       aes(x = long, y = lat, group = group)) + 
-  geom_path() +   # draws the lines for administrative regions
-  coord_map()     # plots the map like we are used to seeing it. 
+# check layers within the data
+st_layers("file.gpkg")
+
+# this function is from the package sf
+
+# output
+# Driver: GPKG
+# Available layers:
+#   layer_name geometry_type features fields crs_name
+# 1  ADM_ADM_0 Multi Polygon        1      2   WGS 84
+# 2  ADM_ADM_1 Multi Polygon        5     11   WGS 84
+# 3  ADM_ADM_2 Multi Polygon      183     13   WGS 84
+# 4  ADM_ADM_3 Multi Polygon      406     16   WGS 84
+# 5  ADM_ADM_4 Multi Polygon     9111     14   WGS 84
+
+
+## layer 3
+# this file contains a lot of data
+# open and read one of the layers in the file
+gb_3 <- st_read("file.gpkg", layer = "ADM_ADM_3")
+
+# this is a big file with too much detail so don't try to plot.
+
+# simplify the level of detail st_simplify()
+gb_simpl <- st_simplify(gb_3,
+                        dTolerance = 1000)
+
+# simplify reduces the size of the file
+# check size of file gb_3
+round(c(object.size(gb_3)) / 1024)
+# [1] 74251
+# which is 74 Mbytes, I think
+
+# to the size of gb_simpl
+round(c(object.size(gb_simpl)) / 1024)
+# [1] 736
+# which is 0.7 Mbytes, I think
+
+# plot the file
+ggplot() + geom_sf(data = gb_simpl)
+# plots nicely and looks fine.
+
 
 # video break
 
