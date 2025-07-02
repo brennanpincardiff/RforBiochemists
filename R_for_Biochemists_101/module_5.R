@@ -186,13 +186,12 @@ hc <- hclust(dist(t(data_s)))
 plot(hc, xlab = "Patient Samples")
 
 
-
 ## ----download_spss_file ------------------------
+
 library(foreign)
 
-data <- read.spss("http://cw.routledge.com/textbooks/9780415372985/sav/international.sav",
-           to.data.frame = TRUE)
- 
+data <-read.spss("https://figshare.com/ndownloader/files/9306997", to.data.frame = TRUE)
+
 
 ## ----download_EBImage --------------------------
 ## # EBImage - a Bioconductor package for analysing images
